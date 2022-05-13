@@ -192,6 +192,9 @@ body {
     cursor: pointer;
     background-repeat: no-repeat;
     background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #slider .slick-arrow {
@@ -219,14 +222,14 @@ body {
     display: flex;
 }
 
-.slick-custom-next {
+/* .slick-custom-next {
     background-image: url('../icons/arrowleft.svg');
     transform: rotate(180deg);
 }
 
 .slick-custom-prev {
     background-image: url('../icons/arrowleft.svg');
-}
+} */
 
 .slick-dotted.slick-slider {
     margin-bottom: 0 !important;
@@ -388,14 +391,14 @@ body {
     margin-bottom: 35px;
 }
 
-.latest-projects-slick-custom-next {
+/* .latest-projects-slick-custom-next {
     background-image: url('../icons/chevronright.svg');
 }
 
 .latest-projects-slick-custom-prev {
     background-image: url('../icons/chevronright.svg');
     transform: rotate(180deg);
-}
+} */
 
 .latest-project-card .status-label {
     position: absolute;

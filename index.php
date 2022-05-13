@@ -21,7 +21,7 @@
 
         <nav class="navbar navbar-expand-lg p-0 m-auto">
 
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="/">
                 <img src="/icon/logo.svg" alt="logo">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -222,11 +222,11 @@
                                             <span class="label">Shares</span>
                                         </div>
                                         <div class="col-7 d-flex justify-content-end num-count-countainer">
-                                            <button class="btn" id="decrease-shares">
+                                            <button class="btn decrease-5">
                                                 <img src="./icon/minus.svg" alt="">
                                             </button>
                                             <input name="shares" readonly type="text" value="5" id="shares-value">
-                                            <button class="btn" id="increase-shares">
+                                            <button class="btn increase-5">
                                                 <img src="./icon/plus.svg" alt="">
                                             </button>
                                         </div>
@@ -352,12 +352,12 @@
                                     </div>
                                 </div>
                                 <div class="d-flex justify-content-center align-items-center latest-project-input-wrapper">
-                                    <span>BHD</span>
-                                    <button class="btn">
+                                    <span>BHDs</span>
+                                    <button class="btn decrease-5">
                                         <img src="./icon/minus.svg" alt="">
                                     </button>
-                                    <input type="text" value="5">
-                                    <button class="btn">
+                                    <input name="num" type="text" value="5">
+                                    <button class="btn increase-5">
                                         <img src="./icon/plus.svg" alt="">
                                     </button>
                                 </div>
@@ -527,11 +527,11 @@
                         <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                             tempor incididunt ut labore et dolore.</p>
                         <div class="d-flex justify-content-between">
-                            <button class="btn btn-purple btn-lg rounded">Read more</button>
-                            <button class="btn btn-white btn-lg rounded color-dark-purple">
+                            <a href="#" class="btn btn-purple btn-lg rounded">Read more</a>
+                            <a href="#" class="btn btn-white btn-lg rounded color-dark-purple">
                                 <span class="pl-2">View stories</span>
                                 <img src="./icon/viewall.svg" alt="">
-                            </button>
+                            </a>
                         </div>
                     </div>
                     <div class="col-md-6">
