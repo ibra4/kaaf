@@ -737,10 +737,10 @@ ul.no-style {
 
 @media (min-width: 1201px) and (max-width: 1536px) {
     .nav-link {
-        padding: 30px 5px;
-        font-size: 11px;
+        padding: 1.875rem 0.313rem;
+        font-size: 0.688rem;
     }
     .nav-item button {
-        font-size: 12px;
+        font-size: 0.688rem;
     }
 }
