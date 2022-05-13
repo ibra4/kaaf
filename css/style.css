@@ -31,7 +31,7 @@ h3 {
 }
 
 .nav-link {
-    padding: 35px 10px !important;
+    padding: 35px 10px;
     color: var(--white);
 }
 
