@@ -43,6 +43,10 @@ h3 {
     margin-left: 40px;
 }
 
+.navbar-brand {
+    width: 90px;
+}
+
 .nav-container {
     background: transparent linear-gradient(91deg, var(--purple) 0%, var(--dark-purple) 100%) 0% 0% no-repeat padding-box;
     background: transparent linear-gradient(91deg, var(--purple) 0%, var(--dark-purple) 100%) 0% 0% no-repeat padding-box;
@@ -677,10 +681,6 @@ body {
 hr {
     margin-top: 5px;
     margin-bottom: 5px;
-}
-
-img {
-    max-width: 100%;
 }
 
 ul.no-style {

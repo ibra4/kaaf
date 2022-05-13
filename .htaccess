@@ -22,10 +22,10 @@
     # AddEncoding gzip svgz
 
     </IfModule>
-    <FilesMatch "\.(svg|svgz)$">
-        FileETag None
-        <IfModule mod_headers.c>
-            Header set Content-type "image/svg+xml"
-        </IfModule>
-    </FilesMatch>
+    # <FilesMatch "\.(svg|svgz)$">
+    #     FileETag None
+    #     <IfModule mod_headers.c>
+    #         Header set Content-type "image/svg+xml"
+    #     </IfModule>
+    # </FilesMatch>
 
