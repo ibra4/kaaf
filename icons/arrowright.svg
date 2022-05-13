@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="40" viewBox="0 0 80 40">
+    <defs>
+        <style>.a,.c{fill:none;}.a,.b{stroke:#fff;}.a{stroke-miterlimit:10;stroke-width:2px;}.b,.d{fill:#fff;}.d{stroke:rgba(0,0,0,0);}.e{opacity:0.3;}.f{stroke:none;}</style>
+    </defs>
+    <g class="e" transform="translate(55 15)">
+        <rect class="c" width="10" height="10"></rect>
+        <path class="d" d="M0,8.107V.529A.6.6,0,0,1,.649,0,.759.759,0,0,1,1,.084L8.231,3.873a.474.474,0,0,1,.195.73.6.6,0,0,1-.195.159L1,8.552a.741.741,0,0,1-.9-.159A.461.461,0,0,1,0,8.107Z" transform="translate(0.587 0.48)"></path>
+    </g>
+</svg>

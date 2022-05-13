@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <style>.a{fill:none;}.b{fill:#BCBFC2;}</style>
+    </defs>
+    <rect class="a" width="20" height="20" />
+    <path class="b" d="M0,4V3H11V0l4,3.5L11,7V4Z" transform="translate(3 6)" />
+</svg>

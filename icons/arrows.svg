@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="40" viewBox="0 0 80 40">
+    <defs>
+        <style>.a,.c{fill:none;}.a,.b{stroke:#fff;}.a{stroke-miterlimit:10;stroke-width:2px;}.b,.d{fill:#fff;}.d{stroke:rgba(0,0,0,0);}.e{opacity:0.3;}.f{stroke:none;}</style>
+    </defs>
+    <g transform="translate(0)">
+        <g transform="translate(0)">
+            <g class="a">
+                <rect class="f" width="80" height="40" rx="5" />
+                <rect class="c" x="1" y="1" width="78" height="38" rx="4" />
+            </g>
+            <g transform="translate(40 1)">
+                <rect class="b" width="1" height="38" />
+            </g>
+            <g transform="translate(26 25) rotate(180)">
+                <rect class="c" width="10" height="10" />
+                <path class="d" d="M0,8.449V.551A.588.588,0,0,1,.62,0,.678.678,0,0,1,.955.087L7.867,4.037a.516.516,0,0,1,.186.761.59.59,0,0,1-.186.166L.955,8.912A.668.668,0,0,1,.1,8.747.507.507,0,0,1,0,8.449Z" transform="translate(1.348 0.5)" />
+            </g>
+            <g class="e" transform="translate(55 15)">
+                <rect class="c" width="10" height="10" />
+                <path class="d" d="M0,8.107V.529A.6.6,0,0,1,.649,0,.759.759,0,0,1,1,.084L8.231,3.873a.474.474,0,0,1,.195.73.6.6,0,0,1-.195.159L1,8.552a.741.741,0,0,1-.9-.159A.461.461,0,0,1,0,8.107Z" transform="translate(0.587 0.48)" />
+            </g>
+        </g>
+    </g>
+</svg>
