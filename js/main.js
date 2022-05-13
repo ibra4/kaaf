@@ -72,4 +72,12 @@ $(function () {
       targetInput.val(value - 5);
     }
   }
+
+  $(".nav-item.dropdown").on("mouseover", function () {
+    $(this).find('.dropdown-menu').addClass('show')
+  });
+
+  $(".nav-item.dropdown").on("mouseleave", function () {
+    $(this).find('.dropdown-menu').removeClass('show')
+  });
 });

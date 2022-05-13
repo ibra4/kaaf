@@ -10,7 +10,6 @@
 
     <link rel="stylesheet" type="text/css" href="./css/slick.css" />
     <link rel="stylesheet" type="text/css" href="./css/slick-theme.css" />
-    <!-- <link rel="stylesheet" href="./css/font-awesome.min.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>Home Page</title>
@@ -31,35 +30,197 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto align-items-center">
 
-                    <li class="nav-item"><a href="#" class="nav-link">Sadaqat & Kafarat</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Bahrain Projects</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarKafaratDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Sadaqat & Kafarat
+                        </a>
+                        <div class="dropdown-menu links-dropdown px-4 py-3">
+                            <button class="btn btn-yellow rounded">General donation for sadaqat</button>
+                            <div class="row pt-4">
+                                <div class="col-md-4 mb-3">
+                                    <ul class="no-style">
+                                        <li>Ongoing sadaqa</li>
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#" class="yellow">4</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <ul class="no-style">
+                                        <li>Dawi's sadaqa</li>
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#" class="yellow">4</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <ul class="no-style">
+                                        <li>Kafara</li>
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#" class="yellow">4</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </li>
-                    <li class="nav-item"><a href="#" class="nav-link">Relief</a></li>
+
+                    <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarProjectsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Bahrain Projects
+                        </a>
+                        <div class="dropdown-menu links-dropdown px-4 py-3" aria-labelledby="navbarProjectsDropdown">
+                            <button class="btn btn-yellow rounded">General donation for sadaqat</button>
+                            <div class="row pt-4">
+                                <div class="col-md-4 mb-3">
+                                    <ul class="no-style">
+                                        <li>Ongoing sadaqa</li>
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#" class="yellow">4</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <ul class="no-style">
+                                        <li>Dawi's sadaqa</li>
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#" class="yellow">4</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <ul class="no-style">
+                                        <li>Kafara</li>
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#" class="yellow">4</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <ul class="no-style">
+                                        <li>Kafara</li>
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#" class="yellow">4</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <ul class="no-style">
+                                        <li>Kafara</li>
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#" class="yellow">4</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <ul class="no-style">
+                                        <li>Kafara</li>
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#" class="yellow">4</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <ul class="no-style">
+                                        <li>Kafara</li>
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#" class="yellow">4</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <ul class="no-style">
+                                        <li>Kafara</li>
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#" class="yellow">4</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <ul class="no-style">
+                                        <li>Kafara</li>
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#" class="yellow">4</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarReliefDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Relief
+                        </a>
+                        <div class="dropdown-menu links-dropdown px-4 py-3" aria-labelledby="navbarReliefDropdown">
+                            <button class="btn btn-yellow rounded">General donation for sadaqat</button>
+                            <div class="row pt-4">
+                                <div class="col-md-4 mb-3">
+                                    <ul class="no-style">
+                                        <li>Ongoing sadaqa</li>
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#" class="yellow">4</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <ul class="no-style">
+                                        <li>Dawi's sadaqa</li>
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#">4</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
                     <li class="nav-item"><a href="#" class="nav-link">Zakat</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Kafalat</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Kaaf?</a></li>
-                    <li class="nav-item d-flex align-items-center"><button class="btn btn-yellow btn-border-radius">Seasonal Projects</button></li>
+                    <li class="nav-item d-flex align-items-center mx-2"><button class="btn btn-yellow btn-border-radius">Seasonal Projects</button></li>
 
                     <li class="nav-item">
-                        <!-- <div class="icon-input"> -->
                         <form action="hahahaha" method="post" class="icon-input">
                             <input type="text" placeholder="General search in the website" id="">
                             <input type="image" src="./icon/search.svg" alt="Submit" />
                         </form>
-                        <!-- </div> -->
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <span class="px-2">BHD</span>
                             <img src="./icon/arrowdown.svg" alt="">
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
+                        <div class="dropdown-menu flags-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item active" href="#">
+                                BHD
+                                <img src="./icon/flags/bh.svg" alt="">
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                KWT
+                                <img src="./icon/flags/kw.svg" alt="">
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                AED
+                                <img src="./icon/flags/ae.svg" alt="">
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                SAR
+                                <img src="./icon/flags/sa.svg" alt="">
+                            </a>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -68,17 +229,16 @@
                         </a>
                     </li>
                     <li class="nav-item donation-block px-3">
-                        <!-- <span class="px-2">Donation Cart</span> -->
-                        <img src="./icon/cart.svg" alt="">
                         <a href="#" class="nav-link">
+                            <i class="fa fa-shopping-cart ml-2"></i>
                             <span class="px-2s">Donation Cart</span>
+                            <span class="notifications-count">3</span>
                         </a>
-                        <span class="notifications-count">3</span>
                     </li>
 
                     <li class="nav-item">
                         <a href="#" class="nav-link">
-                            <img src="./icon/user.svg" alt="">
+                            <i class="fa fa-user"></i>
                             <span class="px-2">Sign In</span>
                         </a>
                     </li>
@@ -262,7 +422,6 @@
             <div class="row">
                 <div class="col-md-4 mb-3">
                     <div class="project-teaser" style="background-image: url('./images/project1.png');">
-                        <!-- <img src="" alt=""> -->
                         <div class="teaser-text">
                             <h2>Relief</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -275,7 +434,6 @@
                 </div>
                 <div class="col-md-4 mb-3">
                     <div class="project-teaser" style="background-image: url('./images/project2.png');">
-                        <!-- <img src="" alt=""> -->
                         <div class="teaser-text">
                             <h2>Stability</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -288,7 +446,6 @@
                 </div>
                 <div class="col-md-4 mb-3">
                     <div class="project-teaser" style="background-image: url('./images/project3.png');">
-                        <!-- <img src="" alt=""> -->
                         <div class="teaser-text">
                             <h2>Development</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -365,9 +522,9 @@
                             <hr>
                             <div class="d-flex justify-content-between footer container mb-3">
                                 <button class="btn btn-purple">Donate Now</button>
-                                <button class="btn btn-white color-dark-purple d-flex">
+                                <button class="btn btn-white color-dark-purple d-flex align-items-center">
                                     Add
-                                    <img src="./icon/cartpurple.svg" class="ml-2" alt="">
+                                    <i class="fa fa-shopping-cart ml-2"></i>
                                 </button>
                             </div>
                         </div>
@@ -412,9 +569,9 @@
                             <hr>
                             <div class="d-flex justify-content-between footer container mb-3">
                                 <button class="btn btn-purple">Donate Now</button>
-                                <button class="btn btn-white color-dark-purple d-flex">
+                                <button class="btn btn-white color-dark-purple d-flex align-items-center">
                                     Add
-                                    <img src="./icon/cartpurple.svg" class="ml-2" alt="">
+                                    <i class="fa fa-shopping-cart ml-2"></i>
                                 </button>
                             </div>
                         </div>
@@ -459,9 +616,9 @@
                             <hr>
                             <div class="d-flex justify-content-between footer container mb-3">
                                 <button class="btn btn-purple">Donate Now</button>
-                                <button class="btn btn-white color-dark-purple d-flex">
+                                <button class="btn btn-white color-dark-purple d-flex align-items-center">
                                     Add
-                                    <img src="./icon/cartpurple.svg" class="ml-2" alt="">
+                                    <i class="fa fa-shopping-cart ml-2"></i>
                                 </button>
                             </div>
                         </div>
@@ -505,9 +662,9 @@
                             <hr>
                             <div class="d-flex justify-content-between footer container mb-3">
                                 <button class="btn btn-purple">Donate Now</button>
-                                <button class="btn btn-white color-dark-purple d-flex">
+                                <button class="btn btn-white color-dark-purple d-flex align-items-center">
                                     Add
-                                    <img src="./icon/cartpurple.svg" class="ml-2" alt="">
+                                    <i class="fa fa-shopping-cart ml-2"></i>
                                 </button>
                             </div>
                         </div>
