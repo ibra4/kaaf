@@ -38,20 +38,6 @@ h3 {
     transition: 0.3s ease-in-out;
 }
 
-.nav-link:hover {
-    color: var(--white);
-    background-color: #896c99;
-    /* custom color */
-}
-
-.nav-link:hover .fa {
-    color: var(--yellow);
-}
-
-.navbar-collapse {
-    margin-left: 40px;
-}
-
 .navbar-brand {
     width: 90px;
 }
@@ -127,7 +113,14 @@ body {
 
 .dropdown-toggle::after {
     display: none;
-    background-image: url('../icons/arrowdown.svg');
+}
+
+.fa-chevron-down {
+    transition: 0.3s ease-in-out;
+}
+
+.fa-chevron-down.reverse {
+    transform: rotate(180deg);
 }
 
 .lang-button {
@@ -592,6 +585,11 @@ body {
     margin-left: -5px;
 }
 
+.form-control.search {
+    height: 40px;
+    border-radius: 20px;
+}
+
 /****************************************************************/
 /*                                                              */
 /*   General Components                                         */
@@ -796,6 +794,15 @@ ul.no-style {
     text-align: center;
 }
 
+.navbar-mobile .fa {
+    font-size: 20px;
+}
+
+.navbar-mobile .lang-button {
+    width: 30px;
+    height: 30px;
+}
+
 @media (min-width: 1201px) and (max-width: 1536px) {
     .nav-item {
         padding: 20px 5px;
@@ -809,6 +816,135 @@ ul.no-style {
     body {
         font-size: 12px;
     }
+
+    /* @TODO: Give it a class name instead of bootstrap col */
+    .col-xl-7 {
+        max-width: 90% !important;
+        flex: 1;
+    }
+}
+
+@media (min-width: 992px) {
+    #navbarSearchContent {
+        display: none !important;
+    }
+
+    .nav-link:hover {
+        color: var(--white);
+        background-color: #896c99;
+    }
+
+    .nav-link:hover .fa {
+        color: var(--yellow);
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .navbar-brand {
+        padding: 30px 15px;
+    }
+
+    .nav-link {
+        padding: 20px 15px !important;
+        font-weight: bold;
+    }
+
+    .nav-item {
+        padding: 0;
+    }
+
+    .navbar-toggler {
+        flex: 1;
+    }
+
+    .navbar-toggler-icon::before {
+        font-family: Fontawesome;
+        content: "\f550";
+        color: var(--white);
+        font-size: 25px;
+    }
+
+    .nav-item.dropdown::after {
+        content: "\f054";
+        position: absolute;
+        font-family: Fontawesome;
+        right: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: var(--grey);
+    }
+
+    .seasonal-container {
+        position: absolute;
+        top: 100%;
+        z-index: 1;
+        width: 100%;
+        left: -8px;
+    }
+
+    .seasonal-container .btn {
+        width: 100%;
+        border-radius: 0;
+        height: 60px;
+    }
+
+    .seasonal-container::after {
+        content: "";
+        position: absolute;
+        height: 30px;
+        width: 100%;
+        top: 100%;
+        background-color: var(--dark-purple);
+    }
+
+    .back-to-parent-menu {
+        cursor: pointer;
+    }
+
+    /* .dropdown-menu {
+        position: fixed !important;
+        top: 90px;
+        width: 100%;
+    }
+
+    .submenu li {
+        display: none;
+        font-size: 14px;
+    }
+
+    .links-dropdown ul li:first-of-type {
+        font-weight: normal;
+    }
+
+    .submenu li:first-of-type {
+        display: block;
+        cursor: pointer;
+    }
+
+    .submenu-title {
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .subsubmenu {
+        background-color: var(--purple);
+    }
+
+    .subsubmenu li:first-of-type {
+        background-color: green;
+    } */
+
+    #qoute .p-5 {
+        padding: 0 !important;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -908,17 +1044,13 @@ ul.no-style {
         justify-content: flex-start !important;
     }
 
-    #success-stories .image-wrapper  {
+    #success-stories .image-wrapper {
         height: 300px;
     }
 
     #success-stories .image-wrapper img {
         width: 100%;
         object-fit: cover;
-    }
-
-    #qoute .p-5 {
-        padding: 0 !important;
     }
 
     #qoute .qoute-wrapper {
@@ -937,7 +1069,11 @@ ul.no-style {
     .social-media-links {
         justify-content: center;
     }
-    
+
+    #slider .slick-slide {
+        height: 512px !important;
+    }
+
     .btn.btn-lg {
         font-size: 14px;
         padding: 9px 20px;
