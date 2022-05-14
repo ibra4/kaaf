@@ -97,13 +97,17 @@ $(function () {
   });
 
   $(".navbar-collapse").on("shown.bs.collapse", function (e) {
-    $(".dropdown-menu").css("height", $(this).find(".navbar-nav").height());
+    $(".dropdown-menu").css(
+      "height",
+      $(this).find(".navbar-nav").height() + 90
+    );
   });
 
   $(".navbar-collapse.desktop-menu").on("show.bs.collapse", function (e) {
-    $(this).css('display', 'none')
+    $(this).css("display", "none");
   });
 
-  $('.latest-project-card').slick('resizeaa')
-
+  $(window).scroll(function (event) {
+    $(".dropdown-menu.show").removeClass("show");
+  });
 });
