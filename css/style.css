@@ -835,6 +835,10 @@ img.flag {
         font-size: 12px;
     }
 
+    .hide-1200 {
+        display: none !important;
+    }
+
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-left: 0;
         padding-right: 0;
@@ -856,6 +860,15 @@ img.flag {
 }
 
 @media (min-width: 992px) {
+    .navbar-nav .nav-link {
+        padding-bottom: 0;
+    }
+
+    .navbar-nav>.nav-item {
+        display: flex !important;
+        align-items: center;
+    }
+
     .lang-button {
         margin-top: 5px;
     }
