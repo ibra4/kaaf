@@ -948,6 +948,7 @@ img.flag {
 
     .dropdown-menu {
         position: fixed !important;
+        left: 0;
         top: 90px;
         width: 100%;
         background-color: var(--dark-purple);

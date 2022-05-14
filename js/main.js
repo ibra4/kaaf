@@ -2,8 +2,11 @@ $(function () {
   var slider = $(".slick-slider");
   var latestProjectsSlick = $(".latest-projects-slick");
 
+  // console.log()
+  
   slider.slick({
     dots: true,
+    rtl: $('html').attr('dir') == 'rtl' ? true : false,
     appendArrows: ".slick-custom-buttons",
     nextArrow:
       "<div class='slick-custom-next'><i class='fa fa-chevron-right'></i></div>",
