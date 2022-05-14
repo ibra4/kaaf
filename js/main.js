@@ -86,7 +86,6 @@ $(function () {
   });
 
   $(".dropdown-menu").on("click", ".back-to-main-menu", function (e) {
-    console.log($(this).closest(".dropdown"));
     $(this).closest(".dropdown-menu").removeClass("show");
   });
 
@@ -107,7 +106,19 @@ $(function () {
     $(this).css("display", "none");
   });
 
+  // Scroll to top whene open dropdown menu
+  $(".dropdown-toggle").on("click change", function (e) {
+    window.scrollTo({
+      behavior: "smooth",
+      top: 0,
+    });
+    $(this).parent().find(".dropdown-menu").first().addClass("show");
+  });
+
+  // Hide menu if scrollY is bigger than 0
   $(window).scroll(function (event) {
-    $(".dropdown-menu.show").removeClass("show");
+    setTimeout(function () {
+      if (window.scrollY != 0) $(".dropdown-menu.show").removeClass("show");
+    }, 400);
   });
 });
