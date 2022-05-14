@@ -809,6 +809,11 @@ ul.no-style {
         font-size: 12px;
     }
 
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     .nav-item button {
         font-size: 12px;
     }
