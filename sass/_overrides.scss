@@ -1,0 +1,29 @@
+html[dir="rtl"] {
+  .slick-custom-buttons,
+  .latest-projects-slick-buttons {
+    flex-direction: row-reverse;
+  }
+  #slider .slick-custom-next {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  #slider .slick-custom-prev {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  .latest-projects-slick {
+    direction: ltr;
+  }
+
+  .back-to-main-menu::before,
+  .nav-item.dropdown::after,
+  .has-submenu::after {
+    transform: rotate(180deg);
+    /************************/
+  }
+}

@@ -1,0 +1,135 @@
+.links-dropdown {
+  min-width: 600px;
+  background-color: $dark-purple;
+  ul {
+    li {
+      margin-bottom: 5px;
+      &:first-of-type {
+        color: $white;
+        opacity: 1;
+        font-weight: bold;
+      }
+      a {
+        color: $white;
+        opacity: 0.7;
+        &.yellow {
+          opacity: 1;
+          color: $yellow;
+        }
+      }
+    }
+  }
+}
+
+.navbar-mobile {
+  .lang-button {
+    width: 30px;
+    height: 30px;
+  }
+  .fa {
+    font-size: 20px;
+  }
+}
+
+.flags-menu {
+  a {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.25rem 2.5rem;
+    &.active {
+      background-color: inherit;
+      color: $purple;
+      font-weight: bold;
+      position: relative;
+      &::before {
+        content: "\f00c";
+        font-family: Fontawesome;
+        position: absolute;
+        left: 10px;
+        top: 0;
+      }
+    }
+  }
+}
+
+.dropdown-menu {
+  margin-top: -5px;
+  border-radius: 5px;
+}
+
+.social-media-links {
+  a {
+    color: $white;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+  }
+}
+
+.sitemap {
+  li {
+    margin-bottom: 10px;
+  }
+  a {
+    opacity: 0.7;
+    color: white;
+  }
+}
+
+.copyright {
+  margin-top: 60px;
+  opacity: 0.4;
+}
+
+#footer {
+  padding-top: 60px;
+  padding-bottom: 10px;
+  background-color: $dark-purple;
+}
+
+.logo-suffix {
+  margin: 5px;
+  font-size: 9px;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.nav-item {
+  padding: 20px 0px;
+}
+
+.nav-item button {
+  font-size: 12px;
+}
+
+.nav-link {
+  color: $white;
+  border-radius: 20px;
+  transition: 0.3s ease-in-out;
+}
+
+.navbar-brand {
+  width: 90px;
+}
+
+.nav-container {
+  background: transparent
+    linear-gradient(91deg, $purple 0%, $dark-purple 100%) 0% 0%
+    no-repeat padding-box;
+  background: transparent
+    linear-gradient(91deg, $purple 0%, $dark-purple 100%) 0% 0%
+    no-repeat padding-box;
+}
+
+.navbar {
+  width: 95%;
+}

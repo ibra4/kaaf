@@ -1,0 +1,18 @@
+@import "variables";
+@import "browser";
+@import "components";
+@import "elements";
+@import "layout";
+@import "media";
+@import "overrides";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Madani;
+  font-size: 14px;
+  background-color: $light-purple;
+  color: $almost-black;
+}
