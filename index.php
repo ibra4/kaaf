@@ -502,4 +502,5 @@
 </section>
 
 <?php require_once "./hmtl-components/en/footer.php" ?>
+<?php require_once "./hmtl-components/en/login.php" ?>
 <?php require_once "./hmtl-components/en/scripts.php" ?>

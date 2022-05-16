@@ -249,7 +249,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="#" class="nav-link" type="button" data-toggle="modal" data-target="#loginModal">
                         <i class="fa fa-user"></i>
                         <span class="px-2 hide-1200">تسجيل الدخول</span>
                     </a>
@@ -265,7 +265,7 @@
             <ul class="navbar-nav mr-auto">
 
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="#" class="nav-link" type="button" data-toggle="modal" data-target="#loginModal">
                         <i class="fa fa-user"></i>
                         <span class="px-2">تسجيل الدخول</span>
                     </a>
