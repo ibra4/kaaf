@@ -93,6 +93,22 @@
   }
 }
 
+.status-label {
+  padding: 7px 15px;
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  &.new {
+    background-color: $green;
+  }
+  &.urgant {
+    background-color: $red;
+  }
+  &.permissible {
+    background-color: $purple;
+  }
+}
 .latest-project-card {
   position: relative;
   border: 0;
@@ -104,20 +120,6 @@
     position: absolute;
     top: 15px;
     left: 15px;
-    padding: 7px 15px;
-    color: white;
-    border-radius: 5px;
-    font-size: 12px;
-    font-weight: bold;
-  }
-  .new {
-    background-color: $green;
-  }
-  .urgant {
-    background-color: $red;
-  }
-  .permissible {
-    background-color: $purple;
   }
   .body {
     padding: 15px;
@@ -219,7 +221,7 @@
 }
 
 #quick-donation {
-  background-image: url('/assets/images/man-child.png');
+  background-image: url("/assets/images/man-child.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
