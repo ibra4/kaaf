@@ -8,7 +8,7 @@ gulp.task("build-sass", () => {
     .src("./assets/sass/main.scss")
     .pipe(rename("style.css"))
     .pipe(sass({ outputStyle: "compressed" }).on("error", sass.logError))
-    .pipe(gulp.dest("./css"));
+    .pipe(gulp.dest("./assets/css"));
 });
 
 gulp.task("rtl", function () {
@@ -16,7 +16,7 @@ gulp.task("rtl", function () {
     .src("./assets/css/style.css")
     .pipe(rename("style-rtl.css"))
     .pipe(rtlcss())
-    .pipe(gulp.dest("./css"));
+    .pipe(gulp.dest("./assets/css"));
 });
 
 gulp.task("watch", () => {
