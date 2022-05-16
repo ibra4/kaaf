@@ -1,6 +1,6 @@
 <div class="nav-container">
     <nav class="navbar navbar-expand-lg p-0 m-auto">
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand d-block d-lg-none" href="/">
             <img src="/assets/icon/logo-ar.svg" alt="logo">
         </a>
         <div class="d-flex d-lg-none navbar-mobile">
@@ -28,7 +28,9 @@
         <!-- Start Desktop Collapse -->
         <div class="collapse navbar-collapse desktop-menu" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-
+                <a class="navbar-brand d-none d-lg-flex" href="/">
+                    <img src="/assets/icon/logo-ar.svg" alt="logo">
+                </a>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarKafaratDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         صدقات وكفارات
