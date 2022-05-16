@@ -128,9 +128,16 @@ ul {
   color: $dark-purple;
   border: 1px solid $white;
   &:hover {
-    background-color: $dark-purple;
+    background-color: $purple;
     color: $white;
-    border-color: $dark-purple;
+    border-color: $purple;
+  }
+  &.hover-light {
+    &:hover {
+      background-color: $purple;
+      color: $white;
+      border-color: $purple;
+    }
   }
 }
 

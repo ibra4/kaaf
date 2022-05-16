@@ -8,6 +8,7 @@
                     <h1 class="color-white">Towards distinguished charitable work</h1>
                     <p class="color-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <button class="btn btn-purple btn-lg rounded mb-3">Link here</button>
                     <div class="slick-custom-buttons"></div>
                 </div>
             </div>
@@ -19,6 +20,7 @@
                     <h1 class="color-white">Towards distinguished charitable work</h1>
                     <p class="color-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <button class="btn btn-purple btn-lg rounded mb-3">Link here</button>
                     <div class="slick-custom-buttons"></div>
                 </div>
             </div>
@@ -30,6 +32,7 @@
                     <h1 class="color-white">Towards distinguished charitable work</h1>
                     <p class="color-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <button class="btn btn-purple btn-lg rounded mb-3">Link here</button>
                     <div class="slick-custom-buttons"></div>
                 </div>
             </div>
