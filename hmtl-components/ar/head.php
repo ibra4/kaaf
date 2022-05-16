@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="/assets/css/bootstrap-rtl.min.css">
-    <link rel="stylesheet" href="/assets/css/style-rtl.css?v=7">
+    <link rel="stylesheet" href="/assets/css/style-rtl.css?v=8">
 
     <link rel="stylesheet" type="text/css" href="/assets/css/slick.css" />
     <link rel="stylesheet" type="text/css" href="/assets/css/slick-theme.css" />
