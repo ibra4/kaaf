@@ -229,12 +229,23 @@
                         ع
                     </a>
                 </li>
-                <li class="nav-item donation-block d-none d-lg-block px-3">
+                <li class="nav-item dropdown donation-block d-none d-lg-block px-3">
                     <a href="#" class="nav-link">
                         <i class="fa fa-shopping-cart ml-2"></i>
                         <span class="px-2 hide-1200">Donation Cart</span>
                         <span class="notifications-count">3</span>
                     </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">
+                            Relief
+                        </a>
+                        <a class="dropdown-item" href="#">
+                            Stabality
+                        </a>
+                        <a class="dropdown-item" href="#">
+                            Development
+                        </a>
+                    </div>
                 </li>
 
                 <li class="nav-item">
