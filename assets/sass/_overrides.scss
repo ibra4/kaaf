@@ -27,3 +27,10 @@ html[dir="rtl"] {
     /************************/
   }
 }
+
+html[dir="ltr"] {
+  .lang-button {
+    font-family: none;
+    padding-top: 1px;
+  }
+}

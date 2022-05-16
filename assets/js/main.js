@@ -35,16 +35,23 @@ $(function () {
       "<div class='latest-projects-slick-custom-prev'><i class='fa fa-chevron-left'></i></div>",
     responsive: [
       {
+        breakpoint: 1563,
+        settings: {
+          slidesToShow: 2.5,
+          slidesToScroll: 1,
+        },
+      },
+      {
         breakpoint: 1200,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 2.2,
           slidesToScroll: 1,
         },
       },
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 1.1,
           slidesToScroll: 1,
         },
       },
