@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <img src="./assets/icon/logo.svg" alt="">
+                <img src="/assets/icon/logo.svg" alt="">
                 <div class="logo-suffix">Humanitarian</div>
                 <div class="social-media-links d-flex flex-wrap mt-3">
                     <a href="#" class="mr-3 mb-3">
