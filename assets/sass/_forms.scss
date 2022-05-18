@@ -1,0 +1,52 @@
+.form-control {
+  border-radius: 0;
+  &:focus {
+    box-shadow: 0 0 0.2rem rgba($color: $dark-purple, $alpha: 0.25);
+    border-color: $dark-purple;
+  }
+  &.search {
+    height: 40px;
+    border-radius: 20px;
+  }
+}
+
+.dropzone {
+  background-color: $dark-purple !important;
+  .dz-button {
+    color: white !important;
+    font-size: $font-size-md;
+  }
+}
+
+.white-radios {
+  .form-check-input {
+    &.custom {
+      &:checked {
+        &:before {
+          background-color: $yellow;
+        }
+      }
+      &:before {
+        background-color: $white;
+      }
+    }
+    &.custom[type="checkbox"] {
+      &::before,
+      &::after {
+        border-radius: 0;
+      }
+    }
+  }
+}
+
+.inline-radios-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  > * {
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+  label {
+    white-space: nowrap;
+  }
+}

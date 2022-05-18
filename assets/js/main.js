@@ -3,11 +3,11 @@ $(function () {
   var latestProjectsSlick = $(".latest-projects-slick");
 
   // console.log()
-  
+
   slider.slick({
     dots: true,
     infinite: false,
-    rtl: $('html').attr('dir') == 'rtl' ? true : false,
+    rtl: $("html").attr("dir") == "rtl" ? true : false,
     appendArrows: ".slick-custom-buttons",
     nextArrow:
       "<div class='slick-custom-next'><i class='fa fa-caret-right'></i></div>",
@@ -130,5 +130,18 @@ $(function () {
     setTimeout(function () {
       if (window.scrollY != 0) $(".dropdown-menu.show").removeClass("show");
     }, 400);
+  });
+
+  $(".select2").select2();
+
+  Dropzone.autoDiscover = false;
+  // var myDropzone = new Dropzone("#id_dropzone", { url: "/file/post"});
+  $("#id_dropzone").dropzone({
+    maxFiles: 1,
+    multiple: false,
+    url: "/ajax_file_upload_handler/",
+    success: function (file, response) {
+      console.log(response);
+    },
   });
 });

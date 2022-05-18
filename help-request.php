@@ -30,7 +30,7 @@
                                         <p class="color-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sollicitudin ante sed lorem varius molestie. Nam blandit, mi vitae finibus porttitor, leo ipsum faucibus magna, vel cursus metus ex pulvinar ex. Aenean elit ante, tristique at</p>
                                     </div>
                                 </div>
-                                <a href="#" class="btn color-grey font-size-xs px-0">
+                                <a href="/help-request-inner.php" class="btn color-grey font-size-xs px-0">
                                     <span class="mr-2">Details</span>
                                     <img src="/assets/icon/viewallgrey.svg" alt="">
                                 </a>
@@ -47,7 +47,7 @@
                                         <p class="color-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sollicitudin ante sed lorem varius molestie. Nam blandit, mi vitae finibus porttitor, leo ipsum faucibus magna, vel cursus metus ex pulvinar ex. Aenean elit ante, tristique at</p>
                                     </div>
                                 </div>
-                                <a href="#" class="btn color-grey font-size-xs px-0">
+                                <a href="/help-request-inner.php" class="btn color-grey font-size-xs px-0">
                                     <span class="mr-2">Details</span>
                                     <img src="/assets/icon/viewallgrey.svg" alt="">
                                 </a>
@@ -64,7 +64,7 @@
                                         <p class="color-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sollicitudin ante sed lorem varius molestie. Nam blandit, mi vitae finibus porttitor, leo ipsum faucibus magna, vel cursus metus ex pulvinar ex. Aenean elit ante, tristique at</p>
                                     </div>
                                 </div>
-                                <a href="#" class="btn color-grey font-size-xs px-0">
+                                <a href="/help-request-inner.php" class="btn color-grey font-size-xs px-0">
                                     <span class="mr-2">Details</span>
                                     <img src="/assets/icon/viewallgrey.svg" alt="">
                                 </a>

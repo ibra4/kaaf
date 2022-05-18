@@ -35,3 +35,38 @@ html[dir="ltr"] {
     padding-top: 1px;
   }
 }
+
+.select2-container--default .select2-selection--single {
+  border: 1px solid #ced4da !important;
+  border-radius: 0 !important;
+  height: calc(1.5em + 0.75rem + 2px) !important;
+  font-size: 1rem;
+  display: flex !important;
+  align-items: center;
+}
+
+.select2-selection__arrow {
+  height: 100% !important;
+}
+
+.select2-container--default
+  .select2-selection--multiple
+  .select2-selection__choice {
+  background-color: $dark-purple !important;
+  color: $white;
+}
+
+.select2-container {
+  max-width: 100%;
+}
+
+.select2-container--default.select2-container--focus
+  .select2-selection--multiple,
+.select2-container--default .select2-selection--single:focus {
+  box-shadow: 0 0 0.2rem rgba($color: $dark-purple, $alpha: 0.25);
+  border-color: $dark-purple !important;
+}
+
+.select2-container--default .select2-search--dropdown .select2-search__field {
+  border-color: $dark-purple !important;
+}
