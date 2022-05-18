@@ -181,9 +181,11 @@
     display: none !important;
   }
 
-  .navbar-expand-lg .navbar-nav .nav-link {
-    padding-left: 0;
-    padding-right: 0;
+  .nav-container {
+    .navbar-expand-lg .navbar-nav .nav-link {
+      padding-left: 0;
+      padding-right: 0;
+    }
   }
 
   .col-xl-7 {
@@ -204,12 +206,14 @@
     display: none !important;
   }
 
-  .nav-link {
-    &:hover {
-      color: $white;
-      background-color: #896c99;
-      .fa {
-        color: $yellow;
+  .nav-container {
+    .nav-link {
+      &:hover {
+        color: $white;
+        background-color: #896c99;
+        .fa {
+          color: $yellow;
+        }
       }
     }
   }
@@ -262,9 +266,11 @@
     padding: 30px 15px;
   }
 
-  .nav-link {
-    padding: 20px 15px !important;
-    font-weight: bold;
+  .nav-container {
+    .nav-link {
+      padding: 20px 15px !important;
+      font-weight: bold;
+    }
   }
 
   .nav-item {

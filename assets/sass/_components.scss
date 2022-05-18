@@ -484,3 +484,58 @@
     color: white;
   }
 }
+
+.nav-tabs {
+  background-color: $white;
+  .nav-item {
+    padding: 0;
+  }
+  .nav-link {
+    color: $dark-grey;
+    font-weight: bold;
+    border: 0;
+    padding: 25px 15px;
+    &.active {
+      color: $dark-purple;
+      position: relative;
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 5px;
+        width: 100%;
+        border-radius: 5px;
+        background-color: $dark-purple;
+      }
+    }
+  }
+}
+
+.help-image {
+  width: 230px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.six-projects-wrapper {
+  > * {
+    width: 18%;
+  }
+}
+
+.page-item {
+  &.active {
+    .page-link {
+      background-color: $dark-purple;
+    }
+  }
+  .page-link {
+    color: $dark-grey;
+    font-weight: bold;
+    &:focus {
+      box-shadow: 0 0 0 0.2rem $purple;
+    }
+  }
+}
