@@ -20,9 +20,12 @@
             </ul>
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                    <div class="bg-white b-radius-10 p-2 mb-2">
+                    <div class="help-request-wrapper bg-white b-radius-10 p-2 mb-2">
                         <div class="d-flex flex-wrap justify-content-start">
-                            <img class="help-image" src="/assets/images/children.png" alt="">
+                            <a href="/help-request-inner.php" class="overlay-wrapper">
+                                <div class="overlay"></div>
+                                <img class="help-image" src="/assets/images/children.png" alt="">
+                            </a>
                             <div class="col py-3">
                                 <h3 class="font-size-sm color-dark-purple">Help Request Type 1</h3>
                                 <div class="row">
@@ -37,9 +40,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="bg-white b-radius-10 p-2 mb-2">
+                    <div class="help-request-wrapper bg-white b-radius-10 p-2 mb-2">
                         <div class="d-flex flex-wrap justify-content-start">
-                            <img class="help-image" src="/assets/images/children.png" alt="">
+                            <a href="/help-request-inner.php" class="overlay-wrapper">
+                                <div class="overlay"></div>
+                                <img class="help-image" src="/assets/images/children.png" alt="">
+                            </a>
                             <div class="col py-3">
                                 <h3 class="font-size-sm color-dark-purple">Help Request Type 2</h3>
                                 <div class="row">
@@ -54,9 +60,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="bg-white b-radius-10 p-2 mb-2">
+                    <div class="help-request-wrapper bg-white b-radius-10 p-2 mb-2">
                         <div class="d-flex flex-wrap justify-content-start">
-                            <img class="help-image" src="/assets/images/children.png" alt="">
+                            <a href="/help-request-inner.php" class="overlay-wrapper">
+                                <div class="overlay"></div>
+                                <img class="help-image" src="/assets/images/children.png" alt="">
+                            </a>
                             <div class="col py-3">
                                 <h3 class="font-size-sm color-dark-purple">Help Request Type 3</h3>
                                 <div class="row">
