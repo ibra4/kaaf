@@ -4,7 +4,7 @@
 <main class="py-5">
     <div class="container">
         <h1 class="font-size-md mb-4">Search results for</h1>
-        <h1 class="font-size-xxl color-dark-purple mb-5">Help Request</h1>
+        <h1 class="font-size-xl color-dark-purple mb-5">Help Request</h1>
 
         <section class="pb-5">
             <ul class="nav nav-tabs b-radius-10 px-5 mb-3" id="myTab" role="tablist">
@@ -21,13 +21,13 @@
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                     <div class="bg-white b-radius-10 p-2 mb-2">
-                        <div class="d-flex justify-content-start">
+                        <div class="d-flex flex-wrap justify-content-start">
                             <img class="help-image" src="/assets/images/children.png" alt="">
                             <div class="col py-3">
                                 <h3 class="font-size-sm color-dark-purple">Help Request Type 1</h3>
                                 <div class="row">
-                                    <div class="col-md-7">
-                                        <p class="color-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sollicitudin ante sed lorem varius molestie. Nam blandit, mi vitae finibus porttitor, leo ipsum faucibus magna, vel cursus metus ex pulvinar ex. Aenean elit ante, tristique at</p>
+                                    <div class="col-lg-7">
+                                        <p class="color-secondary min-width-200">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sollicitudin ante sed lorem varius molestie. Nam blandit, mi vitae finibus porttitor, leo ipsum faucibus magna, vel cursus metus ex pulvinar ex. Aenean elit ante, tristique at</p>
                                     </div>
                                 </div>
                                 <a href="/help-request-inner.php" class="btn color-grey font-size-xs px-0">
@@ -38,13 +38,13 @@
                         </div>
                     </div>
                     <div class="bg-white b-radius-10 p-2 mb-2">
-                        <div class="d-flex justify-content-start">
+                        <div class="d-flex flex-wrap justify-content-start">
                             <img class="help-image" src="/assets/images/children.png" alt="">
                             <div class="col py-3">
                                 <h3 class="font-size-sm color-dark-purple">Help Request Type 2</h3>
                                 <div class="row">
-                                    <div class="col-md-7">
-                                        <p class="color-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sollicitudin ante sed lorem varius molestie. Nam blandit, mi vitae finibus porttitor, leo ipsum faucibus magna, vel cursus metus ex pulvinar ex. Aenean elit ante, tristique at</p>
+                                    <div class="col-lg-7">
+                                        <p class="color-secondary min-width-200">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sollicitudin ante sed lorem varius molestie. Nam blandit, mi vitae finibus porttitor, leo ipsum faucibus magna, vel cursus metus ex pulvinar ex. Aenean elit ante, tristique at</p>
                                     </div>
                                 </div>
                                 <a href="/help-request-inner.php" class="btn color-grey font-size-xs px-0">
@@ -55,13 +55,13 @@
                         </div>
                     </div>
                     <div class="bg-white b-radius-10 p-2 mb-2">
-                        <div class="d-flex justify-content-start">
+                        <div class="d-flex flex-wrap justify-content-start">
                             <img class="help-image" src="/assets/images/children.png" alt="">
                             <div class="col py-3">
                                 <h3 class="font-size-sm color-dark-purple">Help Request Type 3</h3>
                                 <div class="row">
-                                    <div class="col-md-7">
-                                        <p class="color-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sollicitudin ante sed lorem varius molestie. Nam blandit, mi vitae finibus porttitor, leo ipsum faucibus magna, vel cursus metus ex pulvinar ex. Aenean elit ante, tristique at</p>
+                                    <div class="col-lg-7">
+                                        <p class="color-secondary min-width-200">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sollicitudin ante sed lorem varius molestie. Nam blandit, mi vitae finibus porttitor, leo ipsum faucibus magna, vel cursus metus ex pulvinar ex. Aenean elit ante, tristique at</p>
                                     </div>
                                 </div>
                                 <a href="/help-request-inner.php" class="btn color-grey font-size-xs px-0">

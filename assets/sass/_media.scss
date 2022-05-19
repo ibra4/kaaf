@@ -10,157 +10,6 @@
     width: 80%;
   }
 }
-@media (max-width: 768px) {
-  .banner-title {
-    font-size: 50px;
-  }
-
-  .banner-description {
-    font-size: 14px;
-  }
-
-  #our-vision {
-    .inner {
-      padding-left: 15px;
-      padding-right: 15px;
-    }
-
-    .description {
-      font-size: 22px;
-    }
-  }
-
-  .project-teaser {
-    max-height: 500px;
-  }
-  
-  .num-description-wrapper {
-    h3, p {
-      text-align: left;
-    }
-    h3 {
-      font-size: 40px;
-    }
-
-    p {
-      font-size: 12px;
-    }
-  }
-
-  #quick-donation {
-    background-image: none;
-
-    &.section-extra-padding {
-      padding: 0;
-    }
-
-    .mobile-image {
-      height: 220px;
-      width: 100%;
-      object-fit: cover;
-    }
-
-    .inner-wrapper {
-      padding: 0 30px;
-    }
-
-    .inner {
-      padding: 40px 15px;
-
-      > p {
-        font-size: 14px;
-      }
-    }
-    h4 {
-      font-size: 20px;
-    }
-    .form {
-      width: 90%;
-    }
-    .submit-container {
-      .btn {
-        width: 90%;
-        margin: auto !important;
-        margin-top: 10px !important;
-      }
-    }
-  }
-
-  #latest-projects {
-    .description {
-      font-size: 16px;
-    }
-  }
-
-  .latest-project-card {
-    .body {
-      font-size: 14px;
-    }
-  }
-
-  #success-stories {
-    .body {
-      padding: 30px;
-    }
-    .large-black-title {
-      font-size: 22px;
-    }
-    .justify-content-between {
-      justify-content: flex-start !important;
-    }
-    .image-wrapper {
-      height: 300px;
-      img {
-        width: 100%;
-        object-fit: cover;
-      }
-    }
-  }
-
-  #qoute {
-    .qoute-wrapper {
-      padding: 30px;
-      background-size: contain;
-      p {
-        font-size: 20px;
-      }
-    }
-    .p-5 {
-      padding: 0 !important;
-    }
-  }
-
-  #footer {
-    text-align: center;
-  }
-
-  .social-media-links {
-    justify-content: center;
-  }
-
-  #slider .slick-slide {
-    height: 512px !important;
-  }
-
-  .btn {
-    &.btn-lg {
-      font-size: 14px;
-      padding: 9px 20px;
-      height: unset;
-    }
-  }
-  .small-purple-title {
-    font-size: 12px;
-  }
-
-  .links-dropdown {
-    min-width: 100%;
-  }
-
-  .large-black-title {
-    font-size: 30px;
-  }
-}
 
 @media (min-width: 1537px) {
   // .nav-item {
@@ -172,6 +21,13 @@
   body {
     font-size: 12px;
   }
+
+  .six-projects-wrapper {
+    > * {
+      width: 30%;
+    }
+  }
+  
   .nav-item {
     padding: 20px 5px;
     font-size: 12px;
@@ -226,6 +82,11 @@
 }
 
 @media (max-width: 1200px) {
+  .six-projects-wrapper {
+    > * {
+      width: 30%;
+    }
+  }
   #success-stories {
     .body {
       padding: 30px;
@@ -243,6 +104,12 @@
 @media (max-width: 992px) {
   .teaser-text h2 {
     font-size: 42px;
+  }
+
+  .six-projects-wrapper {
+    > * {
+      width: 46%;
+    }
   }
 
   .section-padding {
@@ -395,5 +262,167 @@
       background-color: $white;
       opacity: 0.3;
     }
+  }
+}
+
+@media (max-width: 768px) {
+  .banner-title {
+    font-size: 50px;
+  }
+
+  .help-image {
+      width: 100%;
+  }
+
+  .six-projects-wrapper {
+    > * {
+      width: 100%;
+    }
+  }
+  
+  .banner-description {
+    font-size: 14px;
+  }
+
+  #our-vision {
+    .inner {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    .description {
+      font-size: 22px;
+    }
+  }
+
+  .project-teaser {
+    max-height: 500px;
+  }
+  
+  .num-description-wrapper {
+    h3, p {
+      text-align: left;
+    }
+    h3 {
+      font-size: 40px;
+    }
+
+    p {
+      font-size: 12px;
+    }
+  }
+
+  #quick-donation {
+    background-image: none;
+
+    &.section-extra-padding {
+      padding: 0;
+    }
+
+    .mobile-image {
+      height: 220px;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .inner-wrapper {
+      padding: 0 30px;
+    }
+
+    .inner {
+      padding: 40px 15px;
+
+      > p {
+        font-size: 14px;
+      }
+    }
+    h4 {
+      font-size: 20px;
+    }
+    .form {
+      width: 90%;
+    }
+    .submit-container {
+      .btn {
+        width: 90%;
+        margin: auto !important;
+        margin-top: 10px !important;
+      }
+    }
+  }
+
+  #latest-projects {
+    .description {
+      font-size: 16px;
+    }
+  }
+
+  .latest-project-card {
+    .body {
+      font-size: 14px;
+    }
+  }
+
+  #success-stories {
+    .body {
+      padding: 30px;
+    }
+    .large-black-title {
+      font-size: 22px;
+    }
+    .justify-content-between {
+      justify-content: flex-start !important;
+    }
+    .image-wrapper {
+      height: 300px;
+      img {
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+
+  #qoute {
+    .qoute-wrapper {
+      padding: 30px;
+      background-size: contain;
+      p {
+        font-size: 20px;
+      }
+    }
+    .p-5 {
+      padding: 0 !important;
+    }
+  }
+
+  #footer {
+    text-align: center;
+  }
+
+  .social-media-links {
+    justify-content: center;
+  }
+
+  #slider .slick-slide {
+    height: 512px !important;
+  }
+
+  .btn {
+    &.btn-lg {
+      font-size: 14px;
+      padding: 9px 20px;
+      height: unset;
+    }
+  }
+  .small-purple-title {
+    font-size: 12px;
+  }
+
+  .links-dropdown {
+    min-width: 100%;
+  }
+
+  .large-black-title {
+    font-size: 30px;
   }
 }
