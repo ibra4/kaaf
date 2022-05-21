@@ -587,7 +587,7 @@
     position: absolute;
     color: $white;
     background-color: $dark-purple;
-    z-index: 1;
+    z-index: -1;
     padding: 10px;
     top: 100%;
     border-radius: 5px;
@@ -600,6 +600,7 @@
   &:hover {
     .popup {
       opacity: 1;
+      z-index: 1;
     }
   }
 }
