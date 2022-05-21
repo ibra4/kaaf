@@ -195,7 +195,7 @@
                 <li class="nav-item d-flex align-items-center seasonal-container mx-2"><button class="btn btn-yellow btn-border-radius">Seasonal Projects</button></li>
 
                 <li class="nav-item d-none d-lg-block">
-                    <form action="#" method="post" class="icon-input">
+                    <form action="/search.php" method="post" class="icon-input">
                         <input type="text" placeholder="General search in the website" id="">
                         <input type="image" src="/assets/icon/search.svg" alt="Submit" />
                     </form>
@@ -431,7 +431,7 @@
                 <li class="nav-item d-flex align-items-center seasonal-container mx-2"><button class="btn btn-yellow btn-border-radius">Seasonal Projects</button></li>
 
                 <li class="nav-item d-none d-lg-block">
-                    <form action="#" method="post" class="icon-input">
+                    <form action="/search.php" method="post" class="icon-input">
                         <input type="text" placeholder="General search in the website" id="">
                         <input type="image" src="/assets/icon/search.svg" alt="Submit" />
                     </form>
