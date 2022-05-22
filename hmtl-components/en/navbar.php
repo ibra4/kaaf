@@ -27,7 +27,7 @@
 
         <!-- Start Desktop Collapse -->
         <div class="collapse navbar-collapse desktop-menu" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav mr-auto flex-wrap">
                 <a class="navbar-brand d-none d-lg-flex" href="/">
                     <img src="/assets/icon/logo.svg" alt="logo">
                 </a>
@@ -195,7 +195,7 @@
                 <li class="nav-item d-flex align-items-center seasonal-container mx-2"><button class="btn btn-yellow btn-border-radius">Seasonal Projects</button></li>
 
                 <li class="nav-item d-none d-lg-block">
-                    <form action="/search.php" method="post" class="icon-input">
+                    <form action="/build/search.html" method="post" class="icon-input">
                         <input type="text" placeholder="General search in the website" id="">
                         <input type="image" src="/assets/icon/search.svg" alt="Submit" />
                     </form>
@@ -262,7 +262,7 @@
 
         <!-- Start Mobile Collapse -->
         <div class="collapse navbar-collapse mobile-menu" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav mr-auto flex-wrap">
 
                 <li class="nav-item">
                     <a class="nav-link" type="button" data-toggle="modal" data-target="#loginModal">
@@ -431,7 +431,7 @@
                 <li class="nav-item d-flex align-items-center seasonal-container mx-2"><button class="btn btn-yellow btn-border-radius">Seasonal Projects</button></li>
 
                 <li class="nav-item d-none d-lg-block">
-                    <form action="/search.php" method="post" class="icon-input">
+                    <form action="/build/search.html" method="post" class="icon-input">
                         <input type="text" placeholder="General search in the website" id="">
                         <input type="image" src="/assets/icon/search.svg" alt="Submit" />
                     </form>

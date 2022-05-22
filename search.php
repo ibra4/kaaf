@@ -22,7 +22,7 @@
                 <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                     <div class="help-request-wrapper bg-white b-radius-10 p-2 mb-2">
                         <div class="d-flex flex-wrap justify-content-start">
-                            <a href="/help-request-inner.php" class="overlay-wrapper">
+                            <a href="/build/help-request-inner.html" class="overlay-wrapper">
                                 <div class="overlay"></div>
                                 <img class="help-image" src="/assets/images/children.png" alt="">
                             </a>
@@ -37,7 +37,7 @@
                                         <p class="color-secondary min-width-200 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sollicitudin ante sed lorem varius molestie. Nam blandit, mi vitae finibus porttitor, leo ipsum faucibus magna, vel cursus metus ex pulvinar ex. Aenean elit ante, tristique at</p>
                                     </div>
                                 </div>
-                                <a href="/help-request-inner.php" class="btn color-grey font-size-xs px-0">
+                                <a href="/build/help-request-inner.html" class="btn color-grey font-size-xs px-0">
                                     <span class="mr-2">Details</span>
                                     <img src="/assets/icon/viewallgrey.svg" alt="">
                                 </a>
@@ -46,7 +46,7 @@
                     </div>
                     <div class="help-request-wrapper bg-white b-radius-10 p-2 mb-2">
                         <div class="d-flex flex-wrap justify-content-start">
-                            <a href="/help-request-inner.php" class="overlay-wrapper">
+                            <a href="/build/help-request-inner.html" class="overlay-wrapper">
                                 <div class="overlay"></div>
                                 <img class="help-image" src="/assets/images/children.png" alt="">
                             </a>
@@ -61,7 +61,7 @@
                                         <p class="color-secondary min-width-200 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sollicitudin ante sed lorem varius molestie. Nam blandit, mi vitae finibus porttitor, leo ipsum faucibus magna, vel cursus metus ex pulvinar ex. Aenean elit ante, tristique at</p>
                                     </div>
                                 </div>
-                                <a href="/help-request-inner.php" class="btn color-grey font-size-xs px-0">
+                                <a href="/build/help-request-inner.html" class="btn color-grey font-size-xs px-0">
                                     <span class="mr-2">Details</span>
                                     <img src="/assets/icon/viewallgrey.svg" alt="">
                                 </a>
@@ -70,7 +70,7 @@
                     </div>
                     <div class="help-request-wrapper bg-white b-radius-10 p-2 mb-2">
                         <div class="d-flex flex-wrap justify-content-start">
-                            <a href="/help-request-inner.php" class="overlay-wrapper">
+                            <a href="/build/help-request-inner.html" class="overlay-wrapper">
                                 <div class="overlay"></div>
                                 <img class="help-image" src="/assets/images/children.png" alt="">
                             </a>
@@ -85,7 +85,7 @@
                                         <p class="color-secondary min-width-200 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sollicitudin ante sed lorem varius molestie. Nam blandit, mi vitae finibus porttitor, leo ipsum faucibus magna, vel cursus metus ex pulvinar ex. Aenean elit ante, tristique at</p>
                                     </div>
                                 </div>
-                                <a href="/help-request-inner.php" class="btn color-grey font-size-xs px-0">
+                                <a href="/build/help-request-inner.html" class="btn color-grey font-size-xs px-0">
                                     <span class="mr-2">Details</span>
                                     <img src="/assets/icon/viewallgrey.svg" alt="">
                                 </a>
