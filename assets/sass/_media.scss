@@ -22,13 +22,21 @@
     font-size: 12px;
   }
 
+  .btn {
+    &.btn-lg {
+      font-size: 14px;
+      padding: 9px 20px;
+      height: unset;
+    }
+  }
+
   .six-projects-wrapper {
     justify-content: flex-start !important;
     > * {
       width: 30%;
     }
   }
-  
+
   .nav-item {
     padding: 20px 5px;
     font-size: 12px;
@@ -280,7 +288,7 @@
     }
   }
   .help-image {
-      width: 100%;
+    width: 100%;
   }
 
   .six-projects-wrapper {
@@ -288,7 +296,7 @@
       width: 100%;
     }
   }
-  
+
   .banner-description {
     font-size: 14px;
   }
@@ -307,9 +315,10 @@
   .project-teaser {
     max-height: 500px;
   }
-  
+
   .num-description-wrapper {
-    h3, p {
+    h3,
+    p {
       text-align: left;
     }
     h3 {
