@@ -133,7 +133,6 @@ body {
     border: 1px solid var(--white);
     height: 26px;
     width: 26px;
-    margin-top: 5px;
 }
 
 .donation-block {
@@ -840,6 +839,10 @@ img.flag {
 }
 
 @media (min-width: 992px) {
+    .lang-button {
+        margin-top: 5px;
+    }
+
     #navbarSearchContent {
         display: none !important;
     }
@@ -862,10 +865,11 @@ img.flag {
     .teaser-text h2 {
         font-size: 42px;
     }
-    
+
     .desktop-menu.show {
         display: none !important;
     }
+
     .navbar {
         width: 100%;
         padding: 0;
