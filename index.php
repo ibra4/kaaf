@@ -187,7 +187,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-6 mb-3">
-                <div class="project-teaser" style="background-image: url('/assets/images/project1.png');">
+                <a href="#" class="project-teaser" style="background-image: url('/assets/images/project1.png');">
                     <div class="teaser-text">
                         <h2>Relief</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -196,10 +196,13 @@
                             ullamco
                             laboris nisi ut.</p>
                     </div>
-                </div>
+                    <div class="overlay">
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                    </div>
+                </a>
             </div>
             <div class="col-lg-4 col-md-6 mb-3">
-                <div class="project-teaser" style="background-image: url('/assets/images/project2.png');">
+                <a href="#" class="project-teaser" style="background-image: url('/assets/images/project2.png');">
                     <div class="teaser-text">
                         <h2>Stability</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -208,10 +211,13 @@
                             ullamco
                             laboris nisi ut.</p>
                     </div>
-                </div>
+                    <div class="overlay">
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                    </div>
+                </a>
             </div>
             <div class="col-lg-4 col-md-6 mb-3">
-                <div class="project-teaser" style="background-image: url('/assets/images/project3.png');">
+                <a href="#" class="project-teaser" style="background-image: url('/assets/images/project3.png');">
                     <div class="teaser-text">
                         <h2>Development</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -220,7 +226,10 @@
                             ullamco
                             laboris nisi ut.</p>
                     </div>
-                </div>
+                    <div class="overlay">
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                    </div>
+                </a>
             </div>
         </div>
     </div>

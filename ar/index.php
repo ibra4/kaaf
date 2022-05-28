@@ -190,34 +190,43 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-6 mb-3">
-                <div class="project-teaser" style="background-image: url('/assets/images/project1.png');">
+                <a href="#" class="project-teaser" style="background-image: url('/assets/images/project1.png');">
                     <div class="teaser-text">
                         <h2>الإغاثة</h2>
                         <p>ركيزة تهدف إلى الإرتقاء بحاجات وطموحات الإنسان وتفعيل دورة في المجتمع من خلال برامج توفر
                             الدعم المادي والمعنوي لتطوير مهارات ومعارف وسلوكيات تمكن الأفراد والمجتمعات من التحول
                             إلى وحدات إنتاجية.</p>
                     </div>
-                </div>
+                    <div class="overlay">
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                    </div>
+                </a>
             </div>
             <div class="col-lg-4 col-md-6 mb-3">
-                <div class="project-teaser" style="background-image: url('/assets/images/project2.png');">
+                <a href="#" class="project-teaser" style="background-image: url('/assets/images/project2.png');">
                     <div class="teaser-text">
                         <h2>استقرار</h2>
                         <p>ركيزة تهدف إلى الإرتقاء بحاجات وطموحات الإنسان وتفعيل دورة في المجتمع من خلال برامج توفر
                             الدعم المادي والمعنوي لتطوير مهارات ومعارف وسلوكيات تمكن الأفراد والمجتمعات من التحول
                             إلى وحدات إنتاجية.</p>
                     </div>
-                </div>
+                    <div class="overlay">
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                    </div>
+                </a>
             </div>
             <div class="col-lg-4 col-md-6 mb-3">
-                <div class="project-teaser" style="background-image: url('/assets/images/project3.png');">
+                <a href="#" class="project-teaser" style="background-image: url('/assets/images/project3.png');">
                     <div class="teaser-text">
                         <h2>تنمية</h2>
                         <p>ركيزة تهدف إلى الإرتقاء بحاجات وطموحات الإنسان وتفعيل دورة في المجتمع من خلال برامج توفر
                             الدعم المادي والمعنوي لتطوير مهارات ومعارف وسلوكيات تمكن الأفراد والمجتمعات من التحول
                             إلى وحدات إنتاجية.</p>
                     </div>
-                </div>
+                    <div class="overlay">
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
