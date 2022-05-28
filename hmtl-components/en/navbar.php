@@ -1,6 +1,6 @@
 <div class="nav-container">
     <nav class="navbar navbar-expand-lg p-0 m-auto">
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand d-block d-lg-none" href="/">
             <img src="/assets/icon/logo.svg" alt="logo">
         </a>
         <div class="d-flex d-lg-none navbar-mobile">
@@ -8,7 +8,7 @@
                 <button class="btn mx-2" data-toggle="collapse" data-target="#navbarSearchContent" aria-controls="navbarSearchContent" aria-expanded="false">
                     <i class="fa fa-search color-white"></i>
                 </button>
-                <a href="/ar.html" class="lang-button mx-2">
+                <a href="/ar" class="lang-button mx-2">
                     ع
                 </a>
                 <a href="#" class="color-white mx-2">
@@ -28,7 +28,9 @@
         <!-- Start Desktop Collapse -->
         <div class="collapse navbar-collapse desktop-menu" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-
+                <a class="navbar-brand d-none d-lg-flex" href="/">
+                    <img src="/assets/icon/logo.svg" alt="logo">
+                </a>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarKafaratDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Sadaqat & Kafarat
@@ -223,7 +225,7 @@
                     </div>
                 </li>
                 <li class="nav-item d-none d-lg-block">
-                    <a href="/ar.html" class="lang-button">
+                    <a href="/ar" class="lang-button">
                         ع
                     </a>
                 </li>
@@ -424,7 +426,7 @@
                     </form>
                 </li>
                 <li class="nav-item d-none d-lg-block">
-                    <a href="/ar.html" class="lang-button">
+                    <a href="/ar" class="lang-button">
                         ع
                     </a>
                 </li>
