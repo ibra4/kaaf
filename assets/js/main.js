@@ -69,6 +69,29 @@ $(function () {
       "<div class='help-requests-slick-custom-next'><i class='fa fa-chevron-right'></i></div>",
     prevArrow:
       "<div class='help-requests-slick-custom-prev'><i class='fa fa-chevron-left'></i></div>",
+    responsive: [
+      {
+        breakpoint: 1563,
+        settings: {
+          slidesToShow: 3.1,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 2.1,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1.1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   });
 
   $(".increase-5").on("click", function (e) {
