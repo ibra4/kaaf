@@ -8,6 +8,7 @@
                     <h1 class="color-white">نحو عمل خيري متميز</h1>
                     <p class="color-white">لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود
                         تيمبورأنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا.</p>
+                    <button class="btn btn-purple btn-lg rounded mb-3">رابط هنا</button>
                     <div class="slick-custom-buttons"></div>
                 </div>
             </div>
@@ -19,6 +20,7 @@
                     <h1 class="color-white">نحو عمل خيري متميز</h1>
                     <p class="color-white">لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود
                         تيمبورأنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا.</p>
+                    <button class="btn btn-purple btn-lg rounded mb-3">رابط هنا</button>
                     <div class="slick-custom-buttons"></div>
                 </div>
             </div>
@@ -30,6 +32,7 @@
                     <h1 class="color-white">نحو عمل خيري متميز</h1>
                     <p class="color-white">لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود
                         تيمبورأنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا.</p>
+                    <button class="btn btn-purple btn-lg rounded mb-3">رابط هنا</button>
                     <div class="slick-custom-buttons"></div>
                 </div>
             </div>
