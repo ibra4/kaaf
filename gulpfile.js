@@ -5,18 +5,18 @@ var rename = require("gulp-rename");
 
 gulp.task("build-sass", () => {
   return gulp
-    .src("./assets/sass/main.scss")
+    .src("assets/sass/main.scss")
     .pipe(rename("style.css"))
     .pipe(sass({ outputStyle: "compressed" }).on("error", sass.logError))
-    .pipe(gulp.dest("./assets/css"));
+    .pipe(gulp.dest("assets/css"));
 });
 
 gulp.task("rtl", function () {
   return gulp
-    .src("./assets/css/style.css")
+    .src("assets/css/style.css")
     .pipe(rename("style-rtl.css"))
     .pipe(rtlcss())
-    .pipe(gulp.dest("./assets/css"));
+    .pipe(gulp.dest("assets/css"));
 });
 
 gulp.task("watch", () => {

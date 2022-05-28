@@ -195,7 +195,7 @@
                 <li class="nav-item d-none d-lg-block">
                     <form action="#" method="post" class="icon-input">
                         <input type="text" placeholder="General search in the website" id="">
-                        <input type="image" src="./assets/icon/search.svg" alt="Submit" />
+                        <input type="image" src="/assets/icon/search.svg" alt="Submit" />
                     </form>
                 </li>
                 <li class="nav-item dropdown">
@@ -206,19 +206,19 @@
                     <div class="dropdown-menu flags-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item active" href="#">
                             BHD
-                            <img class="flag" src="./assets/icon/flags/bh.svg" alt="">
+                            <img class="flag" src="/assets/icon/flags/bh.svg" alt="">
                         </a>
                         <a class="dropdown-item" href="#">
                             KWT
-                            <img class="flag" src="./assets/icon/flags/kw.svg" alt="">
+                            <img class="flag" src="/assets/icon/flags/kw.svg" alt="">
                         </a>
                         <a class="dropdown-item" href="#">
                             AED
-                            <img class="flag" src="./assets/icon/flags/ae.svg" alt="">
+                            <img class="flag" src="/assets/icon/flags/ae.svg" alt="">
                         </a>
                         <a class="dropdown-item" href="#">
                             SAR
-                            <img class="flag" src="./assets/icon/flags/sa.svg" alt="">
+                            <img class="flag" src="/assets/icon/flags/sa.svg" alt="">
                         </a>
                     </div>
                 </li>
@@ -259,26 +259,26 @@
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <img class="flag" src="./assets/icon/flags/bh.svg" alt="">
+                        <img class="flag" src="/assets/icon/flags/bh.svg" alt="">
                         <span class="px-2">العملة (BHD)</span>
                     </a>
                     <div class="dropdown-menu flags-menu" aria-labelledby="navbarDropdown">
                         <div class="back-to-main-menu">الرجوع للقائمة الرئيسية</div>
                         <div class="dropdown-title">العملة</div>
                         <a class="dropdown-item active" href="#">
-                            <img class="flag" src="./assets/icon/flags/bh.svg" alt="">
+                            <img class="flag" src="/assets/icon/flags/bh.svg" alt="">
                             BHD
                         </a>
                         <a class="dropdown-item" href="#">
-                            <img class="flag" src="./assets/icon/flags/kw.svg" alt="">
+                            <img class="flag" src="/assets/icon/flags/kw.svg" alt="">
                             KWT
                         </a>
                         <a class="dropdown-item" href="#">
-                            <img class="flag" src="./assets/icon/flags/ae.svg" alt="">
+                            <img class="flag" src="/assets/icon/flags/ae.svg" alt="">
                             AED
                         </a>
                         <a class="dropdown-item" href="#">
-                            <img class="flag" src="./assets/icon/flags/sa.svg" alt="">
+                            <img class="flag" src="/assets/icon/flags/sa.svg" alt="">
                             SAR
                         </a>
                     </div>
@@ -420,7 +420,7 @@
                 <li class="nav-item d-none d-lg-block">
                     <form action="#" method="post" class="icon-input">
                         <input type="text" placeholder="General search in the website" id="">
-                        <input type="image" src="./assets/icon/search.svg" alt="Submit" />
+                        <input type="image" src="/assets/icon/search.svg" alt="Submit" />
                     </form>
                 </li>
                 <li class="nav-item d-none d-lg-block">
