@@ -20,7 +20,7 @@
         <nav class="navbar navbar-expand-lg p-0 m-auto">
 
             <a class="navbar-brand" href="#">
-                <img src="./icons/logo.svg" alt="logo">
+                <img src="/icon/logo.svg" alt="logo">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,7 +46,7 @@
                         <!-- <div class="icon-input"> -->
                         <form action="hahahaha" method="post" class="icon-input">
                             <input type="text" placeholder="General search in the website" id="">
-                            <input type="image" src="./icons/search.svg" alt="Submit" />
+                            <input type="image" src="./icon/search.svg" alt="Submit" />
                         </form>
                         <!-- </div> -->
                     </li>
@@ -54,7 +54,7 @@
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <span class="px-2">BHD</span>
-                            <img src="./icons/arrowdown.svg" alt="">
+                            <img src="./icon/arrowdown.svg" alt="">
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="#">Action</a>
@@ -70,7 +70,7 @@
                     </li>
                     <li class="nav-item donation-block px-3">
                         <!-- <span class="px-2">Donation Cart</span> -->
-                        <img src="./icons/cart.svg" alt="">
+                        <img src="./icon/cart.svg" alt="">
                         <a href="#" class="nav-link">
                             <span class="px-2s">Donation Cart</span>
                         </a>
@@ -79,7 +79,7 @@
 
                     <li class="nav-item">
                         <a href="#" class="nav-link">
-                            <img src="./icons/user.svg" alt="">
+                            <img src="./icon/user.svg" alt="">
                             <span class="px-2">Sign In</span>
                         </a>
                     </li>
@@ -230,11 +230,11 @@
                                         </div>
                                         <div class="col-7 d-flex justify-content-end num-count-countainer">
                                             <button class="btn" id="decrease-shares">
-                                                <img src="./icons/minus.svg" alt="">
+                                                <img src="./icon/minus.svg" alt="">
                                             </button>
                                             <input name="shares" readonly type="text" value="5" id="shares-value">
                                             <button class="btn" id="increase-shares">
-                                                <img src="./icons/plus.svg" alt="">
+                                                <img src="./icon/plus.svg" alt="">
                                             </button>
                                         </div>
                                     </div>
@@ -253,7 +253,7 @@
                         <div class="d-flex">
                             <button class="btn btn-white">Quick donation</button>
                             <button class="btn btn-purple ml-2">
-                                <img src="./icons/cart.svg" class="mr-2" alt="">
+                                <img src="./icon/cart.svg" class="mr-2" alt="">
                                 Add
                             </button>
                         </div>
@@ -322,7 +322,7 @@
                             <div class="d-flex">
                                 <button class="btn color-dark-purple">
                                     View all
-                                    <img src="./icons/viewall.svg" class="ml-2" alt="">
+                                    <img src="./icon/viewall.svg" class="ml-2" alt="">
                                 </button>
                                 <div class="latest-projects-slick-buttons d-flex justify-content-between"></div>
                             </div>
@@ -338,7 +338,7 @@
                                 <h4 class="mb-0">Semi-artesian well 60-70m</h4>
                                 <a href="#" class="btn color-grey px-0">
                                     <span class="mr-2">Details</span>
-                                    <img src="./icons/viewallgrey.svg" alt="">
+                                    <img src="./icon/viewallgrey.svg" alt="">
                                 </a>
                                 <p>An electric pump and a tank with a capacity of 3000 cubic liters…</p>
                                 <div class="progress-bar">
@@ -362,11 +362,11 @@
                                     class="d-flex justify-content-center align-items-center latest-project-input-wrapper">
                                     <span>BHD</span>
                                     <button class="btn">
-                                        <img src="./icons/minus.svg" alt="">
+                                        <img src="./icon/minus.svg" alt="">
                                     </button>
                                     <input type="text" value="5">
                                     <button class="btn">
-                                        <img src="./icons/plus.svg" alt="">
+                                        <img src="./icon/plus.svg" alt="">
                                     </button>
                                 </div>
                             </div>
@@ -375,7 +375,7 @@
                                 <button class="btn btn-purple">Donate Now</button>
                                 <button class="btn btn-white color-dark-purple d-flex">
                                     Add
-                                    <img src="./icons/cartpurple.svg" class="ml-2" alt="">
+                                    <img src="./icon/cartpurple.svg" class="ml-2" alt="">
                                 </button>
                             </div>
                         </div>
@@ -386,7 +386,7 @@
                                 <h4 class="mb-0">Semi-artesian well 60-70m</h4>
                                 <a href="#" class="btn color-grey px-0">
                                     <span class="mr-2">Details</span>
-                                    <img src="./icons/viewallgrey.svg" alt="">
+                                    <img src="./icon/viewallgrey.svg" alt="">
                                 </a>
                                 <p>An electric pump and a tank with a capacity of 3000 cubic liters…</p>
                                 <div class="progress-bar">
@@ -410,11 +410,11 @@
                                     class="d-flex justify-content-center align-items-center latest-project-input-wrapper">
                                     <span>BHD</span>
                                     <button class="btn">
-                                        <img src="./icons/minus.svg" alt="">
+                                        <img src="./icon/minus.svg" alt="">
                                     </button>
                                     <input type="text" value="5">
                                     <button class="btn">
-                                        <img src="./icons/plus.svg" alt="">
+                                        <img src="./icon/plus.svg" alt="">
                                     </button>
                                 </div>
                             </div>
@@ -423,7 +423,7 @@
                                 <button class="btn btn-purple">Donate Now</button>
                                 <button class="btn btn-white color-dark-purple d-flex">
                                     Add
-                                    <img src="./icons/cartpurple.svg" class="ml-2" alt="">
+                                    <img src="./icon/cartpurple.svg" class="ml-2" alt="">
                                 </button>
                             </div>
                         </div>
@@ -434,7 +434,7 @@
                                 <h4 class="mb-0">Semi-artesian well 60-70m</h4>
                                 <a href="#" class="btn color-grey px-0">
                                     <span class="mr-2">Details</span>
-                                    <img src="./icons/viewallgrey.svg" alt="">
+                                    <img src="./icon/viewallgrey.svg" alt="">
                                 </a>
                                 <p>An electric pump and a tank with a capacity of 3000 cubic liters…</p>
                                 <div class="progress-bar">
@@ -458,11 +458,11 @@
                                     class="d-flex justify-content-center align-items-center latest-project-input-wrapper">
                                     <span>BHD</span>
                                     <button class="btn">
-                                        <img src="./icons/minus.svg" alt="">
+                                        <img src="./icon/minus.svg" alt="">
                                     </button>
                                     <input type="text" value="5">
                                     <button class="btn">
-                                        <img src="./icons/plus.svg" alt="">
+                                        <img src="./icon/plus.svg" alt="">
                                     </button>
                                 </div>
                             </div>
@@ -471,7 +471,7 @@
                                 <button class="btn btn-purple">Donate Now</button>
                                 <button class="btn btn-white color-dark-purple d-flex">
                                     Add
-                                    <img src="./icons/cartpurple.svg" class="ml-2" alt="">
+                                    <img src="./icon/cartpurple.svg" class="ml-2" alt="">
                                 </button>
                             </div>
                         </div>
@@ -481,7 +481,7 @@
                                 <h4 class="mb-0">Semi-artesian well 60-70m</h4>
                                 <a href="#" class="btn color-grey px-0">
                                     <span class="mr-2">Details</span>
-                                    <img src="./icons/viewallgrey.svg" alt="">
+                                    <img src="./icon/viewallgrey.svg" alt="">
                                 </a>
                                 <p>An electric pump and a tank with a capacity of 3000 cubic liters…</p>
                                 <div class="progress-bar">
@@ -505,11 +505,11 @@
                                     class="d-flex justify-content-center align-items-center latest-project-input-wrapper">
                                     <span>BHD</span>
                                     <button class="btn">
-                                        <img src="./icons/minus.svg" alt="">
+                                        <img src="./icon/minus.svg" alt="">
                                     </button>
                                     <input type="text" value="5">
                                     <button class="btn">
-                                        <img src="./icons/plus.svg" alt="">
+                                        <img src="./icon/plus.svg" alt="">
                                     </button>
                                 </div>
                             </div>
@@ -518,7 +518,7 @@
                                 <button class="btn btn-purple">Donate Now</button>
                                 <button class="btn btn-white color-dark-purple d-flex">
                                     Add
-                                    <img src="./icons/cartpurple.svg" class="ml-2" alt="">
+                                    <img src="./icon/cartpurple.svg" class="ml-2" alt="">
                                 </button>
                             </div>
                         </div>
@@ -541,7 +541,7 @@
                             <button class="btn btn-purple btn-lg rounded">Read more</button>
                             <button class="btn btn-white btn-lg rounded color-dark-purple">
                                 <span class="pl-2">View stories</span>
-                                <img src="./icons/viewall.svg" alt="">
+                                <img src="./icon/viewall.svg" alt="">
                             </button>
                         </div>
                     </div>
@@ -584,17 +584,17 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <img src="./icons/logo.svg" alt="">
+                    <img src="./icon/logo.svg" alt="">
                     <div class="logo-suffix">Humanitarian</div>
                     <div class="d-flex mt-3">
                         <a href="#" class="mr-3">
-                            <img src="./icons/linkedin.svg" alt="">
+                            <img src="./icon/linkedin.svg" alt="">
                         </a>
                         <a href="#" class="mr-3">
-                            <img src="./icons/youtube.svg" alt="">
+                            <img src="./icon/youtube.svg" alt="">
                         </a>
                         <a href="#" class="mr-3">
-                            <img src="./icons/twitter.svg" alt="">
+                            <img src="./icon/twitter.svg" alt="">
                         </a>
                     </div>
                     <p class="copyright">A subordinate of Alislah Society - Kingdom of Bahrain</p>
