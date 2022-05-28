@@ -5,7 +5,7 @@ var rename = require("gulp-rename");
 
 gulp.task("build-sass", () => {
   return gulp
-    .src("./sass/main.scss")
+    .src("./assets/sass/main.scss")
     .pipe(rename("style.css"))
     .pipe(sass({ outputStyle: "compressed" }).on("error", sass.logError))
     .pipe(gulp.dest("./css"));
@@ -13,14 +13,14 @@ gulp.task("build-sass", () => {
 
 gulp.task("rtl", function () {
   return gulp
-    .src("./css/style.css")
+    .src("./assets/css/style.css")
     .pipe(rename("style-rtl.css"))
     .pipe(rtlcss())
     .pipe(gulp.dest("./css"));
 });
 
 gulp.task("watch", () => {
-  gulp.watch("sass/*.scss", (done) => {
+  gulp.watch("assets/sass/*.scss", (done) => {
     gulp.series(["build-sass", "rtl"])(done);
   });
 });
