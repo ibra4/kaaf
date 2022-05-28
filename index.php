@@ -544,7 +544,7 @@
                                 <div class="progress-bar">
                                     <div class="progress-bar-value"></div>
                                 </div>
-                                <div class="row latest-project-numbers">
+                                <div class="row latest-project-numbers flex-nowrap">
                                     <div class="col-md-4">
                                         <p class="label text-secondary mb-1">Project value</p>
                                         <p class="value"><span class="curruncy">BHD</span> <span>1,678</span></p>
@@ -560,11 +560,11 @@
                                 </div>
                                 <div class="d-flex justify-content-center align-items-center latest-project-input-wrapper">
                                     <span>BHD</span>
-                                    <button class="btn">
+                                    <button class="btn decrease-5">
                                         <img src="./icon/minus.svg" alt="">
                                     </button>
                                     <input type="text" value="5">
-                                    <button class="btn">
+                                    <button class="btn increase-5">
                                         <img src="./icon/plus.svg" alt="">
                                     </button>
                                 </div>
@@ -591,7 +591,7 @@
                                 <div class="progress-bar">
                                     <div class="progress-bar-value"></div>
                                 </div>
-                                <div class="row latest-project-numbers">
+                                <div class="row latest-project-numbers flex-nowrap">
                                     <div class="col-md-4">
                                         <p class="label text-secondary mb-1">Project value</p>
                                         <p class="value"><span class="curruncy">BHD</span> <span>1,678</span></p>
@@ -607,11 +607,11 @@
                                 </div>
                                 <div class="d-flex justify-content-center align-items-center latest-project-input-wrapper">
                                     <span>BHD</span>
-                                    <button class="btn">
+                                    <button class="btn decrease-5">
                                         <img src="./icon/minus.svg" alt="">
                                     </button>
                                     <input type="text" value="5">
-                                    <button class="btn">
+                                    <button class="btn increase-5">
                                         <img src="./icon/plus.svg" alt="">
                                     </button>
                                 </div>
@@ -637,7 +637,7 @@
                                 <div class="progress-bar">
                                     <div class="progress-bar-value"></div>
                                 </div>
-                                <div class="row latest-project-numbers">
+                                <div class="row latest-project-numbers flex-nowrap">
                                     <div class="col-md-4">
                                         <p class="label text-secondary mb-1">Project value</p>
                                         <p class="value"><span class="curruncy">BHD</span> <span>1,678</span></p>
@@ -653,11 +653,11 @@
                                 </div>
                                 <div class="d-flex justify-content-center align-items-center latest-project-input-wrapper">
                                     <span>BHD</span>
-                                    <button class="btn">
+                                    <button class="btn decrease-5">
                                         <img src="./icon/minus.svg" alt="">
                                     </button>
                                     <input type="text" value="5">
-                                    <button class="btn">
+                                    <button class="btn increase-5">
                                         <img src="./icon/plus.svg" alt="">
                                     </button>
                                 </div>
@@ -796,7 +796,9 @@
                         <p class="font-weight-bold">Join our Newsletter</p>
                         <div class="form-group d-flex">
                             <input type="text" class="form-control">
-                            <button class="btn btn-purple">s</button>
+                            <button class="btn btn-purple">
+                                <i class="fa-solid fa-paper-plane"></i>
+                            </button>
                         </div>
                     </div>
                 </div>
