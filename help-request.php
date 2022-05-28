@@ -78,7 +78,30 @@
         </section>
 
         <section id="latest-projects" class="section-padding pb-0">
-            <h3 class="large-black-title">Latest Projects</h3>
+            <div class="d-flex flex-wrap justify-content-between">
+                <h3 class="large-black-title mb-5">Latest Projects</h3>
+                <nav class="d-flex mb-5" aria-label="Page navigation example">
+                    <ul class="pagination m-auto flex-wrap">
+                        <li class="page-item"><a class="page-link" href="#">
+                                << </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">
+                                < </a>
+                        </li>
+                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                        <li class="page-item"><a class="page-link" href="#">5</a></li>
+                        <li class="page-item"><a class="page-link" href="#">6</a></li>
+                        <li class="page-item"><a class="page-link" href="#">7</a></li>
+                        <li class="page-item disabled"><a class="page-link" href="#">...</a></li>
+                        <li class="page-item"><a class="page-link" href="#">93</a></li>
+                        <li class="page-item"><a class="page-link" href="#">></a></li>
+                        <li class="page-item"><a class="page-link" href="#">>></a></li>
+                    </ul>
+                </nav>
+            </div>
             <div class="container mb-3">
                 <div class="d-flex row justify-content-between six-projects-wrapper">
                     <div class="latest-project-card mx-2 mb-3">
@@ -316,23 +339,6 @@
                     </div>
                 </div>
             </div>
-            <nav class="d-flex" aria-label="Page navigation example">
-                <ul class="pagination m-auto">
-                    <li class="page-item"><a class="page-link" href="#"><<</a></li>
-                    <li class="page-item"><a class="page-link" href="#"><</a></li>
-                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                    <li class="page-item"><a class="page-link" href="#">4</a></li>
-                    <li class="page-item"><a class="page-link" href="#">5</a></li>
-                    <li class="page-item"><a class="page-link" href="#">6</a></li>
-                    <li class="page-item"><a class="page-link" href="#">7</a></li>
-                    <li class="page-item disabled"><a class="page-link" href="#">...</a></li>
-                    <li class="page-item"><a class="page-link" href="#">93</a></li>
-                    <li class="page-item"><a class="page-link" href="#">></a></li>
-                    <li class="page-item"><a class="page-link" href="#">>></a></li>
-                </ul>
-            </nav>
         </section>
     </div>
 </main>
