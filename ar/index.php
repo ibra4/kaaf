@@ -4,28 +4,34 @@
     <div class="slick-slider">
         <div class="slide-image" style="background-image: url('/assets/images/slick1.png');">
             <div class="container">
-                <h1 class="color-white">نحو عمل خيري متميز</h1>
-                <p class="color-white">لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود
-                    تيمبورأنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا.</p>
-                <div class="slick-custom-buttons"></div>
+                <div class="hero-inner m-auto">
+                    <h1 class="color-white">نحو عمل خيري متميز</h1>
+                    <p class="color-white">لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود
+                        تيمبورأنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا.</p>
+                    <div class="slick-custom-buttons"></div>
+                </div>
             </div>
         </div>
 
         <div class="slide-image" style="background-image: url('/assets/images/slick1.png');">
             <div class="container">
-                <h1 class="color-white">نحو عمل خيري متميز</h1>
-                <p class="color-white">لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود
-                    تيمبورأنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا.</p>
-                <div class="slick-custom-buttons"></div>
+                <div class="hero-inner m-auto">
+                    <h1 class="color-white">نحو عمل خيري متميز</h1>
+                    <p class="color-white">لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود
+                        تيمبورأنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا.</p>
+                    <div class="slick-custom-buttons"></div>
+                </div>
             </div>
         </div>
 
         <div class="slide-image" style="background-image: url('/assets/images/slick1.png');">
             <div class="container">
-                <h1 class="color-white">نحو عمل خيري متميز</h1>
-                <p class="color-white">لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود
-                    تيمبورأنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا.</p>
-                <div class="slick-custom-buttons"></div>
+                <div class="hero-inner m-auto">
+                    <h1 class="color-white">نحو عمل خيري متميز</h1>
+                    <p class="color-white">لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود
+                        تيمبورأنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا.</p>
+                    <div class="slick-custom-buttons"></div>
+                </div>
             </div>
         </div>
     </div>

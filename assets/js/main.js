@@ -6,12 +6,13 @@ $(function () {
   
   slider.slick({
     dots: true,
+    infinite: false,
     rtl: $('html').attr('dir') == 'rtl' ? true : false,
     appendArrows: ".slick-custom-buttons",
     nextArrow:
-      "<div class='slick-custom-next'><i class='fa fa-chevron-right'></i></div>",
+      "<div class='slick-custom-next'><i class='fa fa-caret-right'></i></div>",
     prevArrow:
-      "<div class='slick-custom-prev'><i class='fa fa-chevron-left'></i></div>",
+      "<div class='slick-custom-prev'><i class='fa fa-caret-left'></i></div>",
   });
 
   $(".slick-custom-buttons .slick-custom-prev").on("click", function () {

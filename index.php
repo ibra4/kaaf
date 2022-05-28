@@ -4,28 +4,34 @@
     <div class="slick-slider">
         <div class="slide-image" style="background-image: url('/assets/images/slick1.png');">
             <div class="container">
-                <h1 class="color-white">Towards distinguished charitable work</h1>
-                <p class="color-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua.</p>
-                <div class="slick-custom-buttons"></div>
+                <div class="hero-inner m-auto">
+                    <h1 class="color-white">Towards distinguished charitable work</h1>
+                    <p class="color-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="slick-custom-buttons"></div>
+                </div>
             </div>
         </div>
 
         <div class="slide-image" style="background-image: url('/assets/images/slick1.png');">
             <div class="container">
-                <h1 class="color-white">Towards distinguished charitable work</h1>
-                <p class="color-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua.</p>
-                <div class="slick-custom-buttons"></div>
+                <div class="hero-inner m-auto">
+                    <h1 class="color-white">Towards distinguished charitable work</h1>
+                    <p class="color-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="slick-custom-buttons"></div>
+                </div>
             </div>
         </div>
 
         <div class="slide-image" style="background-image: url('/assets/images/slick1.png');">
             <div class="container">
-                <h1 class="color-white">Towards distinguished charitable work</h1>
-                <p class="color-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua.</p>
-                <div class="slick-custom-buttons"></div>
+                <div class="hero-inner m-auto">
+                    <h1 class="color-white">Towards distinguished charitable work</h1>
+                    <p class="color-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="slick-custom-buttons"></div>
+                </div>
             </div>
         </div>
     </div>

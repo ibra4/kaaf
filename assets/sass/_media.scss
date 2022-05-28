@@ -6,6 +6,9 @@
     flex: 1;
     justify-content: center;
   }
+  .hero-inner {
+    width: 80%;
+  }
 }
 @media (max-width: 768px) {
   .slide-image {
