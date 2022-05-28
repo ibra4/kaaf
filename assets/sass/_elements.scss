@@ -143,13 +143,14 @@ ul {
   background-color: $dark-purple;
   color: $white;
 }
-// .bg-white {
-//   background-color: $white;
-// }
 
 /* Colors */
 .color-white {
   color: $white !important;
+}
+
+.color-dark-grey {
+  color: $dark-grey !important;
 }
 
 .color-grey {
@@ -282,4 +283,8 @@ ul {
 
 .min-width-200 {
   min-width: 200px;
+}
+
+.btn-wide {
+  width: 447px;
 }

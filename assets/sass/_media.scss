@@ -280,6 +280,20 @@
     font-size: 50px;
   }
 
+  .success-stories-item {
+    flex-wrap: wrap;
+    img {
+      width: 100%;
+    }
+    .container {
+      padding-left: 0;
+    }
+  }
+
+  .btn-wide {
+    max-width: 200px;
+  }
+
   .help-request-wrapper {
     width: 100%;
     .overlay-wrapper {
@@ -442,5 +456,17 @@
 
   .large-black-title {
     font-size: 30px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .success-stories-item {
+    flex-wrap: wrap;
+    img {
+      width: 100%;
+    }
+    .container {
+      padding-left: 0;
+    }
   }
 }
