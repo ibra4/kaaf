@@ -734,3 +734,13 @@ ul.no-style {
     background-color: var(--yellow);
     border-color: var(--yellow);
 }
+
+@media (min-width: 1201px) and (max-width: 1536px) {
+    .nav-link {
+        padding: 30px 5px;
+        font-size: 11px;
+    }
+    .nav-item button {
+        font-size: 12px;
+    }
+}

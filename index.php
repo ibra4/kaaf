@@ -20,7 +20,7 @@
         <nav class="navbar navbar-expand-lg p-0 m-auto">
 
             <a class="navbar-brand" href="#">
-                <img src="./icons/logo.svg" alt="">
+                <img src="./icons/logo.svg" alt="logo">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
