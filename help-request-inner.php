@@ -2,18 +2,6 @@
 <?php require_once "./hmtl-components/en/navbar.php" ?>
 
 <main class="py-5" id="wizard-page">
-    <div class="container mb-4">
-        <h1 class="font-size-xl mb-4">Help Request 1</h1>
-        <div class="row">
-            <div class="col-md-8">
-                <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                    ut
-                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco
-                    laboris nisi ut.</p>
-            </div>
-        </div>
-    </div>
     <!-- MultiStep Form -->
     <div class="container-fluid" id="grad1">
         <div class="row justify-content-center mt-0">
@@ -38,54 +26,157 @@
                                         <h2 class="fs-title">Step 1</h2>
                                         <div class="row">
                                             <div class="form-group col-md-6">
-                                                <label>Label</label>
+                                                <label>Text 1</label>
                                                 <input type="text" class="form-control">
                                             </div>
                                             <div class="form-group col-md-6">
-                                                <label>Select</label>
-                                                <select name="" class="form-control" id="">
+                                                <label>Text 2</label>
+                                                <input type="text" class="form-control" placeholder="Text field inout">
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <label>Select Single</label>
+                                                <select name="" class="form-control select2" id="">
                                                     <option value="1">One</option>
                                                     <option value="2">Two</option>
                                                     <option value="3">Three</option>
                                                 </select>
                                             </div>
                                             <div class="form-group col-md-6">
-                                                <label for="exampleFormControlFile1">Example file input</label>
+                                                <label>Select Miltiple</label>
+                                                <select name="multiple[]" class="form-control select2" id="" multiple>
+                                                    <option value="1" selected>One</option>
+                                                    <option value="2">Two</option>
+                                                    <option value="3">Three</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group col-12">
+                                                <label for="">Dropzone</label>
+                                                <div id="id_dropzone" class="dropzone"></div>
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <label for="exampleFormControlFile1">Simple file input</label>
                                                 <input type="file" class="form-control-file" id="exampleFormControlFile1">
                                             </div>
-                                            <div class="form-group col-md-6">
-                                                <label for="">Checkboxes</label>
-                                                <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                                    <label class="form-check-label" for="defaultCheck1">
-                                                        Default checkbox
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" disabled>
-                                                    <label class="form-check-label" for="defaultCheck2">
-                                                        Disabled checkbox
-                                                    </label>
+                                            <div class="form-group col-md-9">
+                                                <label for="">Textarea</label>
+                                                <textarea name="haha" class="form-control" id="" rows="3"></textarea>
+                                            </div>
+                                            <div class="form-group col-12 white-radios">
+                                                <label for="">Checkboxes horizental</label>
+                                                <div class="inline-radios-wrapper">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input custom" type="checkbox" name="pupose_of_donation" id="pupose_of_donation3" value="option3">
+                                                        <label class="form-check-label" for="pupose_of_donation3">
+                                                            Kafara
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input custom" type="checkbox" name="pupose_of_donation" id="pupose_of_donation1" value="option1" checked="">
+                                                        <label class="form-check-label" for="pupose_of_donation1">
+                                                            Sadaqa
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input custom" type="checkbox" name="pupose_of_donation" id="pupose_of_donation4" value="option4">
+                                                        <label class="form-check-label" for="pupose_of_donation4">
+                                                            Kafara (Fasting)
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input custom" type="checkbox" name="pupose_of_donation" id="pupose_of_donation5" value="option5">
+                                                        <label class="form-check-label" for="pupose_of_donation5">
+                                                            Qurban
+                                                        </label>
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="form-group col-md-6">
-                                                <div class="form-check">
-                                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                                                    <label class="form-check-label" for="exampleRadios1">
-                                                        Default radio
-                                                    </label>
+                                            <div class="form-group col-12 white-radios">
+                                                <label for="">Radios horizental</label>
+                                                <div class="inline-radios-wrapper">
+
+                                                    <div class="form-check">
+                                                        <input class="form-check-input custom" type="radio" name="hhrpupose_of_donation" id="hhrpupose_of_donation3" value="option3">
+                                                        <label class="form-check-label" for="hhrpupose_of_donation3">
+                                                            Kafara
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input custom" type="radio" name="hhrpupose_of_donation" id="hhrpupose_of_donation1" value="option1" checked="">
+                                                        <label class="form-check-label" for="hhrpupose_of_donation1">
+                                                            Sadaqa
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input custom" type="radio" name="hhrpupose_of_donation" id="hhrpupose_of_donation4" value="option4">
+                                                        <label class="form-check-label" for="hhrpupose_of_donation4">
+                                                            Kafara (Fasting)
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input custom" type="radio" name="hhrpupose_of_donation" id="hhrpupose_of_donation5" value="option5">
+                                                        <label class="form-check-label" for="hhrpupose_of_donation5">
+                                                            Qurban
+                                                        </label>
+                                                    </div>
                                                 </div>
-                                                <div class="form-check">
-                                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                                                    <label class="form-check-label" for="exampleRadios2">
-                                                        Second default radio
-                                                    </label>
+                                            </div>
+                                            <div class="form-group col-md-6 white-radios">
+                                                <label for="">Checkboxes vertical</label>
+                                                <div class="">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input custom" type="checkbox" name="vpupose_of_donation" id="vpupose_of_donation3" value="option3">
+                                                        <label class="form-check-label" for="vpupose_of_donation3">
+                                                            Kafara
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input custom" type="checkbox" name="vpupose_of_donation" id="vpupose_of_donation1" value="option1" checked="">
+                                                        <label class="form-check-label" for="vpupose_of_donation1">
+                                                            Sadaqa
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input custom" type="checkbox" name="vpupose_of_donation" id="vpupose_of_donation4" value="option4">
+                                                        <label class="form-check-label" for="vpupose_of_donation4">
+                                                            Kafara (Fasting)
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input custom" type="checkbox" name="pupose_of_donation" id="vpupose_of_donation5" value="option5">
+                                                        <label class="form-check-label" for="vpupose_of_donation5">
+                                                            Qurban
+                                                        </label>
+                                                    </div>
                                                 </div>
-                                                <div class="form-check disabled">
-                                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" disabled>
-                                                    <label class="form-check-label" for="exampleRadios3">
-                                                        Disabled radio
-                                                    </label>
+                                            </div>
+                                            <div class="form-group col-md-6 white-radios">
+                                                <label for="">Radios Vertical</label>
+                                                <div class="">
+
+                                                    <div class="form-check">
+                                                        <input class="form-check-input custom" type="radio" name="rpupose_of_donation" id="rpupose_of_donation3" value="option3">
+                                                        <label class="form-check-label" for="rpupose_of_donation3">
+                                                            Kafara
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input custom" type="radio" name="rpupose_of_donation" id="rpupose_of_donation1" value="option1" checked="">
+                                                        <label class="form-check-label" for="rpupose_of_donation1">
+                                                            Sadaqa
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input custom" type="radio" name="rpupose_of_donation" id="rpupose_of_donation4" value="option4">
+                                                        <label class="form-check-label" for="rpupose_of_donation4">
+                                                            Kafara (Fasting)
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input custom" type="radio" name="rpupose_of_donation" id="rpupose_of_donation5" value="option5">
+                                                        <label class="form-check-label" for="rpupose_of_donation5">
+                                                            Qurban
+                                                        </label>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
