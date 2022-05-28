@@ -16,6 +16,11 @@
 </head>
 
 <body>
+    <div id="back-to-parent-menu" class="back-to-parent-menu color-white d-none">
+        <i class="fa fa-chevron-left mx-2"></i>
+        Back to main menu
+        <hr class="bg-white mt-3">
+    </div>
     <div class="nav-container">
 
         <nav class="navbar navbar-expand-lg p-0 m-auto">
@@ -23,12 +28,29 @@
             <a class="navbar-brand" href="/">
                 <img src="/icon/logo.svg" alt="logo">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <div class="d-flex d-lg-none navbar-mobile">
+                <div class="d-flex align-items-center justify-content-between color-white">
+                    <button class="btn mx-3" data-toggle="collapse" data-target="#navbarSearchContent" aria-controls="navbarSearchContent" aria-expanded="false">
+                        <i class="fa fa-search color-white"></i>
+                    </button>
+                    <a href="#" class="lang-button mx-3">
+                        EN
+                    </a>
+                    <a href="#" class="color-white mx-3">
+                        <span class="notifications-count">3</span>
+                        <i class="fa fa-shopping-cart"></i>
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
 
+            <div class="collapse navbar-collapse p-4" id="navbarSearchContent">
+                <input type="text" class="form-control search" name="search" placeholder="Search Projects">
+            </div>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto align-items-center">
+                <ul class="navbar-nav mr-auto">
 
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarKafaratDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -38,7 +60,7 @@
                             <button class="btn btn-yellow rounded">General donation for sadaqat</button>
                             <div class="row pt-4">
                                 <div class="col-md-4 mb-3">
-                                    <ul class="no-style">
+                                    <ul class="no-style submenu">
                                         <li>Ongoing sadaqa</li>
                                         <li><a href="#">1</a></li>
                                         <li><a href="#">2</a></li>
@@ -47,7 +69,7 @@
                                     </ul>
                                 </div>
                                 <div class="col-md-4 mb-3">
-                                    <ul class="no-style">
+                                    <ul class="no-style submenu">
                                         <li>Dawi's sadaqa</li>
                                         <li><a href="#">1</a></li>
                                         <li><a href="#">2</a></li>
@@ -56,7 +78,7 @@
                                     </ul>
                                 </div>
                                 <div class="col-md-4 mb-3">
-                                    <ul class="no-style">
+                                    <ul class="no-style submenu">
                                         <li>Kafara</li>
                                         <li><a href="#">1</a></li>
                                         <li><a href="#">2</a></li>
@@ -77,7 +99,7 @@
                             <button class="btn btn-yellow rounded">General donation for sadaqat</button>
                             <div class="row pt-4">
                                 <div class="col-md-4 mb-3">
-                                    <ul class="no-style">
+                                    <ul class="no-style submenu">
                                         <li>Ongoing sadaqa</li>
                                         <li><a href="#">1</a></li>
                                         <li><a href="#">2</a></li>
@@ -86,7 +108,7 @@
                                     </ul>
                                 </div>
                                 <div class="col-md-4 mb-3">
-                                    <ul class="no-style">
+                                    <ul class="no-style submenu">
                                         <li>Dawi's sadaqa</li>
                                         <li><a href="#">1</a></li>
                                         <li><a href="#">2</a></li>
@@ -95,7 +117,7 @@
                                     </ul>
                                 </div>
                                 <div class="col-md-4 mb-3">
-                                    <ul class="no-style">
+                                    <ul class="no-style submenu">
                                         <li>Kafara</li>
                                         <li><a href="#">1</a></li>
                                         <li><a href="#">2</a></li>
@@ -104,7 +126,7 @@
                                     </ul>
                                 </div>
                                 <div class="col-md-4 mb-3">
-                                    <ul class="no-style">
+                                    <ul class="no-style submenu">
                                         <li>Kafara</li>
                                         <li><a href="#">1</a></li>
                                         <li><a href="#">2</a></li>
@@ -113,7 +135,7 @@
                                     </ul>
                                 </div>
                                 <div class="col-md-4 mb-3">
-                                    <ul class="no-style">
+                                    <ul class="no-style submenu">
                                         <li>Kafara</li>
                                         <li><a href="#">1</a></li>
                                         <li><a href="#">2</a></li>
@@ -122,7 +144,7 @@
                                     </ul>
                                 </div>
                                 <div class="col-md-4 mb-3">
-                                    <ul class="no-style">
+                                    <ul class="no-style submenu">
                                         <li>Kafara</li>
                                         <li><a href="#">1</a></li>
                                         <li><a href="#">2</a></li>
@@ -131,7 +153,7 @@
                                     </ul>
                                 </div>
                                 <div class="col-md-4 mb-3">
-                                    <ul class="no-style">
+                                    <ul class="no-style submenu">
                                         <li>Kafara</li>
                                         <li><a href="#">1</a></li>
                                         <li><a href="#">2</a></li>
@@ -140,7 +162,7 @@
                                     </ul>
                                 </div>
                                 <div class="col-md-4 mb-3">
-                                    <ul class="no-style">
+                                    <ul class="no-style submenu">
                                         <li>Kafara</li>
                                         <li><a href="#">1</a></li>
                                         <li><a href="#">2</a></li>
@@ -149,7 +171,7 @@
                                     </ul>
                                 </div>
                                 <div class="col-md-4 mb-3">
-                                    <ul class="no-style">
+                                    <ul class="no-style submenu">
                                         <li>Kafara</li>
                                         <li><a href="#">1</a></li>
                                         <li><a href="#">2</a></li>
@@ -168,7 +190,7 @@
                             <button class="btn btn-yellow rounded">General donation for sadaqat</button>
                             <div class="row pt-4">
                                 <div class="col-md-4 mb-3">
-                                    <ul class="no-style">
+                                    <ul class="no-style submenu">
                                         <li>Ongoing sadaqa</li>
                                         <li><a href="#">1</a></li>
                                         <li><a href="#">2</a></li>
@@ -177,7 +199,7 @@
                                     </ul>
                                 </div>
                                 <div class="col-md-4 mb-3">
-                                    <ul class="no-style">
+                                    <ul class="no-style submenu">
                                         <li>Dawi's sadaqa</li>
                                         <li><a href="#">1</a></li>
                                         <li><a href="#">2</a></li>
@@ -191,9 +213,9 @@
                     <li class="nav-item"><a href="#" class="nav-link">Zakat</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Kafalat</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Kaaf?</a></li>
-                    <li class="nav-item d-flex align-items-center mx-2"><button class="btn btn-yellow btn-border-radius">Seasonal Projects</button></li>
+                    <li class="nav-item d-flex align-items-center seasonal-container mx-2"><button class="btn btn-yellow btn-border-radius">Seasonal Projects</button></li>
 
-                    <li class="nav-item">
+                    <li class="nav-item d-none d-lg-block">
                         <form action="hahahaha" method="post" class="icon-input">
                             <input type="text" placeholder="General search in the website" id="">
                             <input type="image" src="./icon/search.svg" alt="Submit" />
@@ -202,7 +224,7 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <span class="px-2">BHD</span>
-                            <img src="./icon/arrowdown.svg" alt="">
+                            <i class="fa fa-chevron-down"></i>
                         </a>
                         <div class="dropdown-menu flags-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item active" href="#">
@@ -223,12 +245,12 @@
                             </a>
                         </div>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item d-none d-lg-block">
                         <a href="#" class="lang-button">
                             ع
                         </a>
                     </li>
-                    <li class="nav-item donation-block px-3">
+                    <li class="nav-item donation-block d-none d-lg-block px-3">
                         <a href="#" class="nav-link">
                             <i class="fa fa-shopping-cart ml-2"></i>
                             <span class="px-2s">Donation Cart</span>
@@ -280,7 +302,7 @@
     <section class="section-padding" id="our-vision">
         <div class="container-fluid">
             <div class="row justify-content-center">
-                <div class="col-md-7">
+                <div class="col-xl-7">
                     <div class="bg-white inner b-radius-10 text-center">
                         <h2 class="small-purple-title">OUR VISION</h2>
                         <div class="d-flex justify-content-center">
@@ -290,26 +312,26 @@
                             </p>
                         </div>
                         <div class="row">
-                            <div class="col-md-3 col-6">
+                            <div class="col-xl-3 col-6">
                                 <div class="num-description-wrapper">
                                     <h3>2.9K</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-6">
+                            <div class="col-xl-3 col-6">
                                 <div class="num-description-wrapper">
                                     <h3>273</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
                                     </p>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-6">
+                            <div class="col-xl-3 col-6">
                                 <div class="num-description-wrapper">
                                     <h3>95%</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur.</p>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-6">
+                            <div class="col-xl-3 col-6">
                                 <div class="num-description-wrapper">
                                     <h3>17K</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
@@ -328,7 +350,7 @@
         <form action="#" method="POST">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 inner-wrapper">
+                    <div class="col-lg-6 inner-wrapper">
                         <div class="inner color-white">
                             <h4>Zakat, Sadaqat & Kafarat</h4>
                             <p>Choose the purpose of the donation</p>
@@ -423,7 +445,7 @@
     <section id="projects" class="section-padding color-white pb-0">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 mb-3">
+                <div class="col-lg-6 col-md-6 mb-3">
                     <div class="project-teaser" style="background-image: url('./images/project1.png');">
                         <div class="teaser-text">
                             <h2>Relief</h2>
@@ -435,7 +457,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-3">
+                <div class="col-lg-6 col-md-6 mb-3">
                     <div class="project-teaser" style="background-image: url('./images/project2.png');">
                         <div class="teaser-text">
                             <h2>Stability</h2>
@@ -447,7 +469,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-3">
+                <div class="col-lg-6 col-md-6 mb-3">
                     <div class="project-teaser" style="background-image: url('./images/project3.png');">
                         <div class="teaser-text">
                             <h2>Development</h2>
@@ -466,7 +488,7 @@
     <section id="latest-projects" class="section-padding pb-0">
         <div class="container">
             <div class="row">
-                <div class="col-md-3 mb-3 d-flex flex-column justify-content-center">
+                <div class="col-lg-3 mb-3 d-flex flex-column justify-content-center">
                     <div>
                         <h3 class="large-black-title">Latest Projects</h3>
                         <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -482,7 +504,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-9 mb-3">
+                <div class="col-lg-9 mb-3">
                     <div class="latest-projects-slick">
                         <div class="latest-project-card mx-3">
                             <label class="status-label new">New</label>
@@ -681,7 +703,7 @@
         <div class="container">
             <div class="inner">
                 <div class="row">
-                    <div class="col-md-6 body">
+                    <div class="col-lg-6 body">
                         <h2 class="small-purple-title">SUCCESS STORIES</h2>
                         <h1 class="large-black-title">Lorem ipsum dolor sit amet</h1>
                         <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -694,7 +716,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-6">
                         <div class="image-wrapper overflow-hidden">
                             <img class="h-100" src="./images/children.png" alt="">
                         </div>
