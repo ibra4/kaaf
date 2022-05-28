@@ -104,7 +104,7 @@ ul {
 }
 
 .banner-title {
-  font-size: 100px;
+  font-size: $font-size-xxl;
 }
 
 .banner-description {
@@ -112,6 +112,9 @@ ul {
 }
 
 /* Font Sizes */
+.font-size-xxl {
+  font-size: $font-size-xxl;
+}
 .font-size-xl {
   font-size: $font-size-xl;
 }
@@ -132,6 +135,9 @@ ul {
 .bg-light-blue {
   background-color: #85b1ff;
 }
+// .bg-white {
+//   background-color: $white;
+// }
 
 /* Colors */
 .color-white {
@@ -148,6 +154,10 @@ ul {
 
 .color-dark-purple {
   color: $dark-purple;
+}
+
+.color-secondary {
+  color: $secondary;
 }
 
 .btn-white {
