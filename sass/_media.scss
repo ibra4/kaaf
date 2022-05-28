@@ -150,6 +150,12 @@
   }
 }
 
+@media (min-width: 1537px) {
+  .nav-item {
+    padding: 20px 10px;
+  }
+}
+
 @media (min-width: 1201px) and (max-width: 1536px) {
   body {
     font-size: 12px;
