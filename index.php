@@ -630,7 +630,7 @@
                             <div class="d-flex flex-wrap submit-container mt-3">
                                 <button class="btn btn-white">Quick donation</button>
                                 <button class="btn btn-purple ml-2">
-                                    <img src="./icon/cart.svg" class="mr-2" alt="">
+                                    <i class="fa fa-shopping-cart"></i>
                                     Add
                                 </button>
                             </div>
