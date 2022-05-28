@@ -498,4 +498,5 @@
 </section>
 
 <?php require_once "../hmtl-components/ar/footer.php" ?>
+<?php require_once "../hmtl-components/ar/login.php" ?>
 <?php require_once "../hmtl-components/ar/scripts.php" ?>
