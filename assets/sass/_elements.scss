@@ -103,10 +103,37 @@ ul {
   border-radius: 3px;
 }
 
+.banner-title {
+  font-size: 100px;
+}
+
+.banner-description {
+  font-size: 18px;
+}
+
+/* Font Sizes */
+.font-size-xl {
+  font-size: $font-size-xl;
+}
+.font-size-lg {
+  font-size: $font-size-lg;
+}
+.font-size-md {
+  font-size: $font-size-md;
+}
+.font-size-sm {
+  font-size: $font-size-sm;
+}
+.font-size-xs {
+  font-size: $font-size-xs;
+}
+
+/* Backgrounds */
 .bg-light-blue {
   background-color: #85b1ff;
 }
 
+/* Colors */
 .color-white {
   color: $white;
 }
