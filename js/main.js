@@ -109,7 +109,6 @@ $(function () {
   // Scroll to top whene open dropdown menu
   $(".dropdown-toggle").on("click change", function (e) {
     window.scrollTo({
-      // behavior: "smooth",
       top: 0,
     });
     $(this).parent().find(".dropdown-menu").first().addClass("show");

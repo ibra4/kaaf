@@ -982,6 +982,8 @@ img.flag {
     .flags-menu a.active::before {
         left: unset;
         right: 15px;
+        top: 50%;
+        transform: translateY(-50%);
     }
 
     .flags-menu img {
