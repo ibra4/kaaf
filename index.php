@@ -324,91 +324,94 @@
     </section>
 
     <section id="quick-donation" class="section-extra-padding">
+        <img src="./images/man-child.png" class="d-block d-md-none mb-3 mobile-image" alt="">
         <form action="#" method="POST">
             <div class="container">
-                <div class="col-md-6">
-                    <div class="inner color-white">
-                        <h4>Zakat, Sadaqat & Kafarat</h4>
-                        <p>Choose the purpose of the donation</p>
-                        <div class="donation-radios radios-wrapper">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="form-check col-auto">
-                                        <input class="form-check-input custom" type="radio" name="pupose_of_donation" id="pupose_of_donation1" value="option1" checked>
-                                        <label class="form-check-label" for="pupose_of_donation1">
-                                            Sadaqa
-                                        </label>
-                                    </div>
-                                    <div class="form-check col-auto">
-                                        <input class="form-check-input custom" type="radio" name="pupose_of_donation" id="pupose_of_donation2" value="option2">
-                                        <label class="form-check-label" for="pupose_of_donation2">
-                                            Zakat
-                                        </label>
-                                    </div>
-                                    <div class="form-check col-auto">
-                                        <input class="form-check-input custom" type="radio" name="pupose_of_donation" id="pupose_of_donation3" value="option3">
-                                        <label class="form-check-label" for="pupose_of_donation3">
-                                            Kafara
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="form-check col-auto">
-                                        <input class="form-check-input custom" type="radio" name="pupose_of_donation" id="pupose_of_donation4" value="option4">
-                                        <label class="form-check-label" for="pupose_of_donation4">
-                                            Kafara (Fasting)
-                                        </label>
-                                    </div>
-                                    <div class="form-check col-auto">
-                                        <input class="form-check-input custom" type="radio" name="pupose_of_donation" id="pupose_of_donation5" value="option5">
-                                        <label class="form-check-label" for="pupose_of_donation5">
-                                            Qurban
-                                        </label>
-                                    </div>
-                                    <div class="form-check col-auto">
-                                        <input class="form-check-input custom" type="radio" name="pupose_of_donation" id="pupose_of_donation6" value="option6">
-                                        <label class="form-check-label" for="pupose_of_donation6">
-                                            Aqeeqa
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-8">
-                                <div class="form">
-                                    <div class="row align-items-center">
-                                        <div class="col-5">
-                                            <span class="label">Shares</span>
+                <div class="row">
+                    <div class="col-md-6 inner-wrapper">
+                        <div class="inner color-white">
+                            <h4>Zakat, Sadaqat & Kafarat</h4>
+                            <p>Choose the purpose of the donation</p>
+                            <div class="donation-radios radios-wrapper">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="form-check col-auto">
+                                            <input class="form-check-input custom" type="radio" name="pupose_of_donation" id="pupose_of_donation1" value="option1" checked>
+                                            <label class="form-check-label" for="pupose_of_donation1">
+                                                Sadaqa
+                                            </label>
                                         </div>
-                                        <div class="col-7 d-flex justify-content-end num-count-countainer">
-                                            <button class="btn decrease-5">
-                                                <img src="./icon/minus.svg" alt="">
-                                            </button>
-                                            <input name="shares" readonly type="text" value="5" id="shares-value">
-                                            <button class="btn increase-5">
-                                                <img src="./icon/plus.svg" alt="">
-                                            </button>
+                                        <div class="form-check col-auto">
+                                            <input class="form-check-input custom" type="radio" name="pupose_of_donation" id="pupose_of_donation2" value="option2">
+                                            <label class="form-check-label" for="pupose_of_donation2">
+                                                Zakat
+                                            </label>
+                                        </div>
+                                        <div class="form-check col-auto">
+                                            <input class="form-check-input custom" type="radio" name="pupose_of_donation" id="pupose_of_donation3" value="option3">
+                                            <label class="form-check-label" for="pupose_of_donation3">
+                                                Kafara
+                                            </label>
                                         </div>
                                     </div>
-                                    <div class="row align-items-center">
-                                        <div class="col-5">
-                                            <span class="label">Total</span>
+                                    <div class="row">
+                                        <div class="form-check col-auto">
+                                            <input class="form-check-input custom" type="radio" name="pupose_of_donation" id="pupose_of_donation4" value="option4">
+                                            <label class="form-check-label" for="pupose_of_donation4">
+                                                Kafara (Fasting)
+                                            </label>
                                         </div>
-                                        <div class="col-7 d-flex justify-content-end align-items-center">
-                                            <span>BHD</span>
-                                            <h2 class="mb-0 ml-2">1,410</h2>
+                                        <div class="form-check col-auto">
+                                            <input class="form-check-input custom" type="radio" name="pupose_of_donation" id="pupose_of_donation5" value="option5">
+                                            <label class="form-check-label" for="pupose_of_donation5">
+                                                Qurban
+                                            </label>
+                                        </div>
+                                        <div class="form-check col-auto">
+                                            <input class="form-check-input custom" type="radio" name="pupose_of_donation" id="pupose_of_donation6" value="option6">
+                                            <label class="form-check-label" for="pupose_of_donation6">
+                                                Aqeeqa
+                                            </label>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="d-flex">
-                            <button class="btn btn-white">Quick donation</button>
-                            <button class="btn btn-purple ml-2">
-                                <img src="./icon/cart.svg" class="mr-2" alt="">
-                                Add
-                            </button>
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="form">
+                                        <div class="row align-items-center">
+                                            <div class="col-5">
+                                                <span class="label">Shares</span>
+                                            </div>
+                                            <div class="col-7 d-flex justify-content-end num-count-countainer">
+                                                <button class="btn decrease-5">
+                                                    <img src="./icon/minus.svg" alt="">
+                                                </button>
+                                                <input name="shares" readonly type="text" value="5" id="shares-value">
+                                                <button class="btn increase-5">
+                                                    <img src="./icon/plus.svg" alt="">
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="row align-items-center">
+                                            <div class="col-5">
+                                                <span class="label">Total</span>
+                                            </div>
+                                            <div class="col-7 d-flex justify-content-end align-items-center">
+                                                <span>BHD</span>
+                                                <h2 class="mb-0 ml-2">1,410</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-wrap submit-container mt-3">
+                                <button class="btn btn-white">Quick donation</button>
+                                <button class="btn btn-purple ml-2">
+                                    <img src="./icon/cart.svg" class="mr-2" alt="">
+                                    Add
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -494,7 +497,7 @@
                                 <div class="progress-bar">
                                     <div class="progress-bar-value"></div>
                                 </div>
-                                <div class="row latest-project-numbers">
+                                <div class="row latest-project-numbers flex-nowrap">
                                     <div class="col-md-4">
                                         <p class="label text-secondary mb-1">Project value</p>
                                         <p class="value"><span class="curruncy">BHD</span> <span>1,678</span></p>
@@ -732,15 +735,21 @@
                 <div class="col-md-4">
                     <img src="./icon/logo.svg" alt="">
                     <div class="logo-suffix">Humanitarian</div>
-                    <div class="d-flex mt-3">
+                    <div class="social-media-links d-flex mt-3">
                         <a href="#" class="mr-3">
-                            <img src="./icon/linkedin.svg" alt="">
+                            <i class="fa-brands fa-linkedin-in"></i>
                         </a>
                         <a href="#" class="mr-3">
-                            <img src="./icon/youtube.svg" alt="">
+                            <i class="fa-brands fa-youtube"></i>
                         </a>
                         <a href="#" class="mr-3">
-                            <img src="./icon/twitter.svg" alt="">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="mr-3">
+                            <i class="fa-brands fa-instagram-square"></i>
+                        </a>
+                        <a href="#" class="mr-3">
+                            <i class="fa-brands fa-twitter"></i>
                         </a>
                     </div>
                     <p class="copyright">A subordinate of Alislah Society - Kingdom of Bahrain</p>

@@ -40,7 +40,8 @@ h3 {
 
 .nav-link:hover {
     color: var(--white);
-    background-color: #896c99; /* custom color */
+    background-color: #896c99;
+    /* custom color */
 }
 
 .nav-link:hover .fa {
@@ -763,6 +764,7 @@ ul.no-style {
 .links-dropdown ul li {
     margin-bottom: 5px;
 }
+
 .links-dropdown ul li a {
     color: var(--white);
     opacity: 0.7;
@@ -782,6 +784,16 @@ ul.no-style {
 .projects-dropdown {
     min-width: 600px;
     background-color: var(--dark-purple);
+}
+
+.social-media-links a {
+    color: var(--white);
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
 }
 
 @media (min-width: 1201px) and (max-width: 1536px) {
@@ -825,8 +837,43 @@ ul.no-style {
         font-size: 12px;
     }
 
+    #quick-donation {
+        background-image: none;
+    }
+
+    #quick-donation .mobile-image {
+        height: 220px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    #quick-donation .inner-wrapper {
+        padding: 0 30px;
+    }
+
     #quick-donation.section-extra-padding {
-        padding: 15px;
+        padding: 0;
+    }
+
+    #quick-donation .inner {
+        padding: 40px 15px;
+    }
+
+    #quick-donation h4 {
+        font-size: 20px;
+    }
+
+    #quick-donation .inner>p {
+        font-size: 14px;
+    }
+
+    #quick-donation .form {
+        width: 90%;
+    }
+
+    #quick-donation .submit-container .btn {
+        width: 90%;
+        margin: auto;
     }
 
     .small-purple-title {
@@ -835,5 +882,65 @@ ul.no-style {
 
     .links-dropdown {
         min-width: 100%;
+    }
+
+    .large-black-title {
+        font-size: 30px;
+    }
+
+    #latest-projects .description {
+        font-size: 16px;
+    }
+
+    .latest-project-card .body {
+        font-size: 14px;
+    }
+
+    #success-stories .body {
+        padding: 30px;
+    }
+
+    #success-stories .large-black-title {
+        font-size: 22px;
+    }
+
+    #success-stories .justify-content-between {
+        justify-content: flex-start !important;
+    }
+
+    #success-stories .image-wrapper  {
+        height: 300px;
+    }
+
+    #success-stories .image-wrapper img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    #qoute .p-5 {
+        padding: 0 !important;
+    }
+
+    #qoute .qoute-wrapper {
+        padding: 30px;
+        background-size: contain;
+    }
+
+    #qoute .qoute-wrapper p {
+        font-size: 20px;
+    }
+
+    #footer {
+        text-align: center;
+    }
+
+    .social-media-links {
+        justify-content: center;
+    }
+    
+    .btn.btn-lg {
+        font-size: 14px;
+        padding: 9px 20px;
+        height: unset;
     }
 }
