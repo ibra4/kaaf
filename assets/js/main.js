@@ -106,12 +106,12 @@ $(function () {
     $(this).find(".dropdown-title").text($(this).find("span").text());
   });
 
-  $(".navbar-collapse").on("shown.bs.collapse", function (e) {
-    $(".dropdown-menu").css(
-      "height",
-      $(this).find(".navbar-nav").height() + 90
-    );
-  });
+  // $(".navbar-collapse").on("shown.bs.collapse", function (e) {
+  //   $(".dropdown-menu").css(
+  //     "height",
+  //     $(this).find(".navbar-nav").height() + 90
+  //   );
+  // });
 
   $(".navbar-collapse.desktop-menu").on("show.bs.collapse", function (e) {
     $(this).css("display", "none");

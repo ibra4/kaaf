@@ -32,7 +32,14 @@
     }
   }
 
+  .project-teaser {
+    max-height: 500px;
+  }
+  
   .num-description-wrapper {
+    h3, p {
+      text-align: left;
+    }
     h3 {
       font-size: 40px;
     }
@@ -236,6 +243,11 @@
     font-size: 42px;
   }
 
+  .section-padding {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
   .desktop-menu {
     &.show {
       display: none !important;
@@ -320,6 +332,7 @@
 
   .dropdown-menu {
     position: fixed !important;
+    height: 100%;
     left: 0;
     top: 90px;
     width: 100%;
@@ -357,26 +370,26 @@
     img {
       margin-right: 10px;
     }
-    .back-to-main-menu {
-      position: relative;
-      padding-left: 45px;
-      cursor: pointer;
-      &::before {
-        content: "\f30a";
-        font-family: Fontawesome;
-        position: absolute;
-        left: 15px;
-      }
-      &::after {
-        content: "";
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        height: 1px;
-        width: 100%;
-        background-color: $white;
-        opacity: 0.3;
-      }
+  }
+  .back-to-main-menu {
+    position: relative;
+    padding-left: 45px;
+    cursor: pointer;
+    &::before {
+      content: "\f30a";
+      font-family: Fontawesome;
+      position: absolute;
+      left: 15px;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 1px;
+      width: 100%;
+      background-color: $white;
+      opacity: 0.3;
     }
   }
 }

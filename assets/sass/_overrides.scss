@@ -22,7 +22,8 @@ html[dir="rtl"] {
 
   .back-to-main-menu::before,
   .nav-item.dropdown::after,
-  .has-submenu::after {
+  .has-submenu::after,
+  .fa-right-long {
     transform: rotate(180deg);
     /************************/
   }

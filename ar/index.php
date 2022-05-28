@@ -52,14 +52,14 @@
                         </p>
                     </div>
                     <div class="row">
-                        <div class="col-xl-3 col-6">
+                        <div class="col-xl-3 col-6 mb-3">
                             <div class="num-description-wrapper">
                                 <h3>2.9K</h3>
                                 <p>لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود
                                     تيمبورأنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا.</p>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-6">
+                        <div class="col-xl-3 col-6 mb-3">
                             <div class="num-description-wrapper">
                                 <h3>273</h3>
                                 <p>لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود
@@ -67,14 +67,14 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-6">
+                        <div class="col-xl-3 col-6 mb-3">
                             <div class="num-description-wrapper">
                                 <h3>95%</h3>
                                 <p>لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود
                                     تيمبورأنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا.</p>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-6">
+                        <div class="col-xl-3 col-6 mb-3">
                             <div class="num-description-wrapper">
                                 <h3>17K</h3>
                                 <p>لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود
