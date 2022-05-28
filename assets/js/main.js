@@ -1,8 +1,9 @@
 $(function () {
   var slider = $(".slick-slider");
   var latestProjectsSlick = $(".latest-projects-slick");
-
-  // console.log()
+  var latestProjectsHelpRequestsSlick = $(
+    ".latest-projects-help-requests-slick"
+  );
 
   slider.slick({
     dots: true,
@@ -56,6 +57,18 @@ $(function () {
         },
       },
     ],
+  });
+
+  latestProjectsHelpRequestsSlick.slick({
+    infinite: true,
+    rtl: $(document).attr("dir") == "rtl",
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    appendArrows: ".help-requests-slick-buttons",
+    nextArrow:
+      "<div class='help-requests-slick-custom-next'><i class='fa fa-chevron-right'></i></div>",
+    prevArrow:
+      "<div class='help-requests-slick-custom-prev'><i class='fa fa-chevron-left'></i></div>",
   });
 
   $(".increase-5").on("click", function (e) {

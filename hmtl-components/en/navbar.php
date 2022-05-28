@@ -27,7 +27,7 @@
 
         <!-- Start Desktop Collapse -->
         <div class="collapse navbar-collapse desktop-menu" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto flex-wrap">
+            <ul class="navbar-nav mr-auto">
                 <a class="navbar-brand d-none d-lg-flex" href="/">
                     <img src="/assets/icon/logo.svg" alt="logo">
                 </a>
@@ -262,7 +262,7 @@
 
         <!-- Start Mobile Collapse -->
         <div class="collapse navbar-collapse mobile-menu" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto flex-wrap">
+            <ul class="navbar-nav mr-auto">
 
                 <li class="nav-item">
                     <a class="nav-link" type="button" data-toggle="modal" data-target="#loginModal">

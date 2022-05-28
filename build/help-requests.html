@@ -52,7 +52,7 @@
 
             <!-- Start Desktop Collapse -->
             <div class="collapse navbar-collapse desktop-menu" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto flex-wrap">
+                <ul class="navbar-nav mr-auto">
                     <a class="navbar-brand d-none d-lg-flex" href="/">
                         <img src="/assets/icon/logo.svg" alt="logo">
                     </a>
@@ -292,7 +292,7 @@
 
             <!-- Start Mobile Collapse -->
             <div class="collapse navbar-collapse mobile-menu" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto flex-wrap">
+                <ul class="navbar-nav mr-auto">
 
                     <li class="nav-item">
                         <a class="nav-link" type="button" data-toggle="modal" data-target="#loginModal">
@@ -486,9 +486,6 @@
                 </ul>
             </div>
             <!-- End Mobile Collapse -->
-
-
-
         </nav>
     </div>
     <main class="py-5">
@@ -496,117 +493,99 @@
             <h1 class="font-size-md mb-4">Search results for</h1>
             <h1 class="font-size-xl color-dark-purple mb-5">Help Request</h1>
 
-            <section class="pb-5">
-                <ul class="nav nav-tabs b-radius-10 px-5 mb-3" id="myTab" role="tablist">
-                    <li class="nav-item">
-                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
-                            aria-controls="home" aria-selected="true">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
-                            aria-controls="profile" aria-selected="false">Profile</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
-                            aria-controls="contact" aria-selected="false">Contact</a>
-                    </li>
-                </ul>
-                <div class="tab-content" id="myTabContent">
-                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                        <div class="help-request-wrapper bg-white b-radius-10 p-2 mb-2">
-                            <div class="d-flex flex-wrap justify-content-start">
-                                <a href="/build/help-request-inner.html" class="overlay-wrapper">
-                                    <div class="overlay"></div>
-                                    <img class="help-image" src="/assets/images/children.png" alt="">
-                                </a>
-                                <div class="col py-3">
-                                    <h3 class="font-size-sm color-dark-purple">Help Request Type 1</h3>
-                                    <h3 class="font-size-xs color-secondary">
-                                        <img src="/assets/icon/flags/ps.svg" alt="">
-                                        <span class="font-weight-normal pl-1">Palestine</span>
-                                    </h3>
-                                    <div class="row">
-                                        <div class="col-lg-7">
-                                            <p class="color-secondary min-width-200 mb-0">Lorem ipsum dolor sit amet,
-                                                consectetur adipiscing elit. Etiam sollicitudin ante sed lorem varius
-                                                molestie. Nam blandit, mi vitae finibus porttitor, leo ipsum faucibus
-                                                magna, vel cursus metus ex pulvinar ex. Aenean elit ante, tristique at
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <a href="/build/help-request-inner.html" class="btn color-grey font-size-xs px-0">
-                                        <span class="mr-2">Details</span>
-                                        <img src="/assets/icon/viewallgrey.svg" alt="">
-                                    </a>
+            <div class="d-flex justify-content-end mb-4">
+                <form action="#" method="post" class="icon-input">
+                    <input type="text" placeholder="Search in help requests" id="">
+                    <input type="image" src="/assets/icon/search.svg" alt="Submit">
+                </form>
+            </div>
+            <section class="">
+                <div class="help-request-wrapper bg-white b-radius-10 p-3 mb-2">
+                    <div class="d-flex flex-wrap justify-content-start">
+                        <a href="/build/help-request-inner.html" class="overlay-wrapper">
+                            <div class="overlay"></div>
+                            <img class="help-image" src="/assets/images/children.png" alt="">
+                        </a>
+                        <div class="col pt-3">
+                            <h3 class="font-size-sm color-dark-purple">Help Request Type 1</h3>
+                            <h3 class="font-size-xs color-secondary">
+                                <img src="/assets/icon/flags/ps.svg" alt="">
+                                <span class="font-weight-normal pl-1">Palestine</span>
+                            </h3>
+                            <div class="row">
+                                <div class="col-lg-9">
+                                    <p class="color-secondary min-width-200 mb-0">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Etiam sollicitudin ante sed lorem varius
+                                        molestie. Nam blandit, mi vitae finibus porttitor, leo ipsum faucibus
+                                        magna, vel cursus metus ex pulvinar ex. Aenean elit ante, tristique at
+                                    </p>
                                 </div>
                             </div>
-                        </div>
-                        <div class="help-request-wrapper bg-white b-radius-10 p-2 mb-2">
-                            <div class="d-flex flex-wrap justify-content-start">
-                                <a href="/build/help-request-inner.html" class="overlay-wrapper">
-                                    <div class="overlay"></div>
-                                    <img class="help-image" src="/assets/images/children.png" alt="">
-                                </a>
-                                <div class="col py-3">
-                                    <h3 class="font-size-sm color-dark-purple">Help Request Type 2</h3>
-                                    <h3 class="font-size-xs color-secondary">
-                                        <img src="/assets/icon/flags/ps.svg" alt="">
-                                        <span class="font-weight-normal pl-1">Palestine</span>
-                                    </h3>
-                                    <div class="row">
-                                        <div class="col-lg-7">
-                                            <p class="color-secondary min-width-200 mb-0">Lorem ipsum dolor sit amet,
-                                                consectetur adipiscing elit. Etiam sollicitudin ante sed lorem varius
-                                                molestie. Nam blandit, mi vitae finibus porttitor, leo ipsum faucibus
-                                                magna, vel cursus metus ex pulvinar ex. Aenean elit ante, tristique at
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <a href="/build/help-request-inner.html" class="btn color-grey font-size-xs px-0">
-                                        <span class="mr-2">Details</span>
-                                        <img src="/assets/icon/viewallgrey.svg" alt="">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="help-request-wrapper bg-white b-radius-10 p-2 mb-2">
-                            <div class="d-flex flex-wrap justify-content-start">
-                                <a href="/build/help-request-inner.html" class="overlay-wrapper">
-                                    <div class="overlay"></div>
-                                    <img class="help-image" src="/assets/images/children.png" alt="">
-                                </a>
-                                <div class="col py-3">
-                                    <h3 class="font-size-sm color-dark-purple">Help Request Type 3</h3>
-                                    <h3 class="font-size-xs color-secondary">
-                                        <img src="/assets/icon/flags/ps.svg" alt="">
-                                        <span class="font-weight-normal pl-1">Palestine</span>
-                                    </h3>
-                                    <div class="row">
-                                        <div class="col-lg-7">
-                                            <p class="color-secondary min-width-200 mb-0">Lorem ipsum dolor sit amet,
-                                                consectetur adipiscing elit. Etiam sollicitudin ante sed lorem varius
-                                                molestie. Nam blandit, mi vitae finibus porttitor, leo ipsum faucibus
-                                                magna, vel cursus metus ex pulvinar ex. Aenean elit ante, tristique at
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <a href="/build/help-request-inner.html" class="btn color-grey font-size-xs px-0">
-                                        <span class="mr-2">Details</span>
-                                        <img src="/assets/icon/viewallgrey.svg" alt="">
-                                    </a>
-                                </div>
-                            </div>
+                            <a href="/build/help-request-inner.html" class="btn color-grey font-size-xs px-0">
+                                <span class="mr-2">Details</span>
+                                <img src="/assets/icon/viewallgrey.svg" alt="">
+                            </a>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
-                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
                 </div>
-            </section>
-
-            <section id="latest-projects" class="section-padding pb-0">
-                <div class="d-flex flex-wrap justify-content-between">
-                    <h3 class="large-black-title mb-5">Latest Projects</h3>
-                    <nav class="d-flex mb-5" aria-label="Page navigation example">
+                <div class="help-request-wrapper bg-white b-radius-10 p-3 mb-2">
+                    <div class="d-flex flex-wrap justify-content-start">
+                        <a href="/build/help-request-inner.html" class="overlay-wrapper">
+                            <div class="overlay"></div>
+                            <img class="help-image" src="/assets/images/children.png" alt="">
+                        </a>
+                        <div class="col pt-3">
+                            <h3 class="font-size-sm color-dark-purple">Help Request Type 2</h3>
+                            <h3 class="font-size-xs color-secondary">
+                                <img src="/assets/icon/flags/ps.svg" alt="">
+                                <span class="font-weight-normal pl-1">Palestine</span>
+                            </h3>
+                            <div class="row">
+                                <div class="col-lg-9">
+                                    <p class="color-secondary min-width-200 mb-0">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Etiam sollicitudin ante sed lorem varius
+                                        molestie. Nam blandit, mi vitae finibus porttitor, leo ipsum faucibus
+                                        magna, vel cursus metus ex pulvinar ex. Aenean elit ante, tristique at
+                                    </p>
+                                </div>
+                            </div>
+                            <a href="/build/help-request-inner.html" class="btn color-grey font-size-xs px-0">
+                                <span class="mr-2">Details</span>
+                                <img src="/assets/icon/viewallgrey.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="help-request-wrapper bg-white b-radius-10 p-3 mb-2">
+                    <div class="d-flex flex-wrap justify-content-start">
+                        <a href="/build/help-request-inner.html" class="overlay-wrapper">
+                            <div class="overlay"></div>
+                            <img class="help-image" src="/assets/images/children.png" alt="">
+                        </a>
+                        <div class="col pt-3">
+                            <h3 class="font-size-sm color-dark-purple">Help Request Type 3</h3>
+                            <h3 class="font-size-xs color-secondary">
+                                <img src="/assets/icon/flags/ps.svg" alt="">
+                                <span class="font-weight-normal pl-1">Palestine</span>
+                            </h3>
+                            <div class="row">
+                                <div class="col-lg-9">
+                                    <p class="color-secondary min-width-200 mb-0">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Etiam sollicitudin ante sed lorem varius
+                                        molestie. Nam blandit, mi vitae finibus porttitor, leo ipsum faucibus
+                                        magna, vel cursus metus ex pulvinar ex. Aenean elit ante, tristique at
+                                    </p>
+                                </div>
+                            </div>
+                            <a href="/build/help-request-inner.html" class="btn color-grey font-size-xs px-0">
+                                <span class="mr-2">Details</span>
+                                <img src="/assets/icon/viewallgrey.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-end mt-5">
+                    <nav class="d-flex" aria-label="Page navigation example">
                         <ul class="pagination m-auto flex-wrap">
                             <li class="page-item"><a class="page-link" href="#">
                                     << </a>
@@ -628,9 +607,13 @@
                         </ul>
                     </nav>
                 </div>
+            </section>
+
+            <section id="latest-projects" class="section-padding pb-0">
+                <h3 class="large-black-title mb-5">Latest Projects</h3>
                 <div class="container mb-3">
-                    <div class="d-flex row justify-content-between six-projects-wrapper">
-                        <div class="latest-project-card mx-2 mb-3">
+                    <div class="latest-projects-help-requests-slick">
+                        <div class="latest-project-card mx-3">
                             <label class="status-label new">New</label>
                             <img src="/assets/images/waterchild.png" alt="">
                             <div class="body pb-0">
@@ -678,7 +661,7 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="latest-project-card mx-2 mb-3">
+                        <div class="latest-project-card mx-3">
                             <label class="status-label urgant">Urgant</label>
                             <img src="/assets/images/waterchild.png" alt="">
                             <div class="body pb-0">
@@ -726,7 +709,7 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="latest-project-card mx-2 mb-3">
+                        <div class="latest-project-card mx-3">
                             <label class="status-label permissible">Zakat permissible</label>
                             <img src="/assets/images/waterchild.png" alt="">
                             <div class="body pb-0">
@@ -774,7 +757,7 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="latest-project-card mx-2 mb-3">
+                        <div class="latest-project-card mx-3">
                             <img src="/assets/images/waterchild.png" alt="">
                             <div class="body pb-0">
                                 <h4 class="mb-0">Semi-artesian well 60-70m</h4>
@@ -821,7 +804,7 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="latest-project-card mx-2 mb-3">
+                        <div class="latest-project-card mx-3">
                             <img src="/assets/images/waterchild.png" alt="">
                             <div class="body pb-0">
                                 <h4 class="mb-0">Semi-artesian well 60-70m</h4>
@@ -869,6 +852,7 @@
                             </div>
                         </div>
                     </div>
+                    <div class="d-flex justify-content-center help-requests-slick-buttons mt-4"></div>
                 </div>
             </section>
 
