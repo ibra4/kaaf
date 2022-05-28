@@ -1,6 +1,4 @@
 :root {
-
-    /* Colors: */
     --purple: #63317D;
     --yellow: #E5A20C;
     --red: #E82E56;
@@ -222,15 +220,6 @@ body {
     display: flex;
 }
 
-/* .slick-custom-next {
-    background-image: url('../icons/arrowleft.svg');
-    transform: rotate(180deg);
-}
-
-.slick-custom-prev {
-    background-image: url('../icons/arrowleft.svg');
-} */
-
 .slick-dotted.slick-slider {
     margin-bottom: 0 !important;
 }
@@ -414,9 +403,11 @@ body {
 .latest-project-card .new {
     background-color: var(--green);
 }
+
 .latest-project-card .urgant {
     background-color: var(--red);
 }
+
 .latest-project-card .permissible {
     background-color: var(--purple);
 }
@@ -743,11 +734,47 @@ ul.no-style {
         padding: 20px 5px;
         font-size: 12px;
     }
+
     .nav-item button {
         font-size: 12px;
     }
 
     body {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .slide-image h1 {
+        font-size: 50px;
+    }
+
+    .slide-image p {
+        font-size: 14px;
+    }
+
+    #our-vision .inner {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #our-vision .description {
+        font-size: 22px;
+    }
+
+    .num-description-wrapper h3 {
+        font-size: 40px;
+    }
+
+    .num-description-wrapper p {
+        font-size: 12px;
+    }
+
+    #quick-donation.section-extra-padding {
+        padding: 15px;
+    }
+
+    .small-purple-title {
         font-size: 12px;
     }
 }

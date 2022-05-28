@@ -130,26 +130,26 @@
                             </p>
                         </div>
                         <div class="row">
-                            <div class="col-md-3">
+                            <div class="col-md-3 col-6">
                                 <div class="num-description-wrapper">
                                     <h3>2.9K</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3 col-6">
                                 <div class="num-description-wrapper">
                                     <h3>273</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
                                     </p>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3 col-6">
                                 <div class="num-description-wrapper">
                                     <h3>95%</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur.</p>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3 col-6">
                                 <div class="num-description-wrapper">
                                     <h3>17K</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
