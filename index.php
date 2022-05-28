@@ -10,6 +10,8 @@
 
     <link rel="stylesheet" type="text/css" href="./css/slick.css" />
     <link rel="stylesheet" type="text/css" href="./css/slick-theme.css" />
+    <!-- <link rel="stylesheet" href="./css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>Home Page</title>
 </head>
@@ -22,8 +24,7 @@
             <a class="navbar-brand" href="#">
                 <img src="/icon/logo.svg" alt="logo">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -39,8 +40,7 @@
                     <li class="nav-item"><a href="#" class="nav-link">Zakat</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Kafalat</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Kaaf?</a></li>
-                    <li class="nav-item d-flex align-items-center"><button
-                            class="btn btn-yellow btn-border-radius">Seasonal Projects</button></li>
+                    <li class="nav-item d-flex align-items-center"><button class="btn btn-yellow btn-border-radius">Seasonal Projects</button></li>
 
                     <li class="nav-item">
                         <!-- <div class="icon-input"> -->
@@ -51,8 +51,7 @@
                         <!-- </div> -->
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <span class="px-2">BHD</span>
                             <img src="./icon/arrowdown.svg" alt="">
                         </a>
@@ -175,22 +174,19 @@
                             <div class="container">
                                 <div class="row">
                                     <div class="form-check col-auto">
-                                        <input class="form-check-input custom" type="radio" name="pupose_of_donation"
-                                            id="pupose_of_donation1" value="option1" checked>
+                                        <input class="form-check-input custom" type="radio" name="pupose_of_donation" id="pupose_of_donation1" value="option1" checked>
                                         <label class="form-check-label" for="pupose_of_donation1">
                                             Sadaqa
                                         </label>
                                     </div>
                                     <div class="form-check col-auto">
-                                        <input class="form-check-input custom" type="radio" name="pupose_of_donation"
-                                            id="pupose_of_donation2" value="option2">
+                                        <input class="form-check-input custom" type="radio" name="pupose_of_donation" id="pupose_of_donation2" value="option2">
                                         <label class="form-check-label" for="pupose_of_donation2">
                                             Zakat
                                         </label>
                                     </div>
                                     <div class="form-check col-auto">
-                                        <input class="form-check-input custom" type="radio" name="pupose_of_donation"
-                                            id="pupose_of_donation3" value="option3">
+                                        <input class="form-check-input custom" type="radio" name="pupose_of_donation" id="pupose_of_donation3" value="option3">
                                         <label class="form-check-label" for="pupose_of_donation3">
                                             Kafara
                                         </label>
@@ -198,22 +194,19 @@
                                 </div>
                                 <div class="row">
                                     <div class="form-check col-auto">
-                                        <input class="form-check-input custom" type="radio" name="pupose_of_donation"
-                                            id="pupose_of_donation4" value="option4">
+                                        <input class="form-check-input custom" type="radio" name="pupose_of_donation" id="pupose_of_donation4" value="option4">
                                         <label class="form-check-label" for="pupose_of_donation4">
                                             Kafara (Fasting)
                                         </label>
                                     </div>
                                     <div class="form-check col-auto">
-                                        <input class="form-check-input custom" type="radio" name="pupose_of_donation"
-                                            id="pupose_of_donation5" value="option5">
+                                        <input class="form-check-input custom" type="radio" name="pupose_of_donation" id="pupose_of_donation5" value="option5">
                                         <label class="form-check-label" for="pupose_of_donation5">
                                             Qurban
                                         </label>
                                     </div>
                                     <div class="form-check col-auto">
-                                        <input class="form-check-input custom" type="radio" name="pupose_of_donation"
-                                            id="pupose_of_donation6" value="option6">
+                                        <input class="form-check-input custom" type="radio" name="pupose_of_donation" id="pupose_of_donation6" value="option6">
                                         <label class="form-check-label" for="pupose_of_donation6">
                                             Aqeeqa
                                         </label>
@@ -358,8 +351,7 @@
                                         <p class="value"><span class="curruncy">BHD</span> <span>1,678</span></p>
                                     </div>
                                 </div>
-                                <div
-                                    class="d-flex justify-content-center align-items-center latest-project-input-wrapper">
+                                <div class="d-flex justify-content-center align-items-center latest-project-input-wrapper">
                                     <span>BHD</span>
                                     <button class="btn">
                                         <img src="./icon/minus.svg" alt="">
@@ -406,8 +398,7 @@
                                         <p class="value"><span class="curruncy">BHD</span> <span>1,678</span></p>
                                     </div>
                                 </div>
-                                <div
-                                    class="d-flex justify-content-center align-items-center latest-project-input-wrapper">
+                                <div class="d-flex justify-content-center align-items-center latest-project-input-wrapper">
                                     <span>BHD</span>
                                     <button class="btn">
                                         <img src="./icon/minus.svg" alt="">
@@ -454,8 +445,7 @@
                                         <p class="value"><span class="curruncy">BHD</span> <span>1,678</span></p>
                                     </div>
                                 </div>
-                                <div
-                                    class="d-flex justify-content-center align-items-center latest-project-input-wrapper">
+                                <div class="d-flex justify-content-center align-items-center latest-project-input-wrapper">
                                     <span>BHD</span>
                                     <button class="btn">
                                         <img src="./icon/minus.svg" alt="">
@@ -501,8 +491,7 @@
                                         <p class="value"><span class="curruncy">BHD</span> <span>1,678</span></p>
                                     </div>
                                 </div>
-                                <div
-                                    class="d-flex justify-content-center align-items-center latest-project-input-wrapper">
+                                <div class="d-flex justify-content-center align-items-center latest-project-input-wrapper">
                                     <span>BHD</span>
                                     <button class="btn">
                                         <img src="./icon/minus.svg" alt="">
