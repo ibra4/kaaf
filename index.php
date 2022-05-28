@@ -30,13 +30,13 @@
             </a>
             <div class="d-flex d-lg-none navbar-mobile">
                 <div class="d-flex align-items-center justify-content-between color-white">
-                    <button class="btn mx-3" data-toggle="collapse" data-target="#navbarSearchContent" aria-controls="navbarSearchContent" aria-expanded="false">
+                    <button class="btn mx-2" data-toggle="collapse" data-target="#navbarSearchContent" aria-controls="navbarSearchContent" aria-expanded="false">
                         <i class="fa fa-search color-white"></i>
                     </button>
-                    <a href="#" class="lang-button mx-3">
+                    <a href="#" class="lang-button mx-2">
                         EN
                     </a>
-                    <a href="#" class="color-white mx-3">
+                    <a href="#" class="color-white mx-2">
                         <span class="notifications-count">3</span>
                         <i class="fa fa-shopping-cart"></i>
                     </a>
