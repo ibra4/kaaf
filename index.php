@@ -445,7 +445,7 @@
     <section id="projects" class="section-padding color-white pb-0">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-6 mb-3">
+                <div class="col-lg-4 col-md-6 mb-3">
                     <div class="project-teaser" style="background-image: url('./images/project1.png');">
                         <div class="teaser-text">
                             <h2>Relief</h2>
@@ -457,7 +457,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 mb-3">
+                <div class="col-lg-4 col-md-6 mb-3">
                     <div class="project-teaser" style="background-image: url('./images/project2.png');">
                         <div class="teaser-text">
                             <h2>Stability</h2>
@@ -469,7 +469,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 mb-3">
+                <div class="col-lg-4 col-md-6 mb-3">
                     <div class="project-teaser" style="background-image: url('./images/project3.png');">
                         <div class="teaser-text">
                             <h2>Development</h2>
