@@ -198,6 +198,18 @@ body {
     border: 1px solid var(--white);
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#slider .slick-custom-next {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#slider .slick-custom-prev {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
 }
 
 .slick-dots {
@@ -633,12 +645,13 @@ body {
 .btn-white {
     background-color: var(--white);
     color: var(--dark-purple);
+    border: 1px solid var(--white);
 }
 
 .btn-white:hover {
     background-color: var(--dark-purple);
     color: var(--white);
-    border-color: var(--white);
+    border-color: var(--dark-purple);
 }
 
 .btn-purple {
@@ -801,6 +814,10 @@ img.flag {
     width: 40px;
     height: 40px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
 }
 
 .navbar-mobile .fa {

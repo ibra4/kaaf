@@ -7,15 +7,23 @@ html[dir="rtl"] body {
     flex-direction: row-reverse;
 }
 
+.fa-right-long {
+    transform: rotate(180deg);
+}
+
 .icon-input input {
     margin-left: 15px;
     /************************/
 }
 
-#slider .slick-arrow {
+#slider .slick-custom-next {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
     border-top-right-radius: 5px;
-    /************************/
     border-bottom-right-radius: 5px;
+}
+
+#slider .slick-arrow {
     /************************/
 }
 
