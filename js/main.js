@@ -21,6 +21,7 @@ $(function () {
 
   latestProjectsSlick.slick({
     infinite: true,
+    rtl: true,
     slidesToShow: 3.5,
     slidesToScroll: 1,
     appendArrows: ".latest-projects-slick-buttons",
@@ -84,22 +85,25 @@ $(function () {
     }
   });
 
-  // $(".nav-item.dropdown").on("click", function (e) {
-  //   const backElement = $("#back-to-parent-menu").clone();
-  //   backElement.removeClass("d-none");
-  //   const menu = $(this).find(".dropdown-menu");
-  //   $(this).find(".row").removeClass("row");
-  //   menu.find("button").hide();
-  //   menu.prepend("<div class='submenu-title mt-3'>"+$(this).find('a').first().text()+"</div>")
-  //   menu.prepend(backElement);
-  //   menu.addClass("submenu-wrapper");
-  // });
+  $(".dropdown-menu").on("click", ".back-to-main-menu", function (e) {
+    console.log($(this).closest(".dropdown"));
+    $(this).closest(".dropdown-menu").removeClass("show");
+  });
 
-  // $(".dropdown-menu").on("click", ".back-to-parent-menu", function (e) {
-  //   $(this).parent().removeClass("show");
-  // });
+  $(".has-submenu").on("click", function (e) {
+    e.stopPropagation();
+    $(this).find(".dropdown-menu").addClass("show");
+    $(this).find(".dropdown-title").text($(this).find("span").text());
+  });
 
-  // $(".submenu > li").on("click", function (e) {
-  //   console.log("click", $(this).parent().find("li"));
-  // });
+  $(".navbar-collapse").on("shown.bs.collapse", function (e) {
+    $(".dropdown-menu").css("height", $(this).find(".navbar-nav").height());
+  });
+
+  $(".navbar-collapse.desktop-menu").on("show.bs.collapse", function (e) {
+    $(this).css('display', 'none')
+  });
+
+  $('.latest-project-card').slick('resizeaa')
+
 });
