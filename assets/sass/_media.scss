@@ -216,6 +216,21 @@
   }
 }
 
+@media (max-width: 1200px) {
+  #success-stories {
+    .body {
+      padding: 30px;
+    }
+    .d-flex {
+      flex-wrap: wrap;
+      a {
+        margin-left: 0 !important;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
 @media (max-width: 992px) {
   .teaser-text h2 {
     font-size: 42px;
