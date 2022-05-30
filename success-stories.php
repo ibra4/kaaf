@@ -3,7 +3,7 @@
 
 <div class="slide-image banner d-flex align-items-center" style="background-image: url('/assets/images/man-child.png');">
     <div class="hero-inner m-auto">
-                    <h1 class="font-size-md2 color-yellow">SUCCESS STORIES</h1>
+        <h1 class="font-size-md2 color-yellow">SUCCESS STORIES</h1>
         <h1 class="color-white banner-title">Lorem ipsum dolor sit amet</h1>
         <p class="color-white banner-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
@@ -12,42 +12,42 @@
     <div class="row">
         <div class="col-lg-6 mb-3">
             <div class="success-stories-item bg-white p-3">
-                <img class="rounded" src="/assets/images/arms.png" alt="">
                 <div class="container">
                     <h2 class="font-size-lg my-3">Lorem ipsum dolor sit amet</h2>
                     <p class="color-dark-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
                     <a href="#" class="btn btn-lg btn-purple rounded">Read more</a>
                 </div>
+                <img class="rounded" src="/assets/images/arms.png" alt="">
             </div>
         </div>
         <div class="col-lg-6 mb-3">
             <div class="success-stories-item bg-white p-3">
-                <img class="rounded" src="/assets/images/arms.png" alt="">
                 <div class="container">
                     <h2 class="font-size-lg my-3">Lorem ipsum dolor sit amet</h2>
                     <p class="color-dark-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
                     <a href="#" class="btn btn-lg btn-purple rounded">Read more</a>
                 </div>
+                <img class="rounded" src="/assets/images/arms.png" alt="">
             </div>
         </div>
         <div class="col-lg-6 mb-3">
             <div class="success-stories-item bg-white p-3">
-                <img class="rounded" src="/assets/images/arms.png" alt="">
                 <div class="container">
                     <h2 class="font-size-lg my-3">Lorem ipsum dolor sit amet</h2>
                     <p class="color-dark-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
                     <a href="#" class="btn btn-lg btn-purple rounded">Read more</a>
                 </div>
+                <img class="rounded" src="/assets/images/arms.png" alt="">
             </div>
         </div>
         <div class="col-lg-6 mb-3">
             <div class="success-stories-item bg-white p-3">
-                <img class="rounded" src="/assets/images/arms.png" alt="">
                 <div class="container">
                     <h2 class="font-size-lg my-3">Lorem ipsum dolor sit amet</h2>
                     <p class="color-dark-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
                     <a href="#" class="btn btn-lg btn-purple rounded">Read more</a>
                 </div>
+                <img class="rounded" src="/assets/images/arms.png" alt="">
             </div>
         </div>
     </div>
