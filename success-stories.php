@@ -3,6 +3,7 @@
 
 <div class="slide-image banner d-flex align-items-center" style="background-image: url('/assets/images/man-child.png');">
     <div class="hero-inner m-auto">
+                    <h1 class="font-size-md2 color-yellow">SUCCESS STORIES</h1>
         <h1 class="color-white banner-title">Lorem ipsum dolor sit amet</h1>
         <p class="color-white banner-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
