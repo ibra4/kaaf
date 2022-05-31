@@ -35,23 +35,12 @@
     overflow: hidden;
     color: $grey;
     position: relative;
-    // &::after {
-    //   content: "";
-    //   position: absolute;
-    //   height: 2px;
-    //   width: 100%;
-    //   top: 50%;
-    //   left: 0;
-    //   transform: translateY(-50%);
-    //   background-color: $grey;
-    // }
     .active {
       color: #000000;
     }
     li {
       list-style-type: none;
       font-size: 12px;
-      // width: 25%;
       flex: 1;
       float: left;
       position: relative;
@@ -89,18 +78,6 @@
         z-index: 0;
       }
     }
-    // #account:before {
-    //   font-family: FontAwesome;
-    //   content: "\f023";
-    // }
-    // #personal:before {
-    //   font-family: FontAwesome;
-    //   content: "\f007";
-    // }
-    // #confirm:before {
-    //   font-family: FontAwesome;
-    //   content: "\f00c";
-    // }
   }
 
   #progressbar {
