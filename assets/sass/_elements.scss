@@ -15,6 +15,7 @@ h3 {
 }
 
 img {
+  object-fit: cover;
   &.flag {
     width: 20px;
   }
@@ -115,6 +116,9 @@ ul {
 .font-size-xxl {
   font-size: $font-size-xxl;
 }
+.font-size-xxl2 {
+  font-size: $font-size-xxl2;
+}
 .font-size-xl {
   font-size: $font-size-xl;
 }
@@ -137,6 +141,17 @@ ul {
   font-size: $font-size-xs;
 }
 
+.mw-715px {
+  max-width: 715px;
+}
+
+.h-450px {
+  height: 450px;
+}
+.br-20 {
+  border-radius: 20px;
+}
+
 /* Backgrounds */
 .bg-light-blue {
   background-color: #85b1ff;
@@ -148,6 +163,10 @@ ul {
 }
 
 /* Colors */
+.color-black {
+  color: $almost-black !important;
+}
+
 .color-white {
   color: $white !important;
 }
