@@ -51,7 +51,8 @@
     li {
       list-style-type: none;
       font-size: 12px;
-      width: 25%;
+      // width: 25%;
+      flex: 1;
       float: left;
       position: relative;
       &.active {
@@ -61,10 +62,13 @@
         }
       }
       &:before {
+        counter-increment: section;
+        content: counter(section);
         width: 50px;
         height: 50px;
         line-height: 45px;
         display: block;
+        line-height: 50px;
         font-size: $font-size-md;
         color: $white;
         background: $grey;
@@ -85,21 +89,24 @@
         z-index: 0;
       }
     }
-    #account:before {
-      font-family: FontAwesome;
-      content: "\f023";
-    }
-    #personal:before {
-      font-family: FontAwesome;
-      content: "\f007";
-    }
-    #confirm:before {
-      font-family: FontAwesome;
-      content: "\f00c";
-    }
+    // #account:before {
+    //   font-family: FontAwesome;
+    //   content: "\f023";
+    // }
+    // #personal:before {
+    //   font-family: FontAwesome;
+    //   content: "\f007";
+    // }
+    // #confirm:before {
+    //   font-family: FontAwesome;
+    //   content: "\f00c";
+    // }
   }
 
   #progressbar {
+    display: flex;
+    justify-content: space-around;
+    counter-reset: section;
   }
 
   .buttons-container {

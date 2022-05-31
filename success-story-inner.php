@@ -24,7 +24,7 @@
                         </div>
                     </div>
                     <div class="my-5 h-450px">
-                        <img src="/assets/images/arms.png" class="w-100 h-100 br-20" alt="">
+                        <img src="/assets/images/arms.png" class="w-100 h-100 br-20 object-fit-cover" alt="">
                     </div>
                     <div class="font-size-md2 color-black paragraphs-container">
                         <p>
