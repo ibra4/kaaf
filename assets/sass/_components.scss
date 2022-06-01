@@ -177,7 +177,7 @@
     border: 1px solid $light-grey;
     border-radius: 15px;
     text-align: center;
-    color: #4b5157;
+    color: $grey2;
     font-size: 14px;
   }
   > * {
@@ -678,5 +678,53 @@
   img {
     width: 90px;
     height: 90px;
+  }
+}
+
+.facet-label {
+  color: $grey2;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  &:hover {
+    text-decoration: none;
+    color: $purple;
+    font-weight: bold;
+  }
+  &.active {
+    font-weight: bold;
+    color: $purple;
+    position: relative;
+    display: block;
+    &:after {
+      position: absolute;
+      content: "";
+      top: 0;
+      right: 5px;
+      content: "\f00d";
+      font-family: Fontawesome;
+      color: $grey;
+    }
+  }
+}
+
+.pager {
+  border-radius: 10px;
+  overflow: hidden;
+  .pager-item {
+    width: 50px;
+    height: 50px;
+    background-color: $white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $almost-black;
+    font-weight: bold;
+    border-right: 1px solid $light-grey;
+    i {
+      color: $grey;
+    }
+    &:last-of-type {
+      border-right: unset;
+    }
   }
 }

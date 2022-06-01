@@ -1,0 +1,49 @@
+.country_selector {
+  cursor: text;
+}
+.country_selector {
+  width: 400px;
+  float: none;
+  margin: auto;
+  display: inline-block;
+  text-align: left;
+}
+
+.country_selector.single .selectize-input:after {
+  display: none !important;
+}
+
+.country_selector .selectize-input .item .flag-icon,
+.country_selector .selectize-dropdown .option .flag-icon {
+  margin-right: 10px;
+}
+
+.country_selector.single .selectize-input,
+.country_selector.single .selectize-input input {
+  cursor: text !important;
+}
+
+.country_selector .selectize-dropdown .option {
+  cursor: pointer !important;
+}
+
+.country_selector .fi {
+  margin-right: 10px;
+}
+
+.country_selector {
+   &.selectize-control {
+      width: 100%;
+      position: relative;
+      &::after {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-family: Fontawesome;
+        content: "\f078";
+        z-index: 1;
+        color: $dark-grey;
+      }
+   }
+}

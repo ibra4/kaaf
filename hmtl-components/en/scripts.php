@@ -8,6 +8,11 @@
 <script src="/assets/js/main.js"></script>
 <script src="/assets/js/wizard.js"></script>
 
+<!-- <script src="/assets/js/microplugin.min"></script>
+<script src="/assets/js/sifter.min.js"></script> -->
+<script src="/assets/js/selectize.min.js"></script>
+<script src="/assets/js/jquery-ui.js"></script>
+
 <script type="text/javascript" src="/assets/js/slick.min.js"></script>
 </body>
 

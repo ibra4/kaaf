@@ -79,3 +79,23 @@ html[dir="ltr"] {
     }
   }
 }
+
+.ui-slider-handle {
+  background-color: $dark-purple !important;
+  border-radius: 50% !important;
+  border: 1px solid $dark-purple !important;
+  height: 15px !important;
+  width: 15px !important;
+  top: -5px !important;
+}
+
+.ui-slider {
+  height: 5px !important;
+  background-color: $light-grey !important;
+  border-color: $light-grey !important;
+}
+
+.ui-slider-range {
+  background-color: $dark-purple !important;
+  height: 5px !important;
+}

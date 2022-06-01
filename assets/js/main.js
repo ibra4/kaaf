@@ -142,13 +142,6 @@ $(function () {
     $(this).find(".dropdown-title").text($(this).find("span").text());
   });
 
-  // $(".navbar-collapse").on("shown.bs.collapse", function (e) {
-  //   $(".dropdown-menu").css(
-  //     "height",
-  //     $(this).find(".navbar-nav").height() + 90
-  //   );
-  // });
-
   $(".navbar-collapse.desktop-menu").on("show.bs.collapse", function (e) {
     $(this).css("display", "none");
   });
@@ -178,6 +171,73 @@ $(function () {
     url: "/ajax_file_upload_handler/",
     success: function (file, response) {
       console.log(response);
+    },
+  });
+
+  $(".country_selector").selectize({
+    render: {
+      option: function (data, escape) {
+        return (
+          '<div class="option"><span class="fi fi-' +
+          String(escape(data.value)).toLowerCase() +
+          '"></span>' +
+          escape(data.text) +
+          "</div>"
+        );
+      },
+      item: function (data, escape) {
+        return (
+          '<div class="item"><span class="fi fi-' +
+          String(escape(data.value)).toLowerCase() +
+          '"></span>' +
+          escape(data.text) +
+          "</div>"
+        );
+      },
+    },
+  });
+
+  // function getRangeSliderVals() {
+  //   // Get slider values
+  //   var parent = this.parentNode;
+  //   var slides = parent.getElementsByTagName("input");
+  //   var slide1 = parseFloat(slides[0].value);
+  //   var slide2 = parseFloat(slides[1].value);
+  //   // Neither slider will clip the other, so make sure we determine which is larger
+  //   if (slide1 > slide2) {
+  //     var tmp = slide2;
+  //     slide2 = slide1;
+  //     slide1 = tmp;
+  //   }
+
+  //   $('#from').val(slide1)
+  //   $('#to').val(slide2)
+  //   // var displayElement = parent.getElementsByClassName("rangeValues")[0];
+  //   // displayElement.innerHTML = slide1 + " - " + slide2;
+  // }
+
+  // // Initialize Sliders
+  // var sliderSections = document.getElementsByClassName("range-slider");
+  // for (var x = 0; x < sliderSections.length; x++) {
+  //   var sliders = sliderSections[x].getElementsByTagName("input");
+  //   for (var y = 0; y < sliders.length; y++) {
+  //     if (sliders[y].type === "range") {
+  //       sliders[y].oninput = getRangeSliderVals;
+  //       // Manually trigger event first time to display values
+  //       sliders[y].oninput();
+  //     }
+  //   }
+  // }
+
+  $("#slider-range").slider({
+    range: true,
+    min: 50,
+    max: 250,
+    values: [100, 200],
+    slide: function (event, ui) {
+      // $("#amount").val("$" + ui.values[0] + " - $" + ui.values[1]);
+      $("#from").val(ui.values[0]);
+      $("#to").val(ui.values[1]);
     },
   });
 });
