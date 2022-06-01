@@ -276,6 +276,9 @@
 }
 
 @media (max-width: 768px) {
+  .success-stories-item {
+    flex-direction: column-reverse;
+  }
   .banner-title {
     font-size: 50px;
   }

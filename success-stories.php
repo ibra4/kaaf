@@ -12,40 +12,40 @@
     <div class="row">
         <div class="col-lg-6 mb-3">
             <div class="success-stories-item bg-white p-3">
-                <div class="container">
+                <div class="container mb-3">
                     <h2 class="font-size-lg my-3">Lorem ipsum dolor sit amet</h2>
                     <p class="color-dark-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                    <a href="#" class="btn btn-lg btn-purple rounded">Read more</a>
+                    <a href="/success-story-inner.php" class="btn btn-lg btn-purple rounded">Read more</a>
                 </div>
                 <img class="rounded" src="/assets/images/arms.png" alt="">
             </div>
         </div>
         <div class="col-lg-6 mb-3">
             <div class="success-stories-item bg-white p-3">
-                <div class="container">
+                <div class="container mb-3">
                     <h2 class="font-size-lg my-3">Lorem ipsum dolor sit amet</h2>
                     <p class="color-dark-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                    <a href="#" class="btn btn-lg btn-purple rounded">Read more</a>
+                    <a href="/success-story-inner.php" class="btn btn-lg btn-purple rounded">Read more</a>
                 </div>
                 <img class="rounded" src="/assets/images/arms.png" alt="">
             </div>
         </div>
         <div class="col-lg-6 mb-3">
             <div class="success-stories-item bg-white p-3">
-                <div class="container">
+                <div class="container mb-3">
                     <h2 class="font-size-lg my-3">Lorem ipsum dolor sit amet</h2>
                     <p class="color-dark-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                    <a href="#" class="btn btn-lg btn-purple rounded">Read more</a>
+                    <a href="/success-story-inner.php" class="btn btn-lg btn-purple rounded">Read more</a>
                 </div>
                 <img class="rounded" src="/assets/images/arms.png" alt="">
             </div>
         </div>
         <div class="col-lg-6 mb-3">
             <div class="success-stories-item bg-white p-3">
-                <div class="container">
+                <div class="container mb-3">
                     <h2 class="font-size-lg my-3">Lorem ipsum dolor sit amet</h2>
                     <p class="color-dark-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                    <a href="#" class="btn btn-lg btn-purple rounded">Read more</a>
+                    <a href="/success-story-inner.php" class="btn btn-lg btn-purple rounded">Read more</a>
                 </div>
                 <img class="rounded" src="/assets/images/arms.png" alt="">
             </div>
