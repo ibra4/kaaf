@@ -70,3 +70,12 @@ html[dir="ltr"] {
 .select2-container--default .select2-search--dropdown .select2-search__field {
   border-color: $dark-purple !important;
 }
+
+#success-story-inner {
+  .social-media-links {
+    a {
+      color: $grey;
+      border: 1px solid $grey;
+    }
+  }
+}

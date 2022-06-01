@@ -279,12 +279,17 @@
   .success-stories-item {
     flex-direction: column-reverse;
   }
+
   .banner-title {
     font-size: 50px;
   }
 
   .font-size-md2 {
     font-size: 14px;
+  }
+
+  .font-size-xxl2 {
+    font-size: 40px;
   }
 
   .success-stories-item {
@@ -295,6 +300,10 @@
     .container {
       padding-left: 0;
     }
+  }
+
+  .btn-social {
+    width: 100%;
   }
 
   .btn-wide {
