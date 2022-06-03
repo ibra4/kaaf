@@ -635,6 +635,7 @@
 .paragraphs-container {
   p {
     margin-bottom: 20px;
+    max-width: 80%;
   }
 }
 
@@ -726,5 +727,11 @@
     &:last-of-type {
       border-right: unset;
     }
+  }
+}
+
+.individual-kafalat-content {
+  > * {
+    justify-content: flex-end;
   }
 }

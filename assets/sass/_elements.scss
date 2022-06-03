@@ -147,6 +147,9 @@ ul {
 .font-size-xs {
   font-size: $font-size-xs;
 }
+.font-size-xs2 {
+  font-size: $font-size-xs2;
+}
 
 .mw-715px {
   max-width: 715px;
@@ -244,6 +247,22 @@ ul {
   }
 }
 
+.btn-light-purple {
+  background-color: $light-purple;
+  color: $dark-purple;
+  justify-content: center;
+  i {
+    color: $red;
+  }
+  &:hover {
+    background-color: $light-grey;
+    svg {
+      color: $dark-purple
+    }
+    // border-color: $dark-purple;
+  }
+}
+
 .small-purple-title {
   color: $dark-purple;
   font-size: 16px;
@@ -338,4 +357,8 @@ ul {
 
 .btn-wide {
   width: 447px;
+}
+
+.extra-space {
+  padding: 50px;
 }

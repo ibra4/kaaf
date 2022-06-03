@@ -2,6 +2,9 @@
   .container {
     max-width: 1364px;
   }
+  .paragraph-80 {
+    width: 80%;
+  }
   .desktop-menu .navbar-nav {
     flex: 1;
     justify-content: center;
@@ -12,9 +15,9 @@
 }
 
 @media (min-width: 1537px) {
-  // .nav-item {
-  //   padding: 20px 10px;
-  // }
+  .individual-kafalat-content {
+    margin-top: -120px;
+  }
 }
 
 @media (min-width: 1201px) and (max-width: 1536px) {
@@ -278,6 +281,36 @@
 @media (max-width: 768px) {
   .success-stories-item {
     flex-direction: column-reverse;
+  }
+
+  .individual-kafala {
+    .p-5 {
+      padding: 15px 0 !important;
+    }
+  }
+
+  .individual-kafala-orphans {
+    padding: 20px !important;
+  }
+
+  .paragraphs-container {
+    p {
+      max-width: 100%;
+    }
+  }
+
+  .individual-kafalat-content {
+    > * {
+      justify-content: space-between;
+    }
+    .footer {
+      flex-direction: column;
+      button {
+        width: 100%;
+        margin-left: 0 !important;
+        margin-bottom: 15px;
+      }
+    }
   }
 
   .banner-title {
