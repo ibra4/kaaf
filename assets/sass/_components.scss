@@ -111,6 +111,16 @@
   &.permissible {
     background-color: $purple;
   }
+  &.completed {
+    background-color: $white;
+    color: $green;
+    position: relative;
+    &:before {
+      font-family: Fontawesome;
+      content: "\f00c";
+      margin-right: 10px;
+    }
+  }
 }
 .latest-project-card {
   position: relative;
@@ -119,7 +129,13 @@
   overflow: hidden;
   background-color: white;
   direction: ltr;
-  .status-label {
+  &.latest-project-card-column {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .status-label-wrapper {
     position: absolute;
     top: 15px;
     left: 15px;
@@ -129,6 +145,7 @@
     font-size: 12px;
     .btn {
       display: flex;
+      align-items: center;
       font-size: 12px;
       font-weight: bold;
     }
