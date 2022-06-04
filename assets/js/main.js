@@ -197,47 +197,25 @@ $(function () {
     },
   });
 
-  // function getRangeSliderVals() {
-  //   // Get slider values
-  //   var parent = this.parentNode;
-  //   var slides = parent.getElementsByTagName("input");
-  //   var slide1 = parseFloat(slides[0].value);
-  //   var slide2 = parseFloat(slides[1].value);
-  //   // Neither slider will clip the other, so make sure we determine which is larger
-  //   if (slide1 > slide2) {
-  //     var tmp = slide2;
-  //     slide2 = slide1;
-  //     slide1 = tmp;
-  //   }
-
-  //   $('#from').val(slide1)
-  //   $('#to').val(slide2)
-  //   // var displayElement = parent.getElementsByClassName("rangeValues")[0];
-  //   // displayElement.innerHTML = slide1 + " - " + slide2;
-  // }
-
-  // // Initialize Sliders
-  // var sliderSections = document.getElementsByClassName("range-slider");
-  // for (var x = 0; x < sliderSections.length; x++) {
-  //   var sliders = sliderSections[x].getElementsByTagName("input");
-  //   for (var y = 0; y < sliders.length; y++) {
-  //     if (sliders[y].type === "range") {
-  //       sliders[y].oninput = getRangeSliderVals;
-  //       // Manually trigger event first time to display values
-  //       sliders[y].oninput();
-  //     }
-  //   }
-  // }
-
   $("#slider-range").slider({
     range: true,
     min: 50,
     max: 250,
     values: [100, 200],
     slide: function (event, ui) {
-      // $("#amount").val("$" + ui.values[0] + " - $" + ui.values[1]);
       $("#from").val(ui.values[0]);
       $("#to").val(ui.values[1]);
     },
+  });
+
+  $(".gallery-wrapper .img-wrapper").on("click", function () {
+    $(".img-wrapper").removeClass("active");
+    $(this).addClass("active");
+    $(this)
+      .parent()
+      .parent()
+      .find(".gallery-preview")
+      .attr("src", $(this).find("img").attr("src"));
+    console.log();
   });
 });

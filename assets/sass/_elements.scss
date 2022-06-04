@@ -93,24 +93,6 @@ ul {
   }
 }
 
-.progress-bar {
-  position: relative;
-  height: 5px;
-  width: 100%;
-  background-color: $light-grey;
-  border-radius: 3px;
-}
-
-.progress-bar-value {
-  width: 60%;
-  background-color: $dark-purple;
-  top: 0;
-  left: 0;
-  height: 100%;
-  position: absolute;
-  border-radius: 3px;
-}
-
 .banner-title {
   font-size: $font-size-xxl;
 }
@@ -149,6 +131,10 @@ ul {
 }
 .font-size-xs2 {
   font-size: $font-size-xs2;
+}
+
+.font-size-xxs {
+  font-size: $font-size-xxs;
 }
 
 .mw-715px {
