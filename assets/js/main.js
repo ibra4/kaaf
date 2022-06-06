@@ -96,21 +96,31 @@ $(function () {
 
   $(".increase-5").on("click", function (e) {
     e.preventDefault();
-    changeCount(this, "increase");
+    changeCount(this, "increase", 5);
   });
 
   $(".decrease-5").on("click", function (e) {
     e.preventDefault();
-    changeCount(this, "decrease");
+    changeCount(this, "decrease", 5);
   });
 
-  function changeCount(button, type) {
+  $(".increase-1").on("click", function (e) {
+    e.preventDefault();
+    changeCount(this, "increase", 1);
+  });
+
+  $(".decrease-1").on("click", function (e) {
+    e.preventDefault();
+    changeCount(this, "decrease", 1);
+  });
+
+  function changeCount(button, type, amount) {
     const targetInput = $(button).parent().find("input");
     let value = parseInt(targetInput.val());
     if (type == "increase") {
-      targetInput.val(value + 5);
-    } else if (type == "decrease" && value > 5) {
-      targetInput.val(value - 5);
+      targetInput.val(value + amount);
+    } else if (type == "decrease" && value > amount) {
+      targetInput.val(value - amount);
     }
   }
 
@@ -217,5 +227,17 @@ $(function () {
       .find(".gallery-preview")
       .attr("src", $(this).find("img").attr("src"));
     console.log();
+  });
+
+  $("input[name='payment_type']").on("change", function () {
+    if ($(this).val() == "credit") {
+      $("#credit_card_details").animate({
+        opacity: "1"
+      }, 200);
+    } else {
+      $("#credit_card_details").animate({
+        opacity: "0"
+      }, 200);
+    }
   });
 });

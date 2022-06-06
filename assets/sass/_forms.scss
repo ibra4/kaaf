@@ -1,5 +1,4 @@
 .form-control {
-  border-radius: 0;
   &:focus {
     box-shadow: 0 0 0.2rem rgba($color: $dark-purple, $alpha: 0.25);
     border-color: $dark-purple;
@@ -21,6 +20,13 @@
 .white-radios {
   .form-check-input {
     &.custom {
+      &.purple {
+        &:checked {
+          &:before {
+            background-color: $dark-purple;
+          }
+        }
+      }
       &:checked {
         &:before {
           background-color: $yellow;

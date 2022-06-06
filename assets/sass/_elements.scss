@@ -21,6 +21,12 @@ h3 {
 .flex-1 {
   flex: 1;
 }
+.flex-2 {
+  flex: 2;
+}
+.flex-3 {
+  flex: 3;
+}
 
 img {
   &.flag {
@@ -69,6 +75,11 @@ img {
 }
 
 .btn {
+  padding: 13px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
   &.btn-lg {
     height: 56px;
     font-size: 19px;
@@ -133,6 +144,10 @@ ul {
   font-size: $font-size-xs2;
 }
 
+.font-size-xs3 {
+  font-size: $font-size-xs3;
+}
+
 .font-size-xxs {
   font-size: $font-size-xxs;
 }
@@ -162,6 +177,10 @@ ul {
 .bg-dark-purple {
   background-color: $dark-purple;
   color: $white;
+}
+
+.bg-light-purple {
+  background-color: $light-purple;
 }
 
 /* Colors */
