@@ -192,6 +192,14 @@ ul {
   color: $white !important;
 }
 
+.color-danger {
+  color: $danger !important;
+}
+
+.color-red {
+  color: $red !important;
+}
+
 .color-dark-grey {
   color: $dark-grey !important;
 }
@@ -256,9 +264,6 @@ ul {
   background-color: $light-purple;
   color: $dark-purple;
   justify-content: center;
-  i {
-    color: $red;
-  }
   &:hover {
     background-color: $light-grey;
     svg {

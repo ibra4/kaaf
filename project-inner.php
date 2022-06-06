@@ -81,7 +81,7 @@
                             <span class="mr-4">BHD</span>
                         </div>
                         <button class="btn btn-light-purple btn-md color-dark-purple d-flex align-items-center rounded mb-3">
-                            <i class="fa fa-shopping-cart mr-2"></i>
+                            <i class="fa fa-shopping-cart color-red mr-2"></i>
                             Add
                         </button>
                         <button class="btn btn-purple btn-md rounded ml-3 mb-3">Fast Donation</button>

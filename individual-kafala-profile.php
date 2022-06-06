@@ -73,7 +73,7 @@
                         </p>
                         <button class="btn btn-light-purple btn-md color-dark-purple d-flex align-items-center rounded">
                             Add
-                            <i class="fa fa-shopping-cart ml-2"></i>
+                            <i class="fa fa-shopping-cart color-red ml-2"></i>
                         </button>
                         <button class="btn btn-purple btn-md rounded ml-3">Fast Donation</button>
                     </div>
