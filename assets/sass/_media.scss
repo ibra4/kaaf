@@ -283,6 +283,41 @@
     flex-direction: column-reverse;
   }
 
+  .bank-account-cridentials {
+    > * {
+      flex: 100%;
+    }
+  }
+
+  #contact-page {
+    .cart-white-section {}
+    
+    .contact-info-list {
+      background-color: $light-purple !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+    .contact-wrapper {
+      background-color: $light-purple !important;
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+    }
+
+    .contact-form-wrapper {
+      border-radius: 10px;
+      background-color: $white !important;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+
+    .branches-img {
+      height: 350px;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
   .cart-page-footer {
     .cart-page-footer-total {
       width: 100%;
@@ -316,8 +351,12 @@
       padding-left: 1rem !important;
       padding-right: 1rem !important;
     }
+    &.px-5 {
+      padding-left: 1rem !important;
+      padding-right: 1rem !important;
+    }
   }
-  
+
   .cart-table {
     background-color: $white;
     border-top: unset;

@@ -1,0 +1,899 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css?v=13">
+
+    <link rel="stylesheet" type="text/css" href="/assets/css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/dropzone.min.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/select2.min.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/flag-icons.min.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/selectize.bootstrap4.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/jquery-ui.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Home Page</title>
+</head>
+
+<body>
+    <div class="nav-container">
+        <nav class="navbar navbar-expand-lg p-0 m-auto">
+            <a class="navbar-brand d-block d-lg-none" href="/">
+                <img src="/assets/icon/logo.svg" alt="logo">
+            </a>
+            <div class="d-flex d-lg-none navbar-mobile">
+                <div class="d-flex align-items-center justify-content-between color-white">
+                    <button class="btn mx-2" data-toggle="collapse" data-target="#navbarSearchContent"
+                        aria-controls="navbarSearchContent" aria-expanded="false">
+                        <i class="fa fa-search color-white"></i>
+                    </button>
+                    <a href="/ar" class="lang-button mx-2">
+                        ع
+                    </a>
+                    <a href="#" class="color-white mx-2">
+                        <span class="notifications-count">3</span>
+                        <i class="fa fa-shopping-cart"></i>
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse p-4" id="navbarSearchContent">
+                <input type="text" class="form-control search" name="search" placeholder="Search Projects">
+            </div>
+
+            <!-- Start Desktop Collapse -->
+            <div class="collapse navbar-collapse desktop-menu" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <a class="navbar-brand d-none d-lg-flex" href="/">
+                        <img src="/assets/icon/logo.svg" alt="logo">
+                    </a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarKafaratDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Sadaqat & Kafarat
+                        </a>
+                        <div class="dropdown-menu links-dropdown px-4 py-3">
+                            <button class="btn btn-yellow rounded">General donation for sadaqat</button>
+                            <div class="row pt-4">
+                                <div class="col-md-4 mb-3">
+                                    <ul class="no-style submenu">
+                                        <li>Ongoing sadaqa</li>
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#" class="yellow">4</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <ul class="no-style submenu">
+                                        <li>Dawi's sadaqa</li>
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#" class="yellow">4</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <ul class="no-style submenu">
+                                        <li>Kafara</li>
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#" class="yellow">4</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarProjectsDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Bahrain Projects
+                        </a>
+                        <div class="dropdown-menu links-dropdown px-4 py-3" aria-labelledby="navbarProjectsDropdown">
+                            <button class="btn btn-yellow rounded">General donation for sadaqat</button>
+                            <div class="row pt-4">
+                                <div class="col-md-4 mb-3">
+                                    <ul class="no-style submenu">
+                                        <li>Ongoing sadaqa</li>
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#" class="yellow">4</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <ul class="no-style submenu">
+                                        <li>Dawi's sadaqa</li>
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#" class="yellow">4</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <ul class="no-style submenu">
+                                        <li>Kafara</li>
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#" class="yellow">4</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <ul class="no-style submenu">
+                                        <li>Kafara</li>
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#" class="yellow">4</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <ul class="no-style submenu">
+                                        <li>Kafara</li>
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#" class="yellow">4</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <ul class="no-style submenu">
+                                        <li>Kafara</li>
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#" class="yellow">4</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <ul class="no-style submenu">
+                                        <li>Kafara</li>
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#" class="yellow">4</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <ul class="no-style submenu">
+                                        <li>Kafara</li>
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#" class="yellow">4</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <ul class="no-style submenu">
+                                        <li>Kafara</li>
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#" class="yellow">4</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarReliefDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Relief
+                        </a>
+                        <div class="dropdown-menu links-dropdown px-4 py-3" aria-labelledby="navbarReliefDropdown">
+                            <button class="btn btn-yellow rounded">General donation for sadaqat</button>
+                            <div class="row pt-4">
+                                <div class="col-md-4 mb-3">
+                                    <ul class="no-style submenu">
+                                        <li>Ongoing sadaqa</li>
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#" class="yellow">4</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <ul class="no-style submenu">
+                                        <li>Dawi's sadaqa</li>
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#">4</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link">Zakat</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Kafalat</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Kaaf?</a></li>
+                    <li class="nav-item d-flex align-items-center seasonal-container mx-2"><button
+                            class="btn btn-yellow btn-border-radius">Seasonal Projects</button></li>
+
+                    <li class="nav-item d-none d-lg-block">
+                        <form action="/build/search.html" method="post" class="icon-input">
+                            <input type="text" placeholder="General search in the website" id="">
+                            <input type="image" src="/assets/icon/search.svg" alt="Submit" />
+                        </form>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="px-2">BHD</span>
+                            <i class="fa fa-chevron-down"></i>
+                        </a>
+                        <div class="dropdown-menu flags-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item active" href="#">
+                                BHD
+                                <img class="flag" src="/assets/icon/flags/bh.svg" alt="">
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                KWT
+                                <img class="flag" src="/assets/icon/flags/kw.svg" alt="">
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                AED
+                                <img class="flag" src="/assets/icon/flags/ae.svg" alt="">
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                SAR
+                                <img class="flag" src="/assets/icon/flags/sa.svg" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item d-none d-lg-block">
+                        <a href="/ar" class="lang-button">
+                            ع
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown donation-block d-none d-lg-block px-3">
+                        <a href="#" class="nav-link">
+                            <i class="fa fa-shopping-cart ml-2"></i>
+                            <span class="px-2 hide-1200">Donation Cart</span>
+                            <span class="notifications-count">3</span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">
+                                Relief
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                Stabality
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                Development
+                            </a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" type="button" data-toggle="modal" data-target="#loginModal">
+                            <i class="fa fa-user"></i>
+                            <span class="px-2 hide-1200">Sign In</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- End Desktop Collapse -->
+
+
+
+            <!-- Start Mobile Collapse -->
+            <div class="collapse navbar-collapse mobile-menu" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" type="button" data-toggle="modal" data-target="#loginModal">
+                            <i class="fa fa-user"></i>
+                            <span class="px-2">Sign In</span>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img class="flag" src="/assets/icon/flags/bh.svg" alt="">
+                            <span class="px-2">Curruncy (BHD)</span>
+                        </a>
+                        <div class="dropdown-menu flags-menu" aria-labelledby="navbarDropdown">
+                            <div class="back-to-main-menu">Back to main menu</div>
+                            <div class="dropdown-title">Curruncy</div>
+                            <a class="dropdown-item active" href="#">
+                                <img class="flag" src="/assets/icon/flags/bh.svg" alt="">
+                                BHD
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <img class="flag" src="/assets/icon/flags/kw.svg" alt="">
+                                KWT
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <img class="flag" src="/assets/icon/flags/ae.svg" alt="">
+                                AED
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <img class="flag" src="/assets/icon/flags/sa.svg" alt="">
+                                SAR
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarKafaratDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Sadaqat & Kafarat
+                        </a>
+                        <div class="dropdown-menu">
+                            <div class="back-to-main-menu">Back to main menu</div>
+                            <div class="dropdown-title">Sadaqat & Kafarat</div>
+                            <div class="dropdown-item has-submenu">
+                                <span>Ongoing sadaqa</span>
+                                <div class="dropdown-menu">
+                                    <div class="back-to-main-menu">Back to Ongoing sadaqa</div>
+                                    <div class="dropdown-title"></div>
+                                    <a class="dropdown-item" href="#">Ongoing sadaqa 1</a>
+                                    <a class="dropdown-item" href="#">Ongoing sadaqa 2</a>
+                                    <a class="dropdown-item" href="#">Ongoing sadaqa 3</a>
+                                    <a class="dropdown-item color-yellow" href="#">Ongoing sadaqa 4</a>
+                                </div>
+                            </div>
+                            <div class="dropdown-item has-submenu">
+                                <span>Sadaqa</span>
+                                <div class="dropdown-menu">
+                                    <div class="back-to-main-menu">Back to Sadaqa</div>
+                                    <div class="dropdown-title"></div>
+                                    <a class="dropdown-item" href="#">Sadaqa 1</a>
+                                    <a class="dropdown-item" href="#">Sadaqa 2</a>
+                                    <a class="dropdown-item" href="#">Sadaqa 3</a>
+                                    <a class="dropdown-item" href="#">Sadaqa 4</a>
+                                </div>
+                            </div>
+                            <div class="dropdown-item has-submenu">
+                                <span>Kafara</span>
+                                <div class="dropdown-menu">
+                                    <div class="back-to-main-menu">Back to Kafara</div>
+                                    <div class="dropdown-title"></div>
+                                    <a class="dropdown-item" href="#">Kafara 1</a>
+                                    <a class="dropdown-item" href="#">Kafara 2</a>
+                                    <a class="dropdown-item" href="#">Kafara 3</a>
+                                    <a class="dropdown-item" href="#">Kafara 4</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarProjectsDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Bahrain Projects
+                        </a>
+                        <div class="dropdown-menu">
+                            <div class="back-to-main-menu">Back to main menu</div>
+                            <div class="dropdown-title">Bahrain Projects</div>
+                            <div class="dropdown-item has-submenu">
+                                <span>Social Projects</span>
+                                <div class="dropdown-menu">
+                                    <div class="back-to-main-menu">Back to Social Projects</div>
+                                    <div class="dropdown-title"></div>
+                                    <a class="dropdown-item" href="#">Social Projects 1</a>
+                                    <a class="dropdown-item" href="#">Social Projects 2</a>
+                                    <a class="dropdown-item" href="#">Social Projects 3</a>
+                                    <a class="dropdown-item color-yellow" href="#">Social Projects 4</a>
+                                </div>
+                            </div>
+                            <div class="dropdown-item has-submenu">
+                                <span>Housing and Restoration Projects</span>
+                                <div class="dropdown-menu">
+                                    <div class="back-to-main-menu">Back to Housing and Restoration Projects</div>
+                                    <div class="dropdown-title"></div>
+                                    <a class="dropdown-item" href="#">Housing 1</a>
+                                    <a class="dropdown-item" href="#">Housing 2</a>
+                                    <a class="dropdown-item" href="#">Housing 3</a>
+                                    <a class="dropdown-item color-yellow" href="#">Housing 4</a>
+                                </div>
+                            </div>
+                            <div class="dropdown-item has-submenu">
+                                <span>Educational Projects</span>
+                                <div class="dropdown-menu">
+                                    <div class="back-to-main-menu">Back to Educational Projects</div>
+                                    <div class="dropdown-title"></div>
+                                    <a class="dropdown-item" href="#">Educational Projects 1</a>
+                                    <a class="dropdown-item" href="#">Educational Projects 2</a>
+                                    <a class="dropdown-item" href="#">Educational Projects 3</a>
+                                    <a class="dropdown-item" href="#">Educational Projects 4</a>
+                                </div>
+                            </div>
+
+                            <div class="dropdown-item has-submenu">
+                                <span>Eslah Community Services Center</span>
+                                <div class="dropdown-menu">
+                                    <div class="back-to-main-menu">Back to Eslah Community Services Center</div>
+                                    <div class="dropdown-title"></div>
+                                    <a class="dropdown-item" href="#">Eslah Community 1</a>
+                                    <a class="dropdown-item" href="#">Eslah Community 2</a>
+                                    <a class="dropdown-item" href="#">Eslah Community 3</a>
+                                    <a class="dropdown-item" href="#">Eslah Community 4</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarReliefDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Relief
+                        </a>
+                        <div class="dropdown-menu">
+                            <div class="back-to-main-menu">Back to main menu</div>
+                            <div class="dropdown-title">Relief</div>
+                            <div class="dropdown-item has-submenu">
+                                <span>Countries</span>
+                                <div class="dropdown-menu">
+                                    <div class="back-to-main-menu">Back to Relief</div>
+                                    <div class="dropdown-title"></div>
+                                    <a class="dropdown-item" href="#">Countries 1</a>
+                                    <a class="dropdown-item" href="#">Countries 2</a>
+                                    <a class="dropdown-item" href="#">Countries 3</a>
+                                    <a class="dropdown-item color-yellow" href="#">Countries 4</a>
+                                </div>
+                            </div>
+                            <div class="dropdown-item has-submenu">
+                                <span>Journies</span>
+                                <div class="dropdown-menu">
+                                    <div class="back-to-main-menu">Back to Journies</div>
+                                    <div class="dropdown-title"></div>
+                                    <a class="dropdown-item" href="#">Journies 1</a>
+                                    <a class="dropdown-item" href="#">Journies 2</a>
+                                    <a class="dropdown-item" href="#">Journies 3</a>
+                                    <a class="dropdown-item" href="#">Journies 4</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link">Zakat</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Kafalat</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Kaaf?</a></li>
+                    <li class="nav-item d-flex align-items-center seasonal-container mx-2"><button
+                            class="btn btn-yellow btn-border-radius">Seasonal Projects</button></li>
+
+                    <li class="nav-item d-none d-lg-block">
+                        <form action="/build/search.html" method="post" class="icon-input">
+                            <input type="text" placeholder="General search in the website" id="">
+                            <input type="image" src="/assets/icon/search.svg" alt="Submit" />
+                        </form>
+                    </li>
+                    <li class="nav-item d-none d-lg-block">
+                        <a href="/ar" class="lang-button">
+                            ع
+                        </a>
+                    </li>
+                    <li class="nav-item donation-block d-none d-lg-block px-3">
+                        <a href="#" class="nav-link">
+                            <i class="fa fa-shopping-cart ml-2"></i>
+                            <span class="px-2s">Donation Cart</span>
+                            <span class="notifications-count">3</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- End Mobile Collapse -->
+
+
+
+        </nav>
+    </div>
+    <main id="contact-page" class="py-5">
+        <div class="container position-relative cart-wrapper mt-0">
+            <div class="cart-white-section bg-white rounded px-5 py-5 mb-3 contact-wrapper">
+                <div class="col-md-11 m-auto">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-6 mb-3 contact-form-wrapper">
+                            <h1 class="font-size-md mb-4">Contact us</h1>
+                            <div class="row">
+                                <div class="col-lg-7">
+                                    <form action="#" method="POST">
+                                        <div class="form-group">
+                                            <label for="full_name">Full name</label>
+                                            <input type="text" id="full_name" name="full_name" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="email">Email address</label>
+                                            <input type="email" id="email" name="email" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="phone_number">Phone number</label>
+                                            <div class="form-row">
+                                                <div class="col-4">
+                                                    <select name="phone_number_prefix" id="phone_number_prefix"
+                                                        class="form-control">
+                                                        <option value="+962">+962</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-8">
+                                                    <input type="text" id="phone_number" name="phone_number"
+                                                        class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="subject">Subject</label>
+                                            <input type="text" id="subject" name="subject" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="subject">Message</label>
+                                            <textarea id="message" name="message" class="form-control"
+                                                rows="4"></textarea>
+                                        </div>
+                                        <button class="btn btn-purple rounded">
+                                            <span class="pr-2">Send</span>
+                                            <i class="fa fa-solid fa-right-long"></i>
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-3">
+                            <div class="bg-light-purple br-10 p-3 contact-info-list">
+                                <h3 class="font-size-sm mb-3">Call us</h3>
+                                <div class="mb-2">
+                                    <div class="color-dark-purple font-size-xs">MAIN BRANCH</div>
+                                    <div class="color-dark-grey font-size-xs">Bldg 589 Rd 718 Block 207, Muharraq</div>
+                                </div>
+                                <div class="mb-2">
+                                    <div class="color-dark-purple font-size-xs">P.O. BOX</div>
+                                    <div class="color-dark-grey font-size-xs">23025 - Muharraq - Bahrain</div>
+                                </div>
+                                <div class="mb-2">
+                                    <div class="color-dark-purple font-size-xs">PHONE</div>
+                                    <div class="color-dark-grey font-size-xs">(+973) 1733 3090</div>
+                                </div>
+                                <div class="mb-2">
+                                    <div class="color-dark-purple font-size-xs">FIX</div>
+                                    <div class="color-dark-grey font-size-xs">(+973) 1733 3090</div>
+                                </div>
+                                <div class="mb-2">
+                                    <div class="color-dark-purple font-size-xs">HOTLINE</div>
+                                    <div class="color-dark-grey font-size-xs">(+973) 36006166</div>
+                                </div>
+                                <hr class="my-4">
+                                <h3 class="font-size-sm mb-3">Working hours (Main branch)</h3>
+                                <div class="mb-2">
+                                    <div class="color-dark-purple font-size-xs">ADMINISTRATION</div>
+                                    <div class="color-dark-grey font-size-xs">From Sunday to Thursday: 8 AM to 3:30 PM
+                                    </div>
+                                </div>
+                                <div class="mb-2">
+                                    <div class="color-dark-purple font-size-xs">FINANCE (RECEIVING DONATIONS)</div>
+                                    <div class="color-dark-grey font-size-xs">From Saturday to Thursday</div>
+                                </div>
+                                <div class="mb-2">
+                                    <div class="font-size-xs">Morning shift</div>
+                                    <div class="color-dark-grey font-size-xs">8 AM to 1 PM</div>
+                                </div>
+                                <div class="mb-2">
+                                    <div class="font-size-xs">Evening shift</div>
+                                    <div class="color-dark-grey font-size-xs">6 PM to 9 PM (except Thursdays)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-white-section bg-white rounded px-5 py-5 mb-3">
+                <div class="col-md-11 m-auto">
+                    <h3 class="font-size-md mb-4">Our Branches</h3>
+                    <img class="branches-img" src="/assets/images/map-branches.png" alt="" class="w-100">
+                </div>
+            </div>
+            <div class="cart-white-section bg-white rounded px-5 py-5 mb-3">
+                <div class="col-md-11 m-auto">
+                    <h3 class="font-size-md mb-4">Our Bank Account Credentials</h3>
+                    <div class="row justify-content-between flex-wrap bank-account-cridentials">
+                        <div class="col-auto mb-2">
+                            <div class="color-dark-purple font-size-xs">BANK NAME</div>
+                            <div class="color-dark-grey font-size-xs">BAHRAIN ISLAMIC BANK - BISB</div>
+                        </div>
+                        <div class="col-auto mb-2">
+                            <div class="color-dark-purple font-size-xs">SWIFT CODE</div>
+                            <div class="color-dark-grey font-size-xs">BISBBHBM</div>
+                        </div>
+                        <div class="col-auto mb-2">
+                            <div class="color-dark-purple font-size-xs">IBAN</div>
+                            <div class="color-dark-grey font-size-xs">BH67BIBB00100000108158</div>
+                        </div>
+                        <div class="col-auto mb-2">
+                            <div class="color-dark-purple font-size-xs">ACCOUNT NO.</div>
+                            <div class="color-dark-grey font-size-xs">100000108158</div>
+                        </div>
+                        <div class="col-auto mb-2">
+                            <div class="color-dark-purple font-size-xs">ACCOUNT NAME</div>
+                            <div class="color-dark-grey font-size-xs">ALESLAH SOCIETY</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-white-section bg-white rounded px-5 py-5 mb-3">
+                <div class="col-md-11 m-auto">
+                    <h3 class="font-size-md mb-4">Branches to collect and receive donations</h3>
+                    <div class="row color-dark-purple font-size-xs mb-3 d-none d-md-flex">
+                        <div class="col-md-4">BRANCH</div>
+                        <div class="col-md-4">ADDRESS</div>
+                        <div class="col-md-4">PHONE</div>
+                    </div>
+                    <div class="row color-dark-grey">
+                        <div class="col-md-4 mb-3">
+                            <div class="color-dark-purple font-size-xs mb-2 d-block d-md-none">BRANCH</div>
+                            <h3 class="font-size-sm2 font-weight-normal">Main Branch</h3>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="color-dark-purple font-size-xs mb-2 d-block d-md-none">ADDRESS</div>
+                            <h3 class="font-size-sm2 font-weight-normal">Bldg 589 Rd 718 Block 207, Muharraq</h3>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="color-dark-purple font-size-xs mb-2 d-block d-md-none">PHONE</div>
+                            <h3 class="font-size-sm2 font-weight-normal">(+973) 1732 6099</h3>
+                        </div>
+                    </div>
+                    <hr class="d-block d-md-none mb-3">
+                    <div class="row color-dark-grey">
+                        <div class="col-md-4 mb-3">
+                            <div class="color-dark-purple font-size-xs mb-2 d-block d-md-none">BRANCH</div>
+                            <h3 class="font-size-sm2 font-weight-normal">Busaiteen</h3>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="color-dark-purple font-size-xs mb-2 d-block d-md-none">ADDRESS</div>
+                            <h3 class="font-size-sm2 font-weight-normal">Bldg 2530 Rd 2651 Block 226, Busaiteen</h3>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="color-dark-purple font-size-xs mb-2 d-block d-md-none">PHONE</div>
+                            <h3 class="font-size-sm2 font-weight-normal">(+973) 1732 3990</h3>
+                        </div>
+                    </div>
+                    <hr class="d-block d-md-none mb-3">
+                    <div class="row color-dark-grey">
+                        <div class="col-md-4 mb-3">
+                            <div class="color-dark-purple font-size-xs mb-2 d-block d-md-none">BRANCH</div>
+                            <h3 class="font-size-sm2 font-weight-normal">Hidd</h3>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="color-dark-purple font-size-xs mb-2 d-block d-md-none">ADDRESS</div>
+                            <h3 class="font-size-sm2 font-weight-normal">Bldg 230 Hatim Alta’i Block 109, Hidd</h3>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="color-dark-purple font-size-xs mb-2 d-block d-md-none">PHONE</div>
+                            <h3 class="font-size-sm2 font-weight-normal">(+973) 1767 7634</h3>
+                        </div>
+                    </div>
+                    <hr class="d-block d-md-none mb-3">
+                    <div class="row color-dark-grey">
+                        <div class="col-md-4 mb-3">
+                            <div class="color-dark-purple font-size-xs mb-2 d-block d-md-none">BRANCH</div>
+                            <h3 class="font-size-sm2 font-weight-normal">Juffair</h3>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="color-dark-purple font-size-xs mb-2 d-block d-md-none">ADDRESS</div>
+                            <h3 class="font-size-sm2 font-weight-normal">Bldg 2306 Rd 2435 Block 324</h3>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="color-dark-purple font-size-xs mb-2 d-block d-md-none">PHONE</div>
+                            <h3 class="font-size-sm2 font-weight-normal">(+973) 1736 5017</h3>
+                        </div>
+                    </div>
+                    <hr class="d-block d-md-none mb-3">
+                    <div class="row color-dark-grey">
+                        <div class="col-md-4 mb-3">
+                            <div class="color-dark-purple font-size-xs mb-2 d-block d-md-none">BRANCH</div>
+                            <h3 class="font-size-sm2 font-weight-normal">Riffa</h3>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="color-dark-purple font-size-xs mb-2 d-block d-md-none">ADDRESS</div>
+                            <h3 class="font-size-sm2 font-weight-normal">Bldg 376 Rd 3505 Block 935, East Riffa</h3>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="color-dark-purple font-size-xs mb-2 d-block d-md-none">PHONE</div>
+                            <h3 class="font-size-sm2 font-weight-normal">(+973) 1749 1666</h3>
+                        </div>
+                    </div>
+                    <hr class="d-block d-md-none mb-3">
+                    <div class="row color-dark-grey">
+                        <div class="col-md-4 mb-3">
+                            <div class="color-dark-purple font-size-xs mb-2 d-block d-md-none">BRANCH</div>
+                            <h3 class="font-size-sm2 font-weight-normal">Isa Town</h3>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="color-dark-purple font-size-xs mb-2 d-block d-md-none">ADDRESS</div>
+                            <h3 class="font-size-sm2 font-weight-normal">Bldg 3995 Rd 919 Block 809, Isa Town</h3>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="color-dark-purple font-size-xs mb-2 d-block d-md-none">PHONE</div>
+                            <h3 class="font-size-sm2 font-weight-normal">(+973) 1768 6220</h3>
+                        </div>
+                    </div>
+                    <hr class="d-block d-md-none mb-3">
+                    <div class="row color-dark-grey">
+                        <div class="col-md-4 mb-3">
+                            <div class="color-dark-purple font-size-xs mb-2 d-block d-md-none">BRANCH</div>
+                            <h3 class="font-size-sm2 font-weight-normal">Hamad Town</h3>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="color-dark-purple font-size-xs mb-2 d-block d-md-none">ADDRESS</div>
+                            <h3 class="font-size-sm2 font-weight-normal">Bldg 1555 Rd 821 Block 1208, Hamad Town</h3>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="color-dark-purple font-size-xs mb-2 d-block d-md-none">PHONE</div>
+                            <h3 class="font-size-sm2 font-weight-normal">(+973) 1742 2771</h3>
+                        </div>
+                    </div>
+                    <hr class="d-block d-md-none mb-3">
+                    <div class="row color-dark-grey">
+                        <div class="col-md-4 mb-3">
+                            <div class="color-dark-purple font-size-xs mb-2 d-block d-md-none">BRANCH</div>
+                            <h3 class="font-size-sm2 font-weight-normal">Women’s Department</h3>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="color-dark-purple font-size-xs mb-2 d-block d-md-none">ADDRESS</div>
+                            <h3 class="font-size-sm2 font-weight-normal">Bldg 587 Rd 718 Block 207, Muharraq</h3>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="color-dark-purple font-size-xs mb-2 d-block d-md-none">PHONE</div>
+                            <h3 class="font-size-sm2 font-weight-normal">(+973) 1733 2157</h3>
+                        </div>
+                    </div>
+                    <hr class="d-block d-md-none">
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer id="footer" class="color-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="/assets/icon/logo.svg" alt="">
+                    <div class="logo-suffix">Humanitarian</div>
+                    <div class="social-media-links d-flex flex-wrap mt-3">
+                        <a href="#" class="mr-3 mb-3">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="mr-3 mb-3">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                        <a href="#" class="mr-3 mb-3">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="mr-3 mb-3">
+                            <i class="fa-brands fa-instagram-square"></i>
+                        </a>
+                        <a href="#" class="mr-3 mb-3">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </div>
+                    <p class="copyright">A subordinate of Alislah Society - Kingdom of Bahrain</p>
+                </div>
+                <div class="col-md-5">
+                    <p class="font-weight-bold">Important Links For You</p>
+                    <div class="row sitemap">
+                        <div class="col-md-4">
+                            <ul class="no-style">
+                                <li>
+                                    <a href="#">About us</a>
+                                </li>
+                                <li>
+                                    <a href="#">Projects</a>
+                                </li>
+                                <li>
+                                    <a href="#">Kafalat</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <ul class="no-style">
+                                <li>
+                                    <a href="#">About us</a>
+                                </li>
+                                <li>
+                                    <a href="#">Projects</a>
+                                </li>
+                                <li>
+                                    <a href="#">Kafalat</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="contact mb-4">
+                        <p>Hotline: 36006166</p>
+                        <p>P.O. Box: 23025 Muharraq - Kingdom of Bahrain</p>
+                        <p>Phone: (+973) 17333090</p>
+                        <p>Fax: (+973) 17325538</p>
+                    </div>
+                    <div class="newsletter">
+                        <p class="font-weight-bold">Join our Newsletter</p>
+                        <div class="form-group d-flex">
+                            <input type="text" class="form-control" placeholder="Put your email here">
+                            <button class="btn btn-purple">
+                                <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <a data-dismiss="modal" type="button" class="modal-exit">
+                    <i class="fa fa-times color-grey"></i>
+                </a>
+                <div class="modal-body p-0">
+                    <div class="row">
+                        <div class="col-5">
+                            <div class="login-bg" style="background-image: url('/assets/images/login-bg.jpeg');">
+                            </div>
+                        </div>
+                        <div class="col-7">
+                            <div class="container-fluid">
+                                <h4 class="text-center font-weight-bold my-5">Sign In</h4>
+                                <div class="form-group">
+                                    <label for="email">Email Address</label>
+                                    <input class="form-control" type="email" name="email" id="email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="password">Password</label>
+                                    <input class="form-control" type="password" name="password" id="password">
+                                </div>
+                                <div class="form-group">
+                                    <a href="#" class="color-dark-purple font-weight-bold">Forgot Password</a>
+                                </div>
+                                <div class="form-group">
+                                    <button class="btn btn-purple rounded w-100">
+                                        <span>Sign in</span>
+                                        <i class="fa-solid fa-right-long ml-2"></i>
+                                    </button>
+                                </div>
+                                <div class="form-group">
+                                    <p>Don’t have an account yet? <a href="#"
+                                            class="color-dark-purple font-weight-bold">Create one now</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/assets/js/jquery.slim.min.js"></script>
+    <script src="/assets/js/jquery2.min.js"></script>
+    <script src="/assets/js/popper.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/slick.min.js"></script>
+    <script src="/assets/js/dropzone.min.js"></script>
+    <script src="/assets/js/select2.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/wizard.js"></script>
+
+    <!-- <script src="/assets/js/microplugin.min"></script>
+<script src="/assets/js/sifter.min.js"></script> -->
+    <script src="/assets/js/selectize.min.js"></script>
+    <script src="/assets/js/jquery-ui.js"></script>
+
+    <script type="text/javascript" src="/assets/js/slick.min.js"></script>
+</body>
+
+</html>
