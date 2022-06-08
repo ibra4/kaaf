@@ -23,7 +23,14 @@
                     </div>
                 </div>
                 <div class="col-md-7 py-3 px-4">
-                    <span class="status-label urgant">urgant</span>
+                    <div class="status-label-wrapper">
+                        <div>
+                            <label class="status-label urgant">Urgant</label>
+                        </div>
+                        <div>
+                            <label class="status-label new">New</label>
+                        </div>
+                    </div>
                     <h2 class="font-size-xl mt-4">Semi-artesian well 60-70m</h2>
                     <div class="d-flex justify-content-start align-items-center font-size-xs">
                         <div class="bg-light-blue color-white light-blue-star p-1">

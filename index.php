@@ -257,7 +257,11 @@
             <div class="col-lg-9 mb-3">
                 <div class="latest-projects-slick">
                     <div class="latest-project-card mx-3">
-                        <label class="status-label new">New</label>
+                        <div class="status-label-wrapper">
+                            <div>
+                                <label class="status-label new">New</label>
+                            </div>
+                        </div>
                         <img src="/assets/images/waterchild.png" alt="">
                         <div class="body pb-0">
                             <h4 class="mb-0">Semi-artesian well 60-70m</h4>
@@ -304,7 +308,11 @@
                         </div>
                     </div>
                     <div class="latest-project-card mx-3">
-                        <label class="status-label urgant">Urgant</label>
+                        <div class="status-label-wrapper">
+                            <div>
+                                <label class="status-label urgant">Urgant</label>
+                            </div>
+                        </div>
                         <img src="/assets/images/waterchild.png" alt="">
                         <div class="body pb-0">
                             <h4 class="mb-0">Semi-artesian well 60-70m</h4>
@@ -351,7 +359,11 @@
                         </div>
                     </div>
                     <div class="latest-project-card mx-3">
-                        <label class="status-label permissible">Zakat permissible</label>
+                        <div class="status-label-wrapper">
+                            <div>
+                                <label class="status-label permissible">Zakat permissible</label>
+                            </div>
+                        </div>
                         <img src="/assets/images/waterchild.png" alt="">
                         <div class="body pb-0">
                             <h4 class="mb-0">Semi-artesian well 60-70m</h4>

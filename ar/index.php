@@ -254,7 +254,11 @@
             <div class="col-lg-9 mb-3">
                 <div class="latest-projects-slick">
                     <div class="latest-project-card mx-3">
-                        <label class="status-label new">جديد</label>
+                        <div class="status-label-wrapper">
+                            <div>
+                                <label class="status-label new">جديد</label>
+                            </div>
+                        </div>
                         <img src="/assets/images/waterchild.png" alt="">
                         <div class="body pb-0">
                             <h4 class="mb-0">بئر شبه ارتوازي 60-70 م</h4>
@@ -301,7 +305,11 @@
                         </div>
                     </div>
                     <div class="latest-project-card mx-3">
-                        <label class="status-label urgant">عاجل</label>
+                        <div class="status-label-wrapper">
+                            <div>
+                                <label class="status-label urgant">عاجل</label>
+                            </div>
+                        </div>
                         <img src="/assets/images/waterchild.png" alt="">
                         <div class="body pb-0">
                             <h4 class="mb-0">بئر شبه ارتوازي 60-70 م</h4>
@@ -348,7 +356,11 @@
                         </div>
                     </div>
                     <div class="latest-project-card mx-3">
-                        <label class="status-label permissible">تجوز الزكاة</label>
+                        <div class="status-label-wrapper">
+                            <div>
+                                <label class="status-label permissible">تجوز الزكاة</label>
+                            </div>
+                        </div>
                         <img src="/assets/images/waterchild.png" alt="">
                         <div class="body pb-0">
                             <h4 class="mb-0">بئر شبه ارتوازي 60-70 م</h4>
