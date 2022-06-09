@@ -1029,3 +1029,10 @@ ul.no-style {
   font-size: 19px;
   font-weight: bold;
 }
+
+.director-image {
+  height: 300px;
+  width: 225px;
+  object-fit: cover;
+  object-position: center;
+}
