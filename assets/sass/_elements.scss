@@ -125,6 +125,9 @@ ul {
 .font-size-lg {
   font-size: $font-size-lg;
 }
+.font-size-lg2 {
+  font-size: $font-size-lg2;
+}
 .font-size-md {
   font-size: $font-size-md;
 }
@@ -156,6 +159,10 @@ ul {
   max-width: 715px;
 }
 
+.mw-640px {
+  max-width: 640px;
+}
+
 .h-450px {
   height: 450px;
 }
@@ -177,6 +184,10 @@ ul {
 .bg-dark-purple {
   background-color: $dark-purple;
   color: $white;
+}
+
+.bg-purple {
+  background-color: $purple;
 }
 
 .bg-light-purple {

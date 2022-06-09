@@ -289,6 +289,26 @@
     }
   }
 
+  .our-message {
+    > div {
+      width: 100%;
+    }
+    img {
+      height: 400px;
+    }
+  }
+  
+  .line-banner {
+    height: 300px;
+    .font-size-xxl {
+      font-size: 45px;
+    }
+
+    .vertical-line {
+      top: calc(50% + 60px);
+    }
+  }
+
   #contact-page {
     .cart-white-section {}
     
