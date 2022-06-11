@@ -438,6 +438,14 @@
   padding: 5px;
   color: $white;
   border-radius: 50%;
+  &.small {
+    font-size: 12px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    padding-left: 7px;
+    font-weight: bold;
+  }
 }
 
 .donation-block {
@@ -1035,4 +1043,74 @@ ul.no-style {
   width: 225px;
   object-fit: cover;
   object-position: center;
+}
+
+.dashboard-layout {
+  .logo-wrapper {
+    text-align: center;
+    img {
+      width: 150px;
+    }
+  }
+  .sidemenu-wrapper {
+    padding-top: 100px;
+  }
+  .sidemenu {
+    padding-top: 80px;
+    .nav-link {
+      padding: 20px 0;
+      color: $white;
+      opacity: 0.7;
+      font-weight: bold;
+      text-decoration: none;
+      &:hover {
+        color: $white;
+      }
+      svg {
+        fill: $white;
+        width: 20px;
+        height: 20px;
+      }
+      &.logout {
+        opacity: 1;
+      }
+      &.active {
+        opacity: 1;
+        i {
+          color: #e5a330;
+        }
+        svg {
+          fill: #e5a330;
+        }
+      }
+    }
+  }
+  .content {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }
+}
+
+.dashboard-latest-notifications {
+  max-height: 340px;
+  overflow-y: auto;
+}
+
+.my-info-flag {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.dashboard-box-wrapper {
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 7px;
+    width: 100%;
+    background-color: $yellow;
+  }
 }
