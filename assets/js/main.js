@@ -7,7 +7,7 @@ $(function () {
 
   slider.slick({
     dots: true,
-    infinite: false,
+    infinite: true,
     rtl: $("html").attr("dir") == "rtl" ? true : false,
     appendArrows: ".slick-custom-buttons",
     nextArrow:

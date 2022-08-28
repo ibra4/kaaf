@@ -1,7 +1,12 @@
 html[dir="rtl"] {
-  .slick-custom-buttons,
   .latest-projects-slick-buttons {
     flex-direction: row-reverse;
+  }
+  .slick-custom-buttons {
+    // flex-direction: row-reverse;
+    .slick-arrow {
+      transform: rotate(180deg);
+    }
   }
   #slider .slick-custom-next {
     border-top-right-radius: 0;
